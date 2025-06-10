@@ -1,10 +1,14 @@
+# Modifying metadata.annotations does not trigger a rolling update.
+# You need to modify spec.template.metadata.annotations, which is part of the Pod template,
+# and Kubernetes uses it to decide whether to perform a rolling update.
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: node
   namespace: als
   annotations:
-    build: "20250607_115702"
+    build: "20250610_004102"
 spec:
   replicas: 1
   selector:
@@ -15,7 +19,7 @@ spec:
       labels:
         app: node
       annotations:
-        build: "20250607_115702"
+        build: "20250610_004102"
     spec:
       securityContext:
         runAsUser: 1000
@@ -48,3 +52,16 @@ spec:
               node server.js
           ports:
             - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: node
+  namespace: als
+spec:
+  type: ClusterIP
+  selector:
+    app: node
+  ports:
+    - port: 3000
+      targetPort: 3000
