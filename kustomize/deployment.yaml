@@ -8,7 +8,7 @@ metadata:
   name: node
   namespace: als
   annotations:
-    build: "20250610_004102"
+    build: "20250620_093925"
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
       labels:
         app: node
       annotations:
-        build: "20250610_004102"
+        build: "20250620_093925"
     spec:
       securityContext:
         runAsUser: 1000
