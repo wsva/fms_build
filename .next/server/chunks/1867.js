@@ -1,0 +1,64 @@
+"use strict";exports.id=1867,exports.ids=[1867],exports.modules={53134:(e,t,a)=>{a.d(t,{CZ:()=>c,LG:()=>o,ln:()=>u,lq:()=>d,pl:()=>s,tc:()=>l,yJ:()=>n,z_:()=>i}),a(15424);var r=a(46242),s=(0,r.$)("ae2756021412af3c7533170046625d9bfe173ca7");(0,r.$)("50b8ee2c01702d556b77028eb169eaff9ea0f820"),(0,r.$)("92a63b1efc916ff008d1272dc5a65580af78af67"),(0,r.$)("40b0e9a5fae5e29abe9213bb007d11cec6f7e31f");var i=(0,r.$)("2c8f731e7c04d6b71f833304321e741fa16aeefd");(0,r.$)("0032af294b820d5b2f6ecb599810073224fb8405");var n=(0,r.$)("479742cc8645e1909d54f38cd9fe015e9621ab60"),d=(0,r.$)("6d2e69b109044da9a0608b4844be959036b9b175");(0,r.$)("b9098ba02eb30e332c60e216b96eda5868da288a");var c=(0,r.$)("651d629a9efc5ac1f2e83ecc837477b8129dac19"),o=(0,r.$)("32a3617889b58b88de5846c96efc11d8a1322d4a"),u=(0,r.$)("59141756fe4b901c2b6407bb9725bab62d2967e1"),l=(0,r.$)("523b5dd287e6725b6f91274aca1051653bfdf0e6");(0,r.$)("fbde93d90dfb682967795128b2ca856ab81d14aa")},50813:(e,t,a)=>{var r,s;a.d(t,{_Y:()=>i,j8:()=>n,ll:()=>d,nr:()=>c,vA:()=>r,zQ:()=>o}),function(e){e.Normal="normal",e.Easy="easy",e.Unspecified="unspecified",e.Uncomplete="uncomplete"}(r||(r={}));let i=[{value:"unspecified",description:"all"},{value:"normal",description:"familiarity < 6"},{value:"easy",description:"familiarity = 6"},{value:"uncomplete",description:"question or answer is empty"}],n="unspecified",d="all tagged",c="not tagged";!function(e){e[e.NewlyAdded=0]="NewlyAdded",e[e.StillUnfamiliar=1]="StillUnfamiliar",e[e.PassiveUnderstanding=2]="PassiveUnderstanding",e[e.RecognitionWithoutUnderstanding=3]="RecognitionWithoutUnderstanding",e[e.UnderstandingInContext=4]="UnderstandingInContext",e[e.ActiveRecall=5]="ActiveRecall",e[e.NaturalUsage=6]="NaturalUsage"}(s||(s={}));let o=[{value:0,description:"Newly Added",label:"newly added",color:"bg-slate-200"},{value:1,description:"Still Unfamiliar",label:"strange",color:"bg-red-200"},{value:2,description:"Passive Understanding",label:"known",color:"bg-orange-200"},{value:3,description:"Recognition Without Understanding",label:"familiar",color:"bg-amber-200"},{value:4,description:"Understanding in Context",label:"skilled",color:"bg-cyan-200"},{value:5,description:"Active Recall",label:"practiced",color:"bg-green-200"},{value:6,description:"Natural Usage",label:"easy & never appear again",color:"bg-lime-200"}]},51223:(e,t,a)=>{a.d(t,{$s:()=>c,Fs:()=>d,Hp:()=>o,p6:()=>n}),a(20339);var r=a(41092),s=a(66053),i=a(47463);let n=e=>{let t=e.getFullYear(),a=(e.getMonth()+1).toString().padStart(2,"0"),r=e.getDate().toString().padStart(2,"0"),s=e.getHours().toString().padStart(2,"0"),i=e.getMinutes().toString().padStart(2,"0"),n=e.getSeconds().toString().padStart(2,"0");return`${t}-${a}-${r} ${s}:${i}:${n}`},d=()=>(0,i.Z)().replaceAll("-","");function c(e,t){return e[t]}let o=e=>r.Z.sanitize(s.TU.parse(e,{async:!1,pedantic:!1,gfm:!0}))},54463:(e,t,a)=>{a.r(t),a.d(t,{createTag:()=>y,getCard:()=>u,getCardTag:()=>w,getCardTest:()=>g,getCardsOfMy:()=>c,getCardsOfOthers:()=>o,getTag:()=>b,getTagAll:()=>p,removeCard:()=>f,removeTag:()=>h,saveCard:()=>l,saveCardTag:()=>v,saveTag:()=>_,setCardFamiliarity:()=>m});var r=a(27745);a(26461);var s=a(58299),i=a(43811),n=a(53524),d=a(76368);async function c(e,t,a,r,i,c){let o;let u=n.Prisma.sql`
+        select * from qsa_card t0 where t0.user_id = ${e}
+    `,l=n.Prisma.sql`
+        select count(1) as total from qsa_card t0 where t0.user_id = ${e}
+    `,g=n.Prisma.sql`
+        -- use this condition only when tag_uuid is a uuid
+        -- don't use this condition if tag_uuid = unspecified/all/no (always true)
+        and (exists (select 1 from qsa_card_tag t1 where
+                t1.card_uuid = t0.uuid
+                and t1.tag_uuid = ${a})
+            or ${a} = ${d.TagUnspecified}
+            or ${a} = ${d.TagAll}
+            or ${a} = ${d.TagNo})
+        -- need no condition if tag_uuid = unspecified
+        and 1 = 1
+        -- use this condition only when tag_uuid = all
+        -- don't use this condition if tag_uuid != all (always true)
+        and (exists (select 1 from qsa_card_tag t1 where
+                t1.card_uuid = t0.uuid)
+            or ${a} != ${d.TagAll})
+        -- use this condition only when tag_uuid = no
+        -- don't use this condition if tag_uuid != no
+        and (not exists (select 1 from qsa_card_tag t1 where
+                t1.card_uuid = t0.uuid)
+            or ${a} != ${d.TagNo})
+    `,f=r.replaceAll(/\s+/g," ").replaceAll(/^\s+|\s+$/g,""),m=r?n.Prisma.sql`
+            and (lower(t0.question) like lower(${"%"+f+"%"})
+                or lower(t0.answer) like lower(${"%"+f+"%"}))
+        `:n.Prisma.sql``,b=n.Prisma.sql`
+        limit ${c} offset ${(i-1)*c}
+    `,p=n.Prisma.sql`
+        order by updated_at desc
+    `;switch(t){case d.FilterType.Unspecified:o=n.Prisma.join([g,m]," ");break;case d.FilterType.Normal:o=n.Prisma.join([n.Prisma.sql`
+                    and length(t0.question) > 0
+                    and length(t0.answer) > 0
+                    and t0.familiarity < 6
+                `,g,m]," ");break;case d.FilterType.Easy:o=n.Prisma.join([n.Prisma.sql`
+                    and t0.familiarity = 6
+                `,g,m]," ");break;case d.FilterType.Uncomplete:o=n.Prisma.join([n.Prisma.sql`
+                    and (length(t0.question) = 0 or length(t0.answer) = 0)
+                `,g,m]," ")}try{let e=n.Prisma.join([u,o,p,b]," "),t=await s.prisma.$queryRaw(e),a=n.Prisma.join([l,o]," "),r=await s.prisma.$queryRaw(a),d=Number(r[0]?.total||0);return{status:"success",data:t,total_records:d,page:i,total_pages:Math.ceil(d/c)}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function o(e,t,a,r){let i=n.Prisma.sql`
+        select * from qsa_card t0 where t0.user_id != ${e}
+    `,d=n.Prisma.sql`
+        select count(1) as total from qsa_card t0 where t0.user_id != ${e}
+    `,c=n.Prisma.sql`
+        and length(t0.question) > 0
+        and length(t0.answer) > 0
+    `,o=t?n.Prisma.sql`and t0.user_id = ${t}`:n.Prisma.sql``,u=n.Prisma.sql`
+        order by created_at desc
+    `,l=n.Prisma.sql`
+        limit ${r} offset ${(a-1)*r}
+    `;try{let e=n.Prisma.join([i,c,o,u,l]," "),t=await s.prisma.$queryRaw(e),g=n.Prisma.join([d,c,o]," "),f=await s.prisma.$queryRaw(g),m=Number(f[0]?.total||0);return{status:"success",data:t,total_records:m,page:a,total_pages:Math.ceil(m/r)}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function u(e){try{let t=await s.prisma.qsa_card.findUnique({where:{uuid:e}});if(!t)return{status:"error",error:"no data found"};return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function l(e){if(0===e.question.length||0===e.answer.length)return{status:"error",error:"invalid card"};try{e.uuid&&""!==e.uuid||(e.uuid=(0,i.getUUID)());let t=await s.prisma.qsa_card.upsert({where:{uuid:e.uuid},create:e,update:e});return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function g(e,t){try{let a=await s.prisma.$queryRaw(n.Prisma.sql`SELECT * FROM qsa_card t0 WHERE
+                    length(t0.question) > 0
+                    and length(t0.answer) > 0
+                    and t0.familiarity < 6
+                    and t0.user_id = ${e}
+                    and exists (select 1 from qsa_card_tag t1 where
+                        t1.card_uuid = t0.uuid
+                        and t1.tag_uuid = ${t})
+                    `);if(a.length<1)return{status:"error",error:"no card found for test"};let r=a.map(e=>6-e.familiarity),d=(0,i.getWeightedRandom)(r);return{status:"success",data:a[d]}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function f(e){try{let t=await s.prisma.qsa_card.delete({where:{uuid:e}});return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function m(e,t,a){try{let r=await s.prisma.qsa_card.update({where:{uuid:t,user_id:e},data:{familiarity:a}});return await s.prisma.qsa_card_log.create({data:{uuid:(0,i.getUUID)(),card_uuid:t,familiarity:a,created_at:new Date,updated_at:new Date}}),{status:"success",data:r}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function b(e){try{let t=await s.prisma.qsa_tag.findUnique({where:{uuid:e}});if(!t)return{status:"error",error:"no data found"};return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function p(e){try{let t=await s.prisma.qsa_tag.findMany({where:{OR:[{user_id:e},{user_id:"public"}]},orderBy:{tag:"asc"}});return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function _(e){if(0===e.tag.length)return{status:"error",error:"empty tag content"};try{e.uuid&&""!==e.uuid||(e.uuid=(0,i.getUUID)());let t=await s.prisma.qsa_tag.upsert({where:{uuid:e.uuid},create:e,update:e});return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function y(e){try{let t=await s.prisma.qsa_tag.create({data:e});return{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function h(e){if(e.match(/_by_system$/))return{status:"error",error:"cannot remove tag created by system"};try{let t=await s.prisma.qsa_tag.delete({where:{uuid:e}});return await s.prisma.qsa_card_tag.deleteMany({where:{tag_uuid:e}}),{status:"success",data:t}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function w(e,t){try{let a=await s.prisma.$queryRaw(n.Prisma.sql`select t0.* from qsa_card_tag t0, qsa_tag t1 where
+                t0.tag_uuid = t1.uuid
+                and t0.card_uuid = ${t}
+                and t1.user_id in (${e}, 'public')
+                `);if(!a)return{status:"error",error:"no data found"};let r={uuid:t,tag_list_added:a.map(e=>e.tag_uuid)};return{status:"success",data:r}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}async function v(e){if("string"!=typeof e.uuid)return{status:"error",error:"card uuid is empty"};let t=e.uuid;try{return e.tag_list_new&&e.tag_list_new.length>0&&await s.prisma.qsa_card_tag.createMany({data:e.tag_list_new.map(e=>({uuid:(0,i.getUUID)(),card_uuid:t,tag_uuid:e,created_at:new Date,updated_at:new Date}))}),e.tag_list_remove&&e.tag_list_remove.length>0&&await s.prisma.qsa_card_tag.deleteMany({where:{card_uuid:t,tag_uuid:{in:e.tag_list_remove}}}),{status:"success",data:{uuid:t}}}catch(e){return console.log(e),{status:"error",error:e.toString()}}}(0,a(85723).ensureServerEntryExports)([c,o,u,l,g,f,m,b,p,_,y,h,w,v]),(0,r.registerServerReference)("50b8ee2c01702d556b77028eb169eaff9ea0f820",c),(0,r.registerServerReference)("92a63b1efc916ff008d1272dc5a65580af78af67",o),(0,r.registerServerReference)("40b0e9a5fae5e29abe9213bb007d11cec6f7e31f",u),(0,r.registerServerReference)("2c8f731e7c04d6b71f833304321e741fa16aeefd",l),(0,r.registerServerReference)("0032af294b820d5b2f6ecb599810073224fb8405",g),(0,r.registerServerReference)("479742cc8645e1909d54f38cd9fe015e9621ab60",f),(0,r.registerServerReference)("6d2e69b109044da9a0608b4844be959036b9b175",m),(0,r.registerServerReference)("b9098ba02eb30e332c60e216b96eda5868da288a",b),(0,r.registerServerReference)("651d629a9efc5ac1f2e83ecc837477b8129dac19",p),(0,r.registerServerReference)("32a3617889b58b88de5846c96efc11d8a1322d4a",_),(0,r.registerServerReference)("59141756fe4b901c2b6407bb9725bab62d2967e1",y),(0,r.registerServerReference)("523b5dd287e6725b6f91274aca1051653bfdf0e6",h),(0,r.registerServerReference)("fbde93d90dfb682967795128b2ca856ab81d14aa",w),(0,r.registerServerReference)("ae2756021412af3c7533170046625d9bfe173ca7",v)},76368:(e,t,a)=>{var r,s;a.d(t,{FilterType:()=>r,TagAll:()=>n,TagNo:()=>d,TagUnspecified:()=>i}),function(e){e.Normal="normal",e.Easy="easy",e.Unspecified="unspecified",e.Uncomplete="uncomplete"}(r||(r={}));let i="unspecified",n="all tagged",d="not tagged";!function(e){e[e.NewlyAdded=0]="NewlyAdded",e[e.StillUnfamiliar=1]="StillUnfamiliar",e[e.PassiveUnderstanding=2]="PassiveUnderstanding",e[e.RecognitionWithoutUnderstanding=3]="RecognitionWithoutUnderstanding",e[e.UnderstandingInContext=4]="UnderstandingInContext",e[e.ActiveRecall=5]="ActiveRecall",e[e.NaturalUsage=6]="NaturalUsage"}(s||(s={}))},43811:(e,t,a)=>{a.d(t,{checkSQLSafe:()=>i,getUUID:()=>s,getWeightedRandom:()=>n}),a(20610),a(97308),a(94997);var r=a(38608);let s=()=>(0,r.v4)().replaceAll("-",""),i=e=>!!e.match(/^[^'"=]+$/),n=e=>{let t=0;for(t=1;t<e.length;t++)e[t]+=e[t-1];let a=Math.random()*e[e.length-1];for(t=0;t<e.length&&!(e[t]>a);t++);return t}},33159:(e,t,a)=>{a.r(t),a.d(t,{default:()=>s});var r=a(66621);let s=e=>[{type:"image/x-icon",sizes:"16x16",url:(0,r.fillMetadataSegment)(".",e.params,"favicon.ico")+""}]}};
