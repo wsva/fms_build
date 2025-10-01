@@ -8,7 +8,7 @@ metadata:
   name: fms
   namespace: wsva
   annotations:
-    build: "20251001_070451"
+    build: "20251001_080800"
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
       labels:
         app: fms
       annotations:
-        build: "20251001_070451"
+        build: "20251001_080800"
     spec:
       securityContext:
         runAsUser: 1000
@@ -65,6 +65,14 @@ spec:
               node server.js
           ports:
             - containerPort: 3000
+          volumeMounts:
+            - name: torsten-voice
+              mountPath: /home/node/app/public/torsten_voice
+      volumes:
+        - name: torsten-voice
+          hostPath:
+            path: /wsva/data/torsten_voice
+            type: Directory
 ---
 apiVersion: v1
 kind: Service
