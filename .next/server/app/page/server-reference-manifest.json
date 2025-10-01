@@ -1,6 +1,6 @@
 {
   "node": {
-    "001ff61e6f11583b8195afe739bf4420d0b37c9821": {
+    "004dc256e3da32cb5680fbe44cbdaf229efbeffa00": {
       "workers": {
         "app/page": {
           "moduleId": "2676",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "60eb3c6cb1471a8178267c8c0457af9dccfe2026d3": {
+    "60aff849b55424ef6899103833cf43981b382d151e": {
       "workers": {
         "app/page": {
           "moduleId": "2676",
@@ -28,6 +28,21 @@
         "app/page": "action-browser"
       },
       "exportedName": "sendAudioAndWaitForResult",
+      "filename": "src/app/actions/audio.ts"
+    },
+    "003b7479cb7b3b8290c932c649627828aa11d7de0c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "2676",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
       "filename": "src/app/actions/audio.ts"
     }
   },
