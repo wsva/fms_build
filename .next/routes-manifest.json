@@ -28,6 +28,14 @@
       "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
     },
     {
+      "page": "/api/data/[...filename]",
+      "regex": "^/api/data/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPfilename": "nxtPfilename"
+      },
+      "namedRegex": "^/api/data/(?<nxtPfilename>.+?)(?:/)?$"
+    },
+    {
       "page": "/blog/[uuid]",
       "regex": "^/blog/([^/]+?)(?:/)?$",
       "routeKeys": {

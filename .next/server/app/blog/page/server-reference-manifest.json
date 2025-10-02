@@ -1,6 +1,6 @@
 {
   "node": {
-    "002a49591494de02bd62344e6a515c3431309d5723": {
+    "0088e0eea4c6bff68aea171f4d0452a23e6d2e518d": {
       "workers": {
         "app/blog/page": {
           "moduleId": "47945",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "60ee3b126d9105bba39ee9e975dbafab5cc35fd9f5": {
+    "6057357ddf1119e033f76bdbfd5887f7b916722dc5": {
       "workers": {
         "app/blog/page": {
           "moduleId": "47945",
@@ -30,7 +30,7 @@
       "exportedName": "recognizeAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "00b5f2bfc71276715ac5a11482e5e2dbaca34ab378": {
+    "00932460c441c4b2b81654bea56352c2158247d4ef": {
       "workers": {
         "app/blog/page": {
           "moduleId": "47945",
@@ -45,52 +45,7 @@
       "exportedName": "checkSTTServiceStatus",
       "filename": "src/app/actions/audio.ts"
     },
-    "402bf8df5c565f0c450c50e892060b585be54d2c0d": {
-      "workers": {
-        "app/blog/page": {
-          "moduleId": "47945",
-          "async": false,
-          "exportedName": "getBlogAllOfAnother",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/page": "rsc"
-      },
-      "exportedName": "getBlogAllOfAnother",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "40ba3fc8af12022b2916e8b880d7955a33bdebdce7": {
-      "workers": {
-        "app/blog/page": {
-          "moduleId": "47945",
-          "async": false,
-          "exportedName": "getBlogAll",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/page": "rsc"
-      },
-      "exportedName": "getBlogAll",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "40cffb4fdb269a228897c19375b71d18fb548fb481": {
-      "workers": {
-        "app/blog/page": {
-          "moduleId": "47945",
-          "async": false,
-          "exportedName": "getBlog",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/page": "rsc"
-      },
-      "exportedName": "getBlog",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "40d136c4559386ea38f4338dbbcab1ccca3a2575f8": {
+    "406b80ab50afe77de26fbdba6217eb68865b3a8c97": {
       "workers": {
         "app/blog/page": {
           "moduleId": "47945",
@@ -105,7 +60,37 @@
       "exportedName": "saveBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "40e3001d0992cc50e72ec2d99db99b4c83c3b23a44": {
+    "4078871ca64343eae69e46e135c8d8e4be14f9f308": {
+      "workers": {
+        "app/blog/page": {
+          "moduleId": "47945",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/page": "rsc"
+      },
+      "exportedName": "getBlogAll",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "4079d78a8c4b07ef83df6de8260eddc1cf302b2d16": {
+      "workers": {
+        "app/blog/page": {
+          "moduleId": "47945",
+          "async": false,
+          "exportedName": "getBlog",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/page": "rsc"
+      },
+      "exportedName": "getBlog",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40a392741e7e7a5f6e91ee79666825eecdbf499da9": {
       "workers": {
         "app/blog/page": {
           "moduleId": "47945",
@@ -118,6 +103,21 @@
         "app/blog/page": "rsc"
       },
       "exportedName": "getBlogAllOfOthers",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40aee676f6db520a789fb33f84a10a6b41dca19122": {
+      "workers": {
+        "app/blog/page": {
+          "moduleId": "47945",
+          "async": false,
+          "exportedName": "getBlogAllOfAnother",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/page": "rsc"
+      },
+      "exportedName": "getBlogAllOfAnother",
       "filename": "src/app/actions/blog.ts"
     }
   },
