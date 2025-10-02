@@ -2,13 +2,13 @@ globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/_app": [
       "static/chunks/e60ef129113f6e24.js",
-      "static/chunks/ee0003276b0a5d55.js",
-      "static/chunks/turbopack-30c26d32355279ea.js"
+      "static/chunks/6614662ffd1f8d3e.js",
+      "static/chunks/turbopack-ca2406bb223ffab3.js"
     ],
     "/_error": [
       "static/chunks/17722e3ac4e00587.js",
-      "static/chunks/ee0003276b0a5d55.js",
-      "static/chunks/turbopack-5fd3bd73fc7df233.js"
+      "static/chunks/6614662ffd1f8d3e.js",
+      "static/chunks/turbopack-5d4e37d156ffb8c9.js"
     ]
   },
   "devFiles": [],
