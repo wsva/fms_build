@@ -1,0 +1,50 @@
+{
+  "node": {
+    "00c46120d0fa0adc0eb459fb8eb17eee266f270eff": {
+      "workers": {
+        "app/voice_access/page": {
+          "moduleId": "75744",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/voice_access/page": "rsc"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "6003ff971ea7ce7bca88aed3a221d6809a6e049dde": {
+      "workers": {
+        "app/voice_access/page": {
+          "moduleId": "75744",
+          "async": false,
+          "exportedName": "sendAudioAndWaitForResult",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "layer": {
+        "app/voice_access/page": "action-browser"
+      },
+      "exportedName": "sendAudioAndWaitForResult",
+      "filename": "src/app/actions/audio.ts"
+    },
+    "00120dd843a626d6ea63f75d5670336310d84dcff2": {
+      "workers": {
+        "app/voice_access/page": {
+          "moduleId": "75744",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "layer": {
+        "app/voice_access/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
+      "filename": "src/app/actions/audio.ts"
+    }
+  },
+  "edge": {}
+}
