@@ -8,7 +8,7 @@ metadata:
   name: fms
   namespace: wsva
   annotations:
-    build: "20251004_075844"
+    build: "20251004_080637"
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
       labels:
         app: fms
       annotations:
-        build: "20251004_075844"
+        build: "20251004_080637"
     spec:
       securityContext:
         runAsUser: 1000
@@ -44,6 +44,11 @@ spec:
                 secretKeyRef:
                   name: secrets
                   key: REDIS_PASSWORD
+            - name: REDIS_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: secrets
+                  key: GEMINI_API_KEY
           command:
             - sh
             - -c
@@ -62,6 +67,7 @@ spec:
               echo 'OAUTH2_CLIENT_ID=als_next.js' >> .env
               echo 'REDIS_HOST=redis' >> .env
               echo 'REDIS_PASSWORD=${REDIS_PASSWORD}' >> .env
+              echo 'GEMINI_API_KEY=${GEMINI_API_KEY}' >> .env
               node server.js
           ports:
             - containerPort: 3000
