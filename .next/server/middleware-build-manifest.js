@@ -21,10 +21,10 @@ globalThis.__BUILD_MANIFEST = {
     "static/chunks/e1bcd3a77102413c.js",
     "static/chunks/b45624632472ac39.js",
     "static/chunks/0cc6e9a29ef74417.js",
-    "static/chunks/6cd3684b63cb102f.js",
+    "static/chunks/8db876cdcd84d975.js",
     "static/chunks/4a4074717300b14a.js",
     "static/chunks/d04efc723d1783d5.js",
-    "static/chunks/turbopack-a715fec4895a5c31.js"
+    "static/chunks/turbopack-3bf64a9d5338042b.js"
   ],
   "ampFirstPages": []
 };

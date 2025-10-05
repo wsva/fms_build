@@ -14,7 +14,7 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-e
 R.c("server/chunks/ssr/_158cf5a3._.js")
 R.c("server/chunks/ssr/_f57231f2._.js")
 R.c("server/chunks/ssr/_78db1df2._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c675287c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dc2eb263._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__91eff069._.js")
 R.m(22118)
 R.m(79912)

@@ -12,7 +12,7 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/[root-of-the-server]__fd806a2c._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_18198b95._.js")
 R.c("server/chunks/ssr/_f57231f2._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c675287c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dc2eb263._.js")
 R.m(39976)
 R.m(36999)
 module.exports=R.m(36999).exports

@@ -1,6 +1,6 @@
 {
   "node": {
-    "005d0068ab6edf75d3642030ae1211845f9737021d": {
+    "005c48c0929b44802c099800bf3861c1f23502cdf9": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -15,22 +15,22 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "407db4b267bdbb1bacc83dc3e7d3ea885f2743083d": {
+    "40f9849cf0c2d51be9a9917412f266ccce0eef1a00": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
           "async": false,
-          "exportedName": "recognizeAudio",
+          "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
         }
       },
       "layer": {
         "app/card/my/page": "action-browser"
       },
-      "exportedName": "recognizeAudio",
+      "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60848b526ed8b5dffc4d2d1642bd9e704cc796ff2b": {
+    "60076025277d88dfe35d012a863b99b88de76fb698": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -45,7 +45,7 @@
       "exportedName": "getCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "409a37cef3e33fd022967548b847c05c460632e399": {
+    "404e0dc777c96603ad5e79c88621daac301068683c": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -60,7 +60,7 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/card.ts"
     },
-    "40cb0d3bb656b2ce8c136a6697b75cdbeb18d6eec2": {
+    "404643995dbde15d922b4881eeab6c6cedc5b40244": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -75,7 +75,7 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "6001f130b9223bc4838414a1e8f570a7128622f9cc": {
+    "6014edee99112c46b334a2735f7da5d371fe332e25": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -90,7 +90,7 @@
       "exportedName": "setCardFamiliarity",
       "filename": "src/app/actions/card.ts"
     },
-    "4067ef964ada0502ce64af2633949a1a5cbb4ab5f7": {
+    "408a4569140f72ab5549f74ec78d93db6ed2a99023": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -105,7 +105,7 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "7e15dd692bb930e3ffc0434324a50c417580a27c80": {
+    "7e7dca69d259610f455c4e9e59b476507778103527": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -120,22 +120,7 @@
       "exportedName": "getCardsOfMy",
       "filename": "src/app/actions/card.ts"
     },
-    "4009038319263df49cb378133c83f8cad1653deac6": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": "98281",
-          "async": false,
-          "exportedName": "getCard",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/my/page": "rsc"
-      },
-      "exportedName": "getCard",
-      "filename": "src/app/actions/card.ts"
-    },
-    "40445b4bae7696cd8739c821dc3d2d2c64611ba124": {
+    "400327eaf82661a047bf1bf33c5ac6c79af7eb930b": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -150,22 +135,7 @@
       "exportedName": "getTag",
       "filename": "src/app/actions/card.ts"
     },
-    "406112f46992ea423368c9227c413eee8fd8df2982": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": "98281",
-          "async": false,
-          "exportedName": "removeTag",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/my/page": "rsc"
-      },
-      "exportedName": "removeTag",
-      "filename": "src/app/actions/card.ts"
-    },
-    "407cc3576f0574bf1683bc10ed43dfe4579ccb4e09": {
+    "401eb816e808c0d7e102e7792ffdc954b020a163f8": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -180,52 +150,7 @@
       "exportedName": "removeCard",
       "filename": "src/app/actions/card.ts"
     },
-    "4083696b0ee85c367f55286904795229ceab9f0fe9": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": "98281",
-          "async": false,
-          "exportedName": "getCardTestByUUID",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/my/page": "rsc"
-      },
-      "exportedName": "getCardTestByUUID",
-      "filename": "src/app/actions/card.ts"
-    },
-    "4094272bc20ac42b49a67c20fe673d72e14dc80b49": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": "98281",
-          "async": false,
-          "exportedName": "saveTag",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/my/page": "rsc"
-      },
-      "exportedName": "saveTag",
-      "filename": "src/app/actions/card.ts"
-    },
-    "40b78f0747663c39014c273378286e731740c9e247": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": "98281",
-          "async": false,
-          "exportedName": "createTag",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/my/page": "rsc"
-      },
-      "exportedName": "createTag",
-      "filename": "src/app/actions/card.ts"
-    },
-    "40ed0bf2d0baaea24b3362c4c718a672b45704785c": {
+    "401fa05ab277dc8bdbd8c5cc8753c4ae1e853519bd": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -240,7 +165,82 @@
       "exportedName": "saveCardReview",
       "filename": "src/app/actions/card.ts"
     },
-    "607393341e3c9154597192f9aa4b4c230036d1ef01": {
+    "408fbb0c7d489a51e91ab9bc462c4f751771b18c05": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": "98281",
+          "async": false,
+          "exportedName": "getCard",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/my/page": "rsc"
+      },
+      "exportedName": "getCard",
+      "filename": "src/app/actions/card.ts"
+    },
+    "40b6a0c70f30c4b6eacb1137bc39ddc6679cbe6999": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": "98281",
+          "async": false,
+          "exportedName": "saveTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/my/page": "rsc"
+      },
+      "exportedName": "saveTag",
+      "filename": "src/app/actions/card.ts"
+    },
+    "40be7b97d2f05e4a59aad80d225e09e08cb9224562": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": "98281",
+          "async": false,
+          "exportedName": "createTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/my/page": "rsc"
+      },
+      "exportedName": "createTag",
+      "filename": "src/app/actions/card.ts"
+    },
+    "40efa4f9c263f481edebe5c3247d7be656427140c2": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": "98281",
+          "async": false,
+          "exportedName": "getCardTestByUUID",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/my/page": "rsc"
+      },
+      "exportedName": "getCardTestByUUID",
+      "filename": "src/app/actions/card.ts"
+    },
+    "40f0eb57620e04f73f2db9f10640c42e4715f10869": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": "98281",
+          "async": false,
+          "exportedName": "removeTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/my/page": "rsc"
+      },
+      "exportedName": "removeTag",
+      "filename": "src/app/actions/card.ts"
+    },
+    "60455255d8910f718934514e9455cbce347a193506": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",
@@ -255,7 +255,7 @@
       "exportedName": "getCardTest",
       "filename": "src/app/actions/card.ts"
     },
-    "78d8cff2dfca857114b0e7ad765432dcb7c35dab59": {
+    "783d52e228e88ae8463f93c101a2279ce8fe19f98a": {
       "workers": {
         "app/card/my/page": {
           "moduleId": "98281",

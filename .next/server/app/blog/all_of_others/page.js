@@ -13,7 +13,7 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")
 R.c("server/chunks/ssr/[root-of-the-server]__e751af3e._.js")
 R.c("server/chunks/ssr/_9355c99f._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c675287c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dc2eb263._.js")
 R.c("server/chunks/ssr/_78db1df2._.js")
 R.c("server/chunks/ssr/_f57231f2._.js")
 R.m(67692)
