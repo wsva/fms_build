@@ -1,0 +1,35 @@
+{
+  "node": {
+    "00566805c55bda3e0a8e581703f536184284d1f5ff": {
+      "workers": {
+        "app/unauthorized/page": {
+          "moduleId": "21775",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/unauthorized/page": "action-browser"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "40637cb2087c0b8b6f7df8987ce5afc89e7f3a4997": {
+      "workers": {
+        "app/unauthorized/page": {
+          "moduleId": "21775",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/unauthorized/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    }
+  },
+  "edge": {}
+}
