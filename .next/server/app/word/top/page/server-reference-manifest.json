@@ -1,9 +1,9 @@
 {
   "node": {
-    "00108691d194747401f54d377f56d408a2664261e2": {
+    "0079b529007cd4067f0fa5839b53efecad8f563222": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,40 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40dd3a654980a512358debfe12506a64d1376f8c78": {
+    "00dac7e5820f00be9c0ae885611a9b0aa4c07fafc5": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/word/top/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "4016f99acd3cbb3431796e4df503d9e5833b3b1398": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": "93409",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/word/top/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40f0d062de612999f353d0d2f684fce9a6b6d41c83": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": "93409",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -30,10 +60,25 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "7cfd42e9ca17d7ff87dd373550e6c52afc7c01fe5c": {
+    "60486dc7236850b9e941a2e05125aa1ba7a4a3edfe": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/word/top/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "7c7d709702b0f2c610a3be5379badf097fd9d0c6e1": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": "93409",
           "async": false,
           "exportedName": "getTopword",
           "filename": "src/app/actions/word.ts"
@@ -45,10 +90,10 @@
       "exportedName": "getTopword",
       "filename": "src/app/actions/word.ts"
     },
-    "7c54ba2cbf91318acdd0fdc9ee2d64a8abedf352fb": {
+    "7cb1c21bab4502377b859b26e1dc5d4edee2f0a842": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "searchTopword",
           "filename": "src/app/actions/word.ts"
@@ -60,10 +105,10 @@
       "exportedName": "searchTopword",
       "filename": "src/app/actions/word.ts"
     },
-    "603cd3b095e174e01cceb0ebd3823e072c5ecf0aab": {
+    "60240834dd6b32bc5cbccac19fd5b5cd3996bf36f1": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "trashWord",
           "filename": "src/app/actions/word.ts"
@@ -75,10 +120,10 @@
       "exportedName": "trashWord",
       "filename": "src/app/actions/word.ts"
     },
-    "408ef7e995222db25ef1559bda78f2ad63b2ca5cfc": {
+    "40ba435077df6fc250387cc60c3b8f1d5283357865": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -90,10 +135,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "40368def20c4315f3da8d27908f2e16d4d60953011": {
+    "401c91f3330ebb5f6060cfd1d54cca0925d5ec1555": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -105,10 +150,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "402d3380b89d3b90276bb5d3f8ed013c574a40fa54": {
+    "40e077d96fc16a116b74e0af2e359fcaf55da67470": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"
@@ -120,10 +165,10 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/card.ts"
     },
-    "402e97d930bab6820aca4179a4f72ec4a799dde274": {
+    "4099b514842788eae67865f519e5df8955f7c89a1d": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": "92330",
+          "moduleId": "93409",
           "async": false,
           "exportedName": "createTag",
           "filename": "src/app/actions/card.ts"

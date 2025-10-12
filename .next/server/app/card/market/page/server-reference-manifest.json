@@ -1,9 +1,9 @@
 {
   "node": {
-    "00108691d194747401f54d377f56d408a2664261e2": {
+    "0079b529007cd4067f0fa5839b53efecad8f563222": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,40 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40dd3a654980a512358debfe12506a64d1376f8c78": {
+    "00dac7e5820f00be9c0ae885611a9b0aa4c07fafc5": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/card/market/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "4016f99acd3cbb3431796e4df503d9e5833b3b1398": {
+      "workers": {
+        "app/card/market/page": {
+          "moduleId": "69217",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/card/market/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40f0d062de612999f353d0d2f684fce9a6b6d41c83": {
+      "workers": {
+        "app/card/market/page": {
+          "moduleId": "69217",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -30,10 +60,25 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "6033ab197b9f696fe4f5b509425bf1e65cd363a8ca": {
+    "60486dc7236850b9e941a2e05125aa1ba7a4a3edfe": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/card/market/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "60b605fabe0c99662fb4ed083dcb7d2e72e419e661": {
+      "workers": {
+        "app/card/market/page": {
+          "moduleId": "69217",
           "async": false,
           "exportedName": "getCardTag",
           "filename": "src/app/actions/card.ts"
@@ -45,10 +90,10 @@
       "exportedName": "getCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "402d3380b89d3b90276bb5d3f8ed013c574a40fa54": {
+    "40e077d96fc16a116b74e0af2e359fcaf55da67470": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +105,10 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/card.ts"
     },
-    "40368def20c4315f3da8d27908f2e16d4d60953011": {
+    "401c91f3330ebb5f6060cfd1d54cca0925d5ec1555": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -75,10 +120,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "606717195e2f44a6b8391fe7c87ad88a739c0daced": {
+    "606229c7906dc75a8d2554b09203485ce4b7ac405a": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "setCardFamiliarity",
           "filename": "src/app/actions/card.ts"
@@ -90,10 +135,10 @@
       "exportedName": "setCardFamiliarity",
       "filename": "src/app/actions/card.ts"
     },
-    "408ef7e995222db25ef1559bda78f2ad63b2ca5cfc": {
+    "40ba435077df6fc250387cc60c3b8f1d5283357865": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -105,10 +150,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "7840f97279e650354dabadc0ea2f07c867b18ac1da": {
+    "7884841c8a76e92243a15c5326d11bb44525e09d5c": {
       "workers": {
         "app/card/market/page": {
-          "moduleId": "39508",
+          "moduleId": "69217",
           "async": false,
           "exportedName": "getCardsOfOthers",
           "filename": "src/app/actions/card.ts"

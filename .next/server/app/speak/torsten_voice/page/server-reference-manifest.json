@@ -1,9 +1,9 @@
 {
   "node": {
-    "00108691d194747401f54d377f56d408a2664261e2": {
+    "0079b529007cd4067f0fa5839b53efecad8f563222": {
       "workers": {
         "app/speak/torsten_voice/page": {
-          "moduleId": "70769",
+          "moduleId": "20699",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,40 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40dd3a654980a512358debfe12506a64d1376f8c78": {
+    "00dac7e5820f00be9c0ae885611a9b0aa4c07fafc5": {
       "workers": {
         "app/speak/torsten_voice/page": {
-          "moduleId": "70769",
+          "moduleId": "20699",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/speak/torsten_voice/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "4016f99acd3cbb3431796e4df503d9e5833b3b1398": {
+      "workers": {
+        "app/speak/torsten_voice/page": {
+          "moduleId": "20699",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/speak/torsten_voice/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40f0d062de612999f353d0d2f684fce9a6b6d41c83": {
+      "workers": {
+        "app/speak/torsten_voice/page": {
+          "moduleId": "20699",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -30,10 +60,25 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "6029eb7260d5fa9f8b4139eaa5ad85e9d92ae5e609": {
+    "60486dc7236850b9e941a2e05125aa1ba7a4a3edfe": {
       "workers": {
         "app/speak/torsten_voice/page": {
-          "moduleId": "70769",
+          "moduleId": "20699",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/speak/torsten_voice/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6039de1233598566ef6449350d944ca25321d2b19b": {
+      "workers": {
+        "app/speak/torsten_voice/page": {
+          "moduleId": "20699",
           "async": false,
           "exportedName": "getTorstenVoice",
           "filename": "src/app/actions/torsten.ts"

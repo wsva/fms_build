@@ -1,9 +1,9 @@
 {
   "node": {
-    "00108691d194747401f54d377f56d408a2664261e2": {
+    "0079b529007cd4067f0fa5839b53efecad8f563222": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,40 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40dd3a654980a512358debfe12506a64d1376f8c78": {
+    "00dac7e5820f00be9c0ae885611a9b0aa4c07fafc5": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
+          "async": false,
+          "exportedName": "checkSTTServiceStatus",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/card/test/page": "action-browser"
+      },
+      "exportedName": "checkSTTServiceStatus",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "4016f99acd3cbb3431796e4df503d9e5833b3b1398": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": "71715",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/card/test/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40f0d062de612999f353d0d2f684fce9a6b6d41c83": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": "71715",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -30,10 +60,25 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60fd986d6f4045212f66a91a46ccb10bc8a1ee64ed": {
+    "60486dc7236850b9e941a2e05125aa1ba7a4a3edfe": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/card/test/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "60411580f3180729c35028abec6924ab9c225600bb": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": "71715",
           "async": false,
           "exportedName": "getCardTest",
           "filename": "src/app/actions/card.ts"
@@ -45,10 +90,10 @@
       "exportedName": "getCardTest",
       "filename": "src/app/actions/card.ts"
     },
-    "407c0ff89d2f1676ffc957abc66a21cb5d75645c4a": {
+    "40629feba31aff9d182eaf1cae23081ab1912b7c2b": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
           "async": false,
           "exportedName": "getCardTestByUUID",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +105,10 @@
       "exportedName": "getCardTestByUUID",
       "filename": "src/app/actions/card.ts"
     },
-    "401c277553d557f150f7d6a80595caa2164fccfc92": {
+    "407338a744e6e4c9f9dc57442dc28ec9f164ea2183": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
           "async": false,
           "exportedName": "saveCardReview",
           "filename": "src/app/actions/card.ts"
@@ -75,10 +120,10 @@
       "exportedName": "saveCardReview",
       "filename": "src/app/actions/card.ts"
     },
-    "40232d6968473c90601f1790d2c0f28479cfa28a6e": {
+    "40fb8d88eda92441b869133429460c336668006726": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
           "async": false,
           "exportedName": "getExampleByWord",
           "filename": "src/app/actions/word.ts"
@@ -90,10 +135,10 @@
       "exportedName": "getExampleByWord",
       "filename": "src/app/actions/word.ts"
     },
-    "402d3380b89d3b90276bb5d3f8ed013c574a40fa54": {
+    "40e077d96fc16a116b74e0af2e359fcaf55da67470": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": "22118",
+          "moduleId": "71715",
           "async": false,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"
