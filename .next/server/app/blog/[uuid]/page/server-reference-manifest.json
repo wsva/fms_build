@@ -1,6 +1,6 @@
 {
   "node": {
-    "0076ff60002818b66d1fdb00374f80b0f763a636c5": {
+    "00450d48163a8297f858ad5ec80a656d3dc098e2e7": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "64544",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "403d3dc6cc0927caafb771656c28dae6123d680394": {
+    "407e144878a3855b9ba8e10767796cc6f40e3e1b42": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "64544",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "403b686891868f38e54c7ae92c4bb482046708ec14": {
+    "40c79d04947b35bb8f2473bca747f593bfecdfba7a": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "64544",
@@ -45,37 +45,7 @@
       "exportedName": "saveBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "404c0b7c3820b2b2e1053f0a0b352848813854da97": {
-      "workers": {
-        "app/blog/[uuid]/page": {
-          "moduleId": "64544",
-          "async": false,
-          "exportedName": "getBlogAll",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/[uuid]/page": "rsc"
-      },
-      "exportedName": "getBlogAll",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "4076de0bbe3a53e7d78d0a31fc3676082bb5804e99": {
-      "workers": {
-        "app/blog/[uuid]/page": {
-          "moduleId": "64544",
-          "async": false,
-          "exportedName": "getBlogAllOfAnother",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/[uuid]/page": "rsc"
-      },
-      "exportedName": "getBlogAllOfAnother",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "4079e42b9aafc24490caef1809eeed09450c2cd745": {
+    "4081861187d028e31621c6e53da8f9e2d66cf6916d": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "64544",
@@ -90,7 +60,7 @@
       "exportedName": "getBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "40cc2eb70c368e3168027667e5ac3603d151b963fc": {
+    "40eccc64cd9a62a40a60ab95a0e100fa72120fa842": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "64544",
@@ -103,6 +73,36 @@
         "app/blog/[uuid]/page": "rsc"
       },
       "exportedName": "getBlogAllOfOthers",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40f6eb28be62c994efc7cb1f9ce52730160bb38716": {
+      "workers": {
+        "app/blog/[uuid]/page": {
+          "moduleId": "64544",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/[uuid]/page": "rsc"
+      },
+      "exportedName": "getBlogAll",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40fbf8948a980c38d859c987ee8b12a29be99c5533": {
+      "workers": {
+        "app/blog/[uuid]/page": {
+          "moduleId": "64544",
+          "async": false,
+          "exportedName": "getBlogAllOfAnother",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/[uuid]/page": "rsc"
+      },
+      "exportedName": "getBlogAllOfAnother",
       "filename": "src/app/actions/blog.ts"
     }
   },
