@@ -1,0 +1,110 @@
+{
+  "node": {
+    "00f7607321c035aeacd2eaff18eaa69a9d36dcd0b0": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "4008762d4d517a18634d4b20bb820f5ead8d4710df": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40a36ec210672dd9f796ab0ef4298e6c6e71a62937": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6038eb41bd74c23eef56df35be82d638aba305e629": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "4098c7d708901e51588b0c30b689b6571fb7dac5f7": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "removeText",
+          "filename": "src/app/actions/practice.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "removeText",
+      "filename": "src/app/actions/practice.ts"
+    },
+    "00c6a85a103b53a1c3fc23065b038c6474c852d710": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "getTextAll",
+          "filename": "src/app/actions/practice.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "getTextAll",
+      "filename": "src/app/actions/practice.ts"
+    },
+    "402293995b65927c409898c1b8ea7acb560808e80c": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": "9436",
+          "async": false,
+          "exportedName": "saveText",
+          "filename": "src/app/actions/practice.ts"
+        }
+      },
+      "layer": {
+        "app/speak/practice/page": "action-browser"
+      },
+      "exportedName": "saveText",
+      "filename": "src/app/actions/practice.ts"
+    }
+  },
+  "edge": {}
+}

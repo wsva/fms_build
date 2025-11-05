@@ -68,6 +68,14 @@
       "namedRegex": "^/speak/ask/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/speak/practice/[uuid]",
+      "regex": "^/speak/practice/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/speak/practice/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/speak/read/book/[uuid]",
       "regex": "^/speak/read/book/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -148,6 +156,12 @@
       "regex": "^/speak/ask(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/speak/ask(?:/)?$"
+    },
+    {
+      "page": "/speak/practice",
+      "regex": "^/speak/practice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/speak/practice(?:/)?$"
     },
     {
       "page": "/speak/read",
