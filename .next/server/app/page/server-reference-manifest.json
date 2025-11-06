@@ -1,6 +1,6 @@
 {
   "node": {
-    "0020ecfc59252e57744eb8e2839d0e8cff07c834bf": {
+    "004250243d7b2a3e5ea0faead7775e2e51f0c88758": {
       "workers": {
         "app/page": {
           "moduleId": "79790",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40a75da99ce4d11288bdd9a2e05ade91225e1cc77b": {
+    "40e7dcb28baefec4d742fc836ae2be1027bc9d262b": {
       "workers": {
         "app/page": {
           "moduleId": "79790",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "4039dde85aa07284e9fb7c373e3a3c14da74db3e42": {
+    "40eaca0c36388524719bf24ce0e0bb4fd9befbd7cc": {
       "workers": {
         "app/page": {
           "moduleId": "79790",
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "6003934dd764a896653ece307e3ecec5aa1480f532": {
+    "60b3d864a7aca26f6c4cd612743a18630612cfc54c": {
       "workers": {
         "app/page": {
           "moduleId": "79790",
@@ -59,6 +59,21 @@
       },
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0062c621053daf5b8e8a6c57ff53ce90e6543df6b9": {
+      "workers": {
+        "app/page": {
+          "moduleId": "79790",
+          "async": false,
+          "exportedName": "initCmdHelpMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "initCmdHelpMap",
+      "filename": "src/app/actions/voice_access.ts"
     }
   },
   "edge": {}

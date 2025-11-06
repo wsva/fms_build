@@ -1,6 +1,6 @@
 {
   "node": {
-    "0020ecfc59252e57744eb8e2839d0e8cff07c834bf": {
+    "004250243d7b2a3e5ea0faead7775e2e51f0c88758": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40a75da99ce4d11288bdd9a2e05ade91225e1cc77b": {
+    "40e7dcb28baefec4d742fc836ae2be1027bc9d262b": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "4039dde85aa07284e9fb7c373e3a3c14da74db3e42": {
+    "40eaca0c36388524719bf24ce0e0bb4fd9befbd7cc": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "6003934dd764a896653ece307e3ecec5aa1480f532": {
+    "60b3d864a7aca26f6c4cd612743a18630612cfc54c": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -60,7 +60,22 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "4040b7a3fd4268e5a4c57a41a85cca0876feae371d": {
+    "0062c621053daf5b8e8a6c57ff53ce90e6543df6b9": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "initCmdHelpMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "action-browser"
+      },
+      "exportedName": "initCmdHelpMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "408c547b89280fca739196503cf1592f73e21eec2b": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -75,142 +90,7 @@
       "exportedName": "removeBook",
       "filename": "src/app/actions/reading.ts"
     },
-    "401a5badc46e5c1c9d72dfaa6252158fc5b874493a": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "getChapter",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "getChapter",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "40225c6a56babe7b43b22f5520fb88a7870bcbddf7": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "saveChapter",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "saveChapter",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "40359c3df7654167108ec82a2329a02700d1ec2248": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "createBook",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "createBook",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "403c250c1a63966e2ec059dfd7d87ddfed5496f3f6": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "getSentenceAll",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "getSentenceAll",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "404bc003d691cc6b8ab49ff76bb173cd98262b685c": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "getBook",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "getBook",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "404e2bffc8ae68251c156919e0ab3a9a582a695c52": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "getChapterAll",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "getChapterAll",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "405d00973bb395c39d522cc6b258f8ebe21bad8612": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "removeChapter",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "removeChapter",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "40703c56bf26ba9b163cd5073402c778b7591f9742": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "getSentence",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "getSentence",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "4094c28bbb65995c8565bf84c88116938fab8d182a": {
-      "workers": {
-        "app/speak/read/book/page": {
-          "moduleId": "3899",
-          "async": false,
-          "exportedName": "removeSentence",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/book/page": "rsc"
-      },
-      "exportedName": "removeSentence",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "40a79c26952adfe0591085b720ab1a227a2ee6e60b": {
+    "400057ff51fd8c60db8ded1ea5e9d7736a09a4a2ef": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -225,22 +105,22 @@
       "exportedName": "createChapter",
       "filename": "src/app/actions/reading.ts"
     },
-    "40d820ba6cbc41c01b33c6f0a56b8056f6b9ab7ad9": {
+    "4009be290083ce36a4df8b096c184d06149b38435d": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
           "async": false,
-          "exportedName": "saveSentence",
+          "exportedName": "getChapterAll",
           "filename": "src/app/actions/reading.ts"
         }
       },
       "layer": {
         "app/speak/read/book/page": "rsc"
       },
-      "exportedName": "saveSentence",
+      "exportedName": "getChapterAll",
       "filename": "src/app/actions/reading.ts"
     },
-    "40ee5e64686cb1d8d9bde6862aadd3d161b0f8d72b": {
+    "401f45761ae3d7904d597f08d4fb7d50d650ed0186": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -255,7 +135,37 @@
       "exportedName": "createSentence",
       "filename": "src/app/actions/reading.ts"
     },
-    "40f7afed47c0c6641d33682d58d7c50d8ae67ee54d": {
+    "404fb2ce4f1722e0a44fc234d3c6615119e64483a5": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "removeChapter",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "removeChapter",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "405291916443ed2971e7c577916459d664f89c7300": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "saveChapter",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "saveChapter",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "405442dbed2e300d62ec27438bc78fd355f1b71566": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -270,7 +180,37 @@
       "exportedName": "getBookAll",
       "filename": "src/app/actions/reading.ts"
     },
-    "40fdae4cddbc9c08b9faedbf4a65f796522178831f": {
+    "4058c4deafeaaaef6f0cb6b62928c08b1074cca779": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "saveSentence",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "saveSentence",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "406d57c8287d8f39ce3bcad92d5bfa4aede147e3d8": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "removeSentence",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "removeSentence",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40777ed88691876b62328db594eff4c1f54ce6eba2": {
       "workers": {
         "app/speak/read/book/page": {
           "moduleId": "3899",
@@ -283,6 +223,81 @@
         "app/speak/read/book/page": "rsc"
       },
       "exportedName": "saveBook",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40799ce53ddb68fdc5030fad8bf9023a702eaae6d5": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "getBook",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "getBook",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "4094a9098eb1167e580dcd596c3d8f0dc558954683": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "createBook",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "createBook",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40bd5543ae8c4766ae8519663e668be59361c78c02": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "getChapter",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "getChapter",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40d3790d347a4e1c49b00f60e8d5def40506bde46a": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "getSentenceAll",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "getSentenceAll",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40d64dd56a1ab00d29804e89e4c37ae68595aa6cfe": {
+      "workers": {
+        "app/speak/read/book/page": {
+          "moduleId": "3899",
+          "async": false,
+          "exportedName": "getSentence",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/book/page": "rsc"
+      },
+      "exportedName": "getSentence",
       "filename": "src/app/actions/reading.ts"
     }
   },
