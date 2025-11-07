@@ -1,0 +1,80 @@
+{
+  "node": {
+    "00ec676f482c8b05a2d8c7f0287c4a87b172e19329": {
+      "workers": {
+        "app/manage/page": {
+          "moduleId": "77035",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/manage/page": "action-browser"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "40db6ab6d07ae173cfc343fe0d4d844d8b4c2a0bb0": {
+      "workers": {
+        "app/manage/page": {
+          "moduleId": "77035",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/manage/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40a84cd7bfb192d3dc145603691919cd6cbda9ee03": {
+      "workers": {
+        "app/manage/page": {
+          "moduleId": "77035",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/manage/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "60e730317a12275b9f39cdca8c20e8e1211e5daaea": {
+      "workers": {
+        "app/manage/page": {
+          "moduleId": "77035",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/manage/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "00a2be7f3fcfe5037db2f3ae8be3eacd2f971cbfe5": {
+      "workers": {
+        "app/manage/page": {
+          "moduleId": "77035",
+          "async": false,
+          "exportedName": "initCmdHelpMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/manage/page": "action-browser"
+      },
+      "exportedName": "initCmdHelpMap",
+      "filename": "src/app/actions/voice_access.ts"
+    }
+  },
+  "edge": {}
+}
