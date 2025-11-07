@@ -1,6 +1,6 @@
 {
   "node": {
-    "008eeb0717f162c9eb6ec941dc4985d79892d95ba2": {
+    "00b44172bae462ad626e921f5b4423ee921e018dac": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "4010353e1f5a6f41d052e72e3df230d8b9b5265963": {
+    "406bf9f8386a55506f9f96f36c109a159aa48dbd2f": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "4083be615a1e44f2ce725aff00e585f00099ebb7a2": {
+    "409d01177ffa68c76b1f58b270afec7e57bfc14602": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60363b1749c57bcd515ea29245733c0e9438bab5a0": {
+    "602cccd238b4217e5544761f1cb2679a5f584ef28a": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -60,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "00fb4ec32081ade1bce5933a78f5a90e7ba57aec13": {
+    "0082b9a50d90d6438972f08c7a11f9eb933bc55e07": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -75,7 +75,7 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40b817debfce39d23924f155dc41a92264b3124417": {
+    "400bfe54eb3c384fb2bb97f3fd46cae02406889f1a": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -88,6 +88,21 @@
         "app/word/sentence/page": "action-browser"
       },
       "exportedName": "getExample",
+      "filename": "src/app/actions/word.ts"
+    },
+    "4006ff418ce031579675f547a1a807342f1fec5ab2": {
+      "workers": {
+        "app/word/sentence/page": {
+          "moduleId": "457",
+          "async": false,
+          "exportedName": "searchExample",
+          "filename": "src/app/actions/word.ts"
+        }
+      },
+      "layer": {
+        "app/word/sentence/page": "action-browser"
+      },
+      "exportedName": "searchExample",
       "filename": "src/app/actions/word.ts"
     }
   },
