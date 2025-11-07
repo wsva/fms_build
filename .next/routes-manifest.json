@@ -44,14 +44,6 @@
       "namedRegex": "^/blog/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/card/tag/[uuid]",
-      "regex": "^/card/tag/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/card/tag/(?<nxtPuuid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/card/[uuid]",
       "regex": "^/card/([^/]+?)(?:/)?$",
       "routeKeys": {

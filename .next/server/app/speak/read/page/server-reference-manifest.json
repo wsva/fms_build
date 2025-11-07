@@ -1,9 +1,9 @@
 {
   "node": {
-    "0038dab9bc6de5334b7e13cecc5e9f4d1df93366a8": {
+    "00cb7b88cf32273d9a75534e931ed4561a1f24018c": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,10 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40b687694068f0a53bcf2e67931cdf75055c036d77": {
+    "4039448063adee048be8c9349b4ca44e79c3193c16": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_local_redis.ts"
@@ -30,10 +30,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "406f3376e2c5dfcde530939fb3344ae3cfdb77c748": {
+    "40ba1c7f65ef1e28e22f8383d731fcc5ef0d3dd3b7": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -45,10 +45,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60e73b1e76ae3543b38109b8853f96b70d3f130ee2": {
+    "608f21e867bbd13b0d5aac89309a0d08a36a5a4a44": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "callTTS",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -60,10 +60,10 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "001f9021e23afbb6ab458aae7ad307fbe670cb54c1": {
+    "007a32bcd2c9874ad8c1517dd66f3d839ee15694d9": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "initCmdHelpMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -75,40 +75,10 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "6024699f99927b2bfe4e1a73c67485105c9a910a1a": {
+    "409c0c87def1e4d19461d0b42383e37d451948c607": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
-          "async": false,
-          "exportedName": "removeAudio",
-          "filename": "src/app/actions/audio.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/page": "action-browser"
-      },
-      "exportedName": "removeAudio",
-      "filename": "src/app/actions/audio.ts"
-    },
-    "4094f1b3a9eea7b4513aba282ec02ed6bce016fcad": {
-      "workers": {
-        "app/speak/read/page": {
-          "moduleId": "59099",
-          "async": false,
-          "exportedName": "removeSentence",
-          "filename": "src/app/actions/reading.ts"
-        }
-      },
-      "layer": {
-        "app/speak/read/page": "action-browser"
-      },
-      "exportedName": "removeSentence",
-      "filename": "src/app/actions/reading.ts"
-    },
-    "403342cf00e8c2c1f7b48a456eeb724aefd34fedae": {
-      "workers": {
-        "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "getBookAll",
           "filename": "src/app/actions/reading.ts"
@@ -120,10 +90,10 @@
       "exportedName": "getBookAll",
       "filename": "src/app/actions/reading.ts"
     },
-    "4075e8f16f8eb0fbe0dfcfe9616061d059ec602807": {
+    "40a2eab901c91f405d7133b5055135f08d8979898b": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "removeBook",
           "filename": "src/app/actions/reading.ts"
@@ -135,10 +105,10 @@
       "exportedName": "removeBook",
       "filename": "src/app/actions/reading.ts"
     },
-    "40b356c6c65d1a5fa2ebfca0662f814c454bbd38a3": {
+    "4038ceb3cde28f7004ba4a9e92a2b47ca3cf878314": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "saveBook",
           "filename": "src/app/actions/reading.ts"
@@ -150,10 +120,10 @@
       "exportedName": "saveBook",
       "filename": "src/app/actions/reading.ts"
     },
-    "4094d71927d2f6a3b22135ad0e386d452f6182587b": {
+    "400a6b575eb00b3be26b06b0a3f866bccefc453e53": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "getSentenceAll",
           "filename": "src/app/actions/reading.ts"
@@ -165,10 +135,25 @@
       "exportedName": "getSentenceAll",
       "filename": "src/app/actions/reading.ts"
     },
-    "40e618adf99af2c3cf879d1b1644890c0f9551fbbc": {
+    "4022120bd1b7f6a12f4a94db0b7d6a22012e586a75": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
+          "async": false,
+          "exportedName": "removeSentence",
+          "filename": "src/app/actions/reading.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/page": "action-browser"
+      },
+      "exportedName": "removeSentence",
+      "filename": "src/app/actions/reading.ts"
+    },
+    "40445696422963dc4e74224128d782c3c499b9408e": {
+      "workers": {
+        "app/speak/read/page": {
+          "moduleId": "82167",
           "async": false,
           "exportedName": "saveSentence",
           "filename": "src/app/actions/reading.ts"
@@ -180,10 +165,10 @@
       "exportedName": "saveSentence",
       "filename": "src/app/actions/reading.ts"
     },
-    "40022162e19bccd8a3c695a6429ff102ffb586ef9f": {
+    "404c731f350c6f9771337f73934a84eca287551244": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "getChapterAll",
           "filename": "src/app/actions/reading.ts"
@@ -195,10 +180,10 @@
       "exportedName": "getChapterAll",
       "filename": "src/app/actions/reading.ts"
     },
-    "4001cb9129b964e7b3fd3593a1db23e99d4fd16baf": {
+    "403d0be48af771c0568d6679bcdd185332aa8c86c5": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "removeChapter",
           "filename": "src/app/actions/reading.ts"
@@ -210,10 +195,10 @@
       "exportedName": "removeChapter",
       "filename": "src/app/actions/reading.ts"
     },
-    "40c8365371dc3f289e1ee73d9efc5d6832da0b89ca": {
+    "40aad7107a3a468cd6a512cc76c41e6ff8ba4e6ce5": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
           "async": false,
           "exportedName": "saveChapter",
           "filename": "src/app/actions/reading.ts"
@@ -225,10 +210,25 @@
       "exportedName": "saveChapter",
       "filename": "src/app/actions/reading.ts"
     },
-    "7041815727d16637de7420bd732bf5e0fbb93f87e0": {
+    "6052e16605f3e644011c4f60d8f84d740bd46d251d": {
       "workers": {
         "app/speak/read/page": {
-          "moduleId": "59099",
+          "moduleId": "82167",
+          "async": false,
+          "exportedName": "removeAudio",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "layer": {
+        "app/speak/read/page": "action-browser"
+      },
+      "exportedName": "removeAudio",
+      "filename": "src/app/actions/audio.ts"
+    },
+    "7025beee8269992070803f09f4240533fe0e820a15": {
+      "workers": {
+        "app/speak/read/page": {
+          "moduleId": "82167",
           "async": false,
           "exportedName": "saveAudio",
           "filename": "src/app/actions/audio.ts"
