@@ -1,6 +1,6 @@
 {
   "node": {
-    "00ee2a5c4ed7c37436afe252ab00b46e49ce0ab7f9": {
+    "005d8b12066a7fd930e20034c4fd5fb5787f5c9b03": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40229b89f4a06b9e524edb2e8be9a15aa6dfa815a5": {
+    "40c2d1d48e76e2deb49d1fdd51effc7696cac2d6c6": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "40572bd48eb46f3752408d82768a65ade751daa55e": {
+    "406d8f247ea837bbb0b00fd5fabd7637bd069bfce4": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "603550ba7db69a2bc3ac48850ba9819b117ad996af": {
+    "6037d3931e29ac82c81627b839bd0d08c141746176": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -60,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "00823edfb3605ebbe17e6d6472083c067cd6fb4e93": {
+    "00885d590180d7609cc91d9a4934b09c82554d66dd": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -75,7 +75,7 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "00e2afa044a12bfa4b6618f943c8606d4962f5be21": {
+    "0031281a0f7a42e0edf0da55a8c85a1266cc997198": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -90,37 +90,7 @@
       "exportedName": "getQuestionAll",
       "filename": "src/app/actions/ask.ts"
     },
-    "40033ed2f445047e4d6ced6d11b55d7271134fb521": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": "20438",
-          "async": false,
-          "exportedName": "getQuestion",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/page": "rsc"
-      },
-      "exportedName": "getQuestion",
-      "filename": "src/app/actions/ask.ts"
-    },
-    "406afed73dc884315eed2729c8abec4eff3f5259bd": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": "20438",
-          "async": false,
-          "exportedName": "saveQuestion",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/page": "rsc"
-      },
-      "exportedName": "saveQuestion",
-      "filename": "src/app/actions/ask.ts"
-    },
-    "40d03f5a94f971ace7d31f9d5c31cbd7d3f03f5298": {
+    "4034ac86562564e8de49afac2da0c8c7492de5a864": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -135,7 +105,22 @@
       "exportedName": "saveAnswer",
       "filename": "src/app/actions/ask.ts"
     },
-    "40ef3ee5f769cd5c4c67ba7c4c6071a80f294c5fb4": {
+    "405e05b8921a5fd126d6ae1fe37d632a93f332f37e": {
+      "workers": {
+        "app/speak/ask/page": {
+          "moduleId": "20438",
+          "async": false,
+          "exportedName": "getQuestion",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/page": "rsc"
+      },
+      "exportedName": "getQuestion",
+      "filename": "src/app/actions/ask.ts"
+    },
+    "4061306af1663abce4c38a95a90dd6cc0674905851": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "20438",
@@ -148,6 +133,21 @@
         "app/speak/ask/page": "rsc"
       },
       "exportedName": "getAnswerAll",
+      "filename": "src/app/actions/ask.ts"
+    },
+    "40ff31ffc35d9b75e3541659524743579e8947c8c0": {
+      "workers": {
+        "app/speak/ask/page": {
+          "moduleId": "20438",
+          "async": false,
+          "exportedName": "saveQuestion",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/page": "rsc"
+      },
+      "exportedName": "saveQuestion",
       "filename": "src/app/actions/ask.ts"
     }
   },
