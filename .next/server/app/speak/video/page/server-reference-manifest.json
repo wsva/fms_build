@@ -1,0 +1,110 @@
+{
+  "node": {
+    "00e5400351e1a923ff9dd63e9c197ef90b3948c679": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "40574299a6183e42fea54b4ccc30d6d89656ba9a78": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40cf5aef96a0f580ab4a5f791f5d3efb2227bdba5c": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "600d8f06cae3ae9fd51c1539076909ab09dc8336dd": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "00eeab410a613e4000244b31f47c0c7ec02d7c2dd8": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "initCmdHelpMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "initCmdHelpMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "40507bc2c63e109f2fc2b686f32bda2431e1fa758a": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "saveAudioDB",
+          "filename": "src/app/actions/practice.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "saveAudioDB",
+      "filename": "src/app/actions/practice.ts"
+    },
+    "70ec0a72725d1a4e70d13842721c16e53e3ea012cf": {
+      "workers": {
+        "app/speak/video/page": {
+          "moduleId": "71804",
+          "async": false,
+          "exportedName": "saveAudio",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "layer": {
+        "app/speak/video/page": "action-browser"
+      },
+      "exportedName": "saveAudio",
+      "filename": "src/app/actions/audio.ts"
+    }
+  },
+  "edge": {}
+}
