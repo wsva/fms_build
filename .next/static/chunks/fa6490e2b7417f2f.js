@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,45968,e=>{"use strict";e.s(["default",()=>l]);var t=e.i(43476);function l(e){let{user_id:l}=e;return(0,t.jsx)("div",{className:"flex flex-col gap-4 my-10",children:"111"})}}]);

@@ -66,14 +66,6 @@
         "nxtPuuid": "nxtPuuid"
       },
       "namedRegex": "^/speak/practice/(?<nxtPuuid>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/speak/read/book/[uuid]",
-      "regex": "^/speak/read/book/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/speak/read/book/(?<nxtPuuid>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -108,16 +100,22 @@
       "namedRegex": "^/blog/all_of_others(?:/)?$"
     },
     {
-      "page": "/card/market",
-      "regex": "^/card/market(?:/)?$",
+      "page": "/card/manage",
+      "regex": "^/card/manage(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/card/market(?:/)?$"
+      "namedRegex": "^/card/manage(?:/)?$"
     },
     {
       "page": "/card/my",
       "regex": "^/card/my(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/card/my(?:/)?$"
+    },
+    {
+      "page": "/card/read",
+      "regex": "^/card/read(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/card/read(?:/)?$"
     },
     {
       "page": "/card/tag",
@@ -144,12 +142,6 @@
       "namedRegex": "^/listen/dictation(?:/)?$"
     },
     {
-      "page": "/manage",
-      "regex": "^/manage(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/manage(?:/)?$"
-    },
-    {
       "page": "/speak/ask",
       "regex": "^/speak/ask(?:/)?$",
       "routeKeys": {},
@@ -166,12 +158,6 @@
       "regex": "^/speak/read(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/speak/read(?:/)?$"
-    },
-    {
-      "page": "/speak/read/book",
-      "regex": "^/speak/read/book(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/speak/read/book(?:/)?$"
     },
     {
       "page": "/speak/torsten_voice",
