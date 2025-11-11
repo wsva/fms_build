@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,80890,e=>{"use strict";e.s(["callSTT",()=>d],80890),e.s([],72713),e.i(72713);var c=e.i(95187),d=(0,c.createServerReference)("4045d908c911d7e0116cf69137688dd69d01f82ddc",c.callServer,void 0,c.findSourceMapURL,"callSTT")}]);
