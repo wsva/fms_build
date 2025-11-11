@@ -1,9 +1,9 @@
 {
   "node": {
-    "00650f17dfe4d3bebdae6766c93a084428e09621cf": {
+    "00391dedf30415676f3682fd8903b9c217df94c6b1": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "initCmdMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -15,10 +15,10 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "407f793a3ea5d3e0dcb6e543d799e00bde06babb5c": {
+    "40ec22aaefca352d321d79c1d8effdab1040fa6b35": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_local_redis.ts"
@@ -30,10 +30,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "402cb387c0c563b59d949220c9144246ac9ae0894f": {
+    "40893857518aa7fb749fba1e5bbe296246f334270b": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -45,10 +45,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "602da57adad430769582e84f82369fba3ba52d508f": {
+    "608d33d38d80985412865085a260415da95f9aa912": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "callTTS",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -60,10 +60,10 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "007f9bfac2f167c91f6d95b3f10791d205a1bb722b": {
+    "00bf033ca36ebb77ffa46654045d9c4027f1cbb27b": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "initCmdHelpMap",
           "filename": "src/app/actions/voice_access.ts"
@@ -75,10 +75,25 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40c271b89253c6d7d42fd62eee8620d13f7ab568bc": {
+    "0015d2478315bfaad8b28b600c7fd11f69a15e2725": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
+          "async": false,
+          "exportedName": "getUserIDAll",
+          "filename": "src/app/actions/manage.ts"
+        }
+      },
+      "layer": {
+        "app/card/manage/page": "action-browser"
+      },
+      "exportedName": "getUserIDAll",
+      "filename": "src/app/actions/manage.ts"
+    },
+    "404fa3d05ecedff75ea990a95438727a19035be215": {
+      "workers": {
+        "app/card/manage/page": {
+          "moduleId": "15963",
           "async": false,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"
@@ -90,10 +105,10 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/card.ts"
     },
-    "40bc67d92c6c572e20c81475d96e3cc29a93aaefb1": {
+    "402e7cb3e277eb1a5f239808cdc97c827cd4db938e": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -105,10 +120,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "40dbe0d0613b243729334dd811daa51a220aca7b6a": {
+    "409c8e8c2e04dd0ba4449df6c0ba61a4c6c2298084": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -120,10 +135,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "600d725c085aca59d6f4fea2cfddc4263e9fb3b6bc": {
+    "600acc3b7ccbe62e1d2a931afbbce62a9354c9d837": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "getCardTag",
           "filename": "src/app/actions/card.ts"
@@ -135,10 +150,10 @@
       "exportedName": "getCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "60f77dd505b5dc60c6c79d9971cf6b3c4dccf8cb89": {
+    "600aeb535da8e349604b18451aef76601010af57fa": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "setCardFamiliarity",
           "filename": "src/app/actions/card.ts"
@@ -150,10 +165,10 @@
       "exportedName": "setCardFamiliarity",
       "filename": "src/app/actions/card.ts"
     },
-    "7e0c9e1c307f4fa24003dc1916a2192e4f77249b7c": {
+    "7e82e87da519196c223f96a69910e5354aeeba4919": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "getCardAll",
           "filename": "src/app/actions/card.ts"
@@ -165,10 +180,10 @@
       "exportedName": "getCardAll",
       "filename": "src/app/actions/card.ts"
     },
-    "7ffc1c3e91578a6e7206a3d6d237dfd7ed17cafc95": {
+    "7f9a35e0facff4aca4460f241abc67eb1e2cb2988c": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "removeCardsByTag",
           "filename": "src/app/actions/manage.ts"
@@ -180,10 +195,10 @@
       "exportedName": "removeCardsByTag",
       "filename": "src/app/actions/manage.ts"
     },
-    "7f336bdb3b602227a3a1c24ca2350ba0c855d18549": {
+    "7f474419ab8ed645884cc6516388bff1af6889cecd": {
       "workers": {
         "app/card/manage/page": {
-          "moduleId": "1908",
+          "moduleId": "15963",
           "async": false,
           "exportedName": "copyCardsByTag",
           "filename": "src/app/actions/manage.ts"
