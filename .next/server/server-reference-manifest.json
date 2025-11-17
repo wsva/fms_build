@@ -1,6 +1,6 @@
 {
   "node": {
-    "00ef17e958024e4164b7485838cc77dadb37ec3c9c": {
+    "008236b3ea1dcb27c014cbf5603ca482ccde69da72": {
       "workers": {
         "app/_not-found/page": {
           "moduleId": "40557",
@@ -204,7 +204,7 @@
       "filename": "src/app/actions/voice_access.ts",
       "exportedName": "initCmdMap"
     },
-    "40f5eeafc23f9893d2711f3c7370096d8f82929566": {
+    "4046d780e323eef0365c5d219b82f53ce56bb67200": {
       "workers": {
         "app/_not-found/page": {
           "moduleId": "40557",
@@ -408,7 +408,7 @@
       "filename": "src/app/actions/ai_local_redis.ts",
       "exportedName": "callSTT"
     },
-    "400afdba88252d45466f91bfff42a16bcf9aa6877e": {
+    "40e62c6ba6eebf2c466a77dfd44a39021b9a00f571": {
       "workers": {
         "app/_not-found/page": {
           "moduleId": "40557",
@@ -612,7 +612,7 @@
       "filename": "src/app/actions/ai_gemini.ts",
       "exportedName": "callSTT"
     },
-    "603a84c3209fb644d19acb922afbbc5434a306089e": {
+    "6006d70baf30b8b082cebb1c26553e370802d66b19": {
       "workers": {
         "app/_not-found/page": {
           "moduleId": "40557",
@@ -816,7 +816,7 @@
       "filename": "src/app/actions/ai_gemini.ts",
       "exportedName": "callTTS"
     },
-    "00e92306922bed162b11f2693887f3acad3f6fe387": {
+    "000a6356179e5c1a60c2f8023bf15387816eb70722": {
       "workers": {
         "app/_not-found/page": {
           "moduleId": "40557",
@@ -1020,43 +1020,7 @@
       "filename": "src/app/actions/voice_access.ts",
       "exportedName": "initCmdHelpMap"
     },
-    "40daaf9217317c876ac917e34061e2b15964315162": {
-      "workers": {
-        "app/blog/[uuid]/page": {
-          "moduleId": "7130",
-          "async": false,
-          "exportedName": "saveBlog",
-          "filename": "src/app/actions/blog.ts"
-        },
-        "app/blog/all_of_another/page": {
-          "moduleId": "57901",
-          "async": false,
-          "exportedName": "saveBlog",
-          "filename": "src/app/actions/blog.ts"
-        },
-        "app/blog/all_of_others/page": {
-          "moduleId": "91557",
-          "async": false,
-          "exportedName": "saveBlog",
-          "filename": "src/app/actions/blog.ts"
-        },
-        "app/blog/page": {
-          "moduleId": "88656",
-          "async": false,
-          "exportedName": "saveBlog",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "layer": {
-        "app/blog/[uuid]/page": "rsc",
-        "app/blog/all_of_another/page": "rsc",
-        "app/blog/all_of_others/page": "rsc",
-        "app/blog/page": "rsc"
-      },
-      "filename": "src/app/actions/blog.ts",
-      "exportedName": "saveBlog"
-    },
-    "40319fd4a5cdba43cdbeef7cb60431eff32d721925": {
+    "402c63278b70963d753d94483c876daaea260c5c67": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "7130",
@@ -1092,7 +1056,7 @@
       "filename": "src/app/actions/blog.ts",
       "exportedName": "getBlogAllOfAnother"
     },
-    "406f6a8cb17e77a36e83b4ab0df5d58c32ee25949c": {
+    "40901557c88c62f5836c5dde042a71e8549fd04e44": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "7130",
@@ -1128,30 +1092,30 @@
       "filename": "src/app/actions/blog.ts",
       "exportedName": "getBlogAllOfOthers"
     },
-    "409d3ba07de5ea4a575475df9fee05fd80bdb3960f": {
+    "40b60ba31ef93acdcb8e08f2de1011fe4842b81a2a": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "7130",
           "async": false,
-          "exportedName": "getBlogAll",
+          "exportedName": "saveBlog",
           "filename": "src/app/actions/blog.ts"
         },
         "app/blog/all_of_another/page": {
           "moduleId": "57901",
           "async": false,
-          "exportedName": "getBlogAll",
+          "exportedName": "saveBlog",
           "filename": "src/app/actions/blog.ts"
         },
         "app/blog/all_of_others/page": {
           "moduleId": "91557",
           "async": false,
-          "exportedName": "getBlogAll",
+          "exportedName": "saveBlog",
           "filename": "src/app/actions/blog.ts"
         },
         "app/blog/page": {
           "moduleId": "88656",
           "async": false,
-          "exportedName": "getBlogAll",
+          "exportedName": "saveBlog",
           "filename": "src/app/actions/blog.ts"
         }
       },
@@ -1162,9 +1126,9 @@
         "app/blog/page": "rsc"
       },
       "filename": "src/app/actions/blog.ts",
-      "exportedName": "getBlogAll"
+      "exportedName": "saveBlog"
     },
-    "40f766810dcfa07064245a7bf01278f3a203454413": {
+    "40c9e7787b7208c40810d5712b0ed08167a1c246b3": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": "7130",
@@ -1200,7 +1164,43 @@
       "filename": "src/app/actions/blog.ts",
       "exportedName": "getBlog"
     },
-    "60c26e09254e710af812b59efcd2f2088e4a72af87": {
+    "40f305b38d378992450a05f659c112f4d287e6e774": {
+      "workers": {
+        "app/blog/[uuid]/page": {
+          "moduleId": "7130",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        },
+        "app/blog/all_of_another/page": {
+          "moduleId": "57901",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        },
+        "app/blog/all_of_others/page": {
+          "moduleId": "91557",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        },
+        "app/blog/page": {
+          "moduleId": "88656",
+          "async": false,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "layer": {
+        "app/blog/[uuid]/page": "rsc",
+        "app/blog/all_of_another/page": "rsc",
+        "app/blog/all_of_others/page": "rsc",
+        "app/blog/page": "rsc"
+      },
+      "filename": "src/app/actions/blog.ts",
+      "exportedName": "getBlogAll"
+    },
+    "60b3877713be8ec96da41f508a6a22c762f9bcdbd7": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1229,7 +1229,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "getCardTag"
     },
-    "405ce79de5105f9ba944bba3921c15e5eeec8e61bb": {
+    "4068ffba56071e0a93efb5c7bc40882c82fbec82c2": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1279,7 +1279,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "getTagAll"
     },
-    "403861144f38c5be43e9b7a428b5049b4418e517fd": {
+    "40836eef428129f3e99edb8c0181bdbc57efeef186": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1308,7 +1308,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "removeCard"
     },
-    "40ecf922dd976d7c684a1b66765d7df1ce240c5186": {
+    "402d68c45c5a07f36a880026e98f3659623b30657e": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1351,7 +1351,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "saveCard"
     },
-    "40996fb400116801af2faffba5f6301566d490eb92": {
+    "409d33822ed25fa7961ad64c6175b98e6370c9e748": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1394,65 +1394,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "saveCardTag"
     },
-    "40103b07e960e6e51b5cf3fdc6fad8ff351e526289": {
-      "workers": {
-        "app/card/[uuid]/page": {
-          "moduleId": "23423",
-          "async": false,
-          "exportedName": "createTag",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/my/page": {
-          "moduleId": "98262",
-          "async": false,
-          "exportedName": "createTag",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/word/top/page": {
-          "moduleId": "93409",
-          "async": false,
-          "exportedName": "createTag",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/[uuid]/page": "rsc",
-        "app/card/my/page": "rsc",
-        "app/word/top/page": "action-browser"
-      },
-      "filename": "src/app/actions/card.ts",
-      "exportedName": "createTag"
-    },
-    "4013aa9d1cd29d99d193334769678a20ba3215d248": {
-      "workers": {
-        "app/card/[uuid]/page": {
-          "moduleId": "23423",
-          "async": false,
-          "exportedName": "getCardTestByUUID",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/my/page": {
-          "moduleId": "98262",
-          "async": false,
-          "exportedName": "getCardTestByUUID",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/test/page": {
-          "moduleId": "71715",
-          "async": false,
-          "exportedName": "getCardTestByUUID",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/[uuid]/page": "rsc",
-        "app/card/my/page": "rsc",
-        "app/card/test/page": "action-browser"
-      },
-      "filename": "src/app/actions/card.ts",
-      "exportedName": "getCardTestByUUID"
-    },
-    "40314285e77c6c73e465dd37809bc2a0f5265cff4d": {
+    "400887e3e86798cbdd3f26e8e55972e30671da2efc": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1481,58 +1423,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "saveCardReview"
     },
-    "40320b5c8a4d3af31259f210c0ed1b8ebf43094121": {
-      "workers": {
-        "app/card/[uuid]/page": {
-          "moduleId": "23423",
-          "async": false,
-          "exportedName": "saveTag",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/my/page": {
-          "moduleId": "98262",
-          "async": false,
-          "exportedName": "saveTag",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/tag/page": {
-          "moduleId": "9656",
-          "async": false,
-          "exportedName": "saveTag",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/[uuid]/page": "rsc",
-        "app/card/my/page": "rsc",
-        "app/card/tag/page": "action-browser"
-      },
-      "filename": "src/app/actions/card.ts",
-      "exportedName": "saveTag"
-    },
-    "4035382350dad5db764ffd43fe59f2b151cea804af": {
-      "workers": {
-        "app/card/[uuid]/page": {
-          "moduleId": "23423",
-          "async": false,
-          "exportedName": "getCard",
-          "filename": "src/app/actions/card.ts"
-        },
-        "app/card/my/page": {
-          "moduleId": "98262",
-          "async": false,
-          "exportedName": "getCard",
-          "filename": "src/app/actions/card.ts"
-        }
-      },
-      "layer": {
-        "app/card/[uuid]/page": "rsc",
-        "app/card/my/page": "rsc"
-      },
-      "filename": "src/app/actions/card.ts",
-      "exportedName": "getCard"
-    },
-    "40632dd35fcf2942c25e1767c76e160a6d38da80bb": {
+    "401609b1013d20c1ed2aaaf095321d1487d2296e59": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1561,7 +1452,87 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "removeTag"
     },
-    "40db0b101061aa5be05350d7e374f231219fe93d22": {
+    "405d46fbeaeb363a312e1b71a8819d96062d0e6721": {
+      "workers": {
+        "app/card/[uuid]/page": {
+          "moduleId": "23423",
+          "async": false,
+          "exportedName": "saveTag",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/my/page": {
+          "moduleId": "98262",
+          "async": false,
+          "exportedName": "saveTag",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/tag/page": {
+          "moduleId": "9656",
+          "async": false,
+          "exportedName": "saveTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/[uuid]/page": "rsc",
+        "app/card/my/page": "rsc",
+        "app/card/tag/page": "action-browser"
+      },
+      "filename": "src/app/actions/card.ts",
+      "exportedName": "saveTag"
+    },
+    "4089deac8897ad54ea1abc0ba6b17f732aca3e2d4f": {
+      "workers": {
+        "app/card/[uuid]/page": {
+          "moduleId": "23423",
+          "async": false,
+          "exportedName": "getCard",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/my/page": {
+          "moduleId": "98262",
+          "async": false,
+          "exportedName": "getCard",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/[uuid]/page": "rsc",
+        "app/card/my/page": "rsc"
+      },
+      "filename": "src/app/actions/card.ts",
+      "exportedName": "getCard"
+    },
+    "40c2323a8813ec7ad862e8de4d229ec6c0d5d7b43f": {
+      "workers": {
+        "app/card/[uuid]/page": {
+          "moduleId": "23423",
+          "async": false,
+          "exportedName": "createTag",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/my/page": {
+          "moduleId": "98262",
+          "async": false,
+          "exportedName": "createTag",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/word/top/page": {
+          "moduleId": "93409",
+          "async": false,
+          "exportedName": "createTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/[uuid]/page": "rsc",
+        "app/card/my/page": "rsc",
+        "app/word/top/page": "action-browser"
+      },
+      "filename": "src/app/actions/card.ts",
+      "exportedName": "createTag"
+    },
+    "40e6fe896a4ba9da0ad7b6005286774744c5d4467a": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1590,7 +1561,36 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "getTag"
     },
-    "606f56f163c633e6af54ae4bc9ef0f558ad7121802": {
+    "40fb03f1d739bbc2380810f2ea5171f13cf7e9f815": {
+      "workers": {
+        "app/card/[uuid]/page": {
+          "moduleId": "23423",
+          "async": false,
+          "exportedName": "getCardTestByUUID",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/my/page": {
+          "moduleId": "98262",
+          "async": false,
+          "exportedName": "getCardTestByUUID",
+          "filename": "src/app/actions/card.ts"
+        },
+        "app/card/test/page": {
+          "moduleId": "71715",
+          "async": false,
+          "exportedName": "getCardTestByUUID",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "layer": {
+        "app/card/[uuid]/page": "rsc",
+        "app/card/my/page": "rsc",
+        "app/card/test/page": "action-browser"
+      },
+      "filename": "src/app/actions/card.ts",
+      "exportedName": "getCardTestByUUID"
+    },
+    "60406bcd0f3bb07982d06bc910904b4f38097a3c75": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1619,7 +1619,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "getCardTest"
     },
-    "60a841cf9cdce9c715f5e6305af21353efd34e6f65": {
+    "6098008591eb7528a4de4fd8392e88244885f1aa6f": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1648,7 +1648,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "setCardFamiliarity"
     },
-    "7e731eab0df4e7f631bdb7b818315678031a3bef1f": {
+    "7ea7852ebbedd5e719576f9dfdec011411f5a474ce": {
       "workers": {
         "app/card/[uuid]/page": {
           "moduleId": "23423",
@@ -1684,7 +1684,7 @@
       "filename": "src/app/actions/card.ts",
       "exportedName": "getCardAll"
     },
-    "003c3c3c47a7454a2dc833c532926a2b28b1cd70d8": {
+    "00dbd38b8cd2897649b6c5202c363e0b86a63005b1": {
       "workers": {
         "app/card/manage/page": {
           "moduleId": "15963",
@@ -1699,7 +1699,7 @@
       "filename": "src/app/actions/manage.ts",
       "exportedName": "getUserIDAll"
     },
-    "7f69c0517cdf6871c75c2e1e08bb235ab58576158f": {
+    "7f340aa2dca1f20e561cd946435d25341b0d0ab7cf": {
       "workers": {
         "app/card/manage/page": {
           "moduleId": "15963",
@@ -1714,7 +1714,7 @@
       "filename": "src/app/actions/manage.ts",
       "exportedName": "removeCardsByTag"
     },
-    "7fd3ced6802183fdeca8a617b87cdd2ad70ee8cdb2": {
+    "7fdaa10aec49eded6dffbb31326a93e749eeab2851": {
       "workers": {
         "app/card/manage/page": {
           "moduleId": "15963",
@@ -1729,7 +1729,7 @@
       "filename": "src/app/actions/manage.ts",
       "exportedName": "copyCardsByTag"
     },
-    "4072bd20efb93dbbb6fa9704d6ac988dd4a4403de7": {
+    "40dfbcbf869587219cef42723bb348d25587f39914": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1751,7 +1751,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "getBookAll"
     },
-    "407e3a745c57adfa1a45a3205388414fea23378d9c": {
+    "4098decbafdec891e0a0402f13b0c07c9ab5d53bd5": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1773,7 +1773,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "removeBook"
     },
-    "405f59a438573f9a1381f0612f60f8e13b09f63804": {
+    "402ebb5aeddf7d64d03749e7c740367dfe2dd71269": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1795,7 +1795,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "saveBook"
     },
-    "40e4607b234a2eb52cd5cbed93052d20c620cf4ae0": {
+    "4039879a7df28a67e8f95e48c98229c3df0e36d40a": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1817,7 +1817,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "getChapterAll"
     },
-    "40c79c45a3bf8e6dfc9a3e764d41bceb6de7847870": {
+    "40024324e11dbdec82d3d5d728d01359a7e463058d": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1839,7 +1839,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "removeChapter"
     },
-    "40f51be4748c70c58e8ea9333cdd74a1ff66b6d262": {
+    "408768558410878c908567c319184f1680dc62c173": {
       "workers": {
         "app/card/read/page": {
           "moduleId": "32320",
@@ -1861,7 +1861,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "saveChapter"
     },
-    "4047b611bde7377f1644649a67404fda810bed5105": {
+    "403463fae0ba6bc06074564b1e255e0ee5b6ef8573": {
       "workers": {
         "app/card/test/page": {
           "moduleId": "71715",
@@ -1883,7 +1883,7 @@
       "filename": "src/app/actions/word.ts",
       "exportedName": "searchExample"
     },
-    "400f7a4a0aaf0504fd96ad47bffb4bae02c98fec9c": {
+    "4000568b7153ac617eb6d6ea020efc43ca4a0bf1a4": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -1905,7 +1905,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "getMedia"
     },
-    "40e58549e8c3173ed3703f60bafa9278d7360d0922": {
+    "4099c0efd4f81c023bf60241d5039a09c4e44891e3": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": "82570",
@@ -1920,7 +1920,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "getMediaByInvalidSubtitle"
     },
-    "60320b02ef44590fa23f28bc287741f191ac6746d1": {
+    "60f682ecba33d1618a03c531466b883c6fc7aa2c49": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": "82570",
@@ -1935,7 +1935,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "getMediaByTag"
     },
-    "4078d3ef2466d07fdc04c9543316d4cd91e95046e4": {
+    "403ab9d23ffdf8be8f1c9303ed11c4d2ee1c10597f": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -1964,7 +1964,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "getTagAll"
     },
-    "40701c34057dab7b78c53abfbcb0cb2539acde1239": {
+    "4073c20870fcc0e454306916a3852a1aaa5923df56": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": "82570",
@@ -1979,7 +1979,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "saveSubtitle"
     },
-    "601dc7d5b7d512923da8e10e5b9d6c8773f493e283": {
+    "608a77b4e469d67bd4d1ffd40b41b488edfe5ccc71": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -1994,7 +1994,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "getMediaTag"
     },
-    "40c455868a4d3ee195ee096b4ba377e90188832483": {
+    "406c89ffba892b033f8e8ac6dfd59faab3b0a77ec1": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -2009,7 +2009,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "removeMedia"
     },
-    "4030a126de05c03a19f92dafbcab76846207cb8b92": {
+    "40879cd081c625be63dacdf87d356899870e3631f4": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -2024,7 +2024,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "saveMedia"
     },
-    "409a485f77f7d26c8aca3ed7eef62261efc9947c03": {
+    "407e88d5676c0bdbd294d053fbba39f3fb399d56a9": {
       "workers": {
         "app/listen/media/[uuid]/page": {
           "moduleId": "63096",
@@ -2039,7 +2039,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "saveMediaTag"
     },
-    "40687be8cced069fabfa034db171c9f8dc1f715db5": {
+    "4035891b884cfe8cdd3b4f3157dae93b9f3678c1ed": {
       "workers": {
         "app/listen/tag/page": {
           "moduleId": "2305",
@@ -2054,7 +2054,7 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "removeTag"
     },
-    "40ccd89a47c89438e0ba0359a66757575b0a07f52f": {
+    "40d930471628a5bbf23f312968b828304a5864ea0e": {
       "workers": {
         "app/listen/tag/page": {
           "moduleId": "2305",
@@ -2069,7 +2069,82 @@
       "filename": "src/app/actions/listen.ts",
       "exportedName": "saveTag"
     },
-    "0010e3b5d5995dc43f69bb1683e20fd4d87bda5833": {
+    "404d83794b98a67633f96e637915d93e42fbe6ebdb": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "getPlanAll",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "filename": "src/app/actions/plan.ts",
+      "exportedName": "getPlanAll"
+    },
+    "40d622d80b853fad179d720eb945d81c4bee986c78": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "removePlan",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "filename": "src/app/actions/plan.ts",
+      "exportedName": "removePlan"
+    },
+    "40101ac97dbd325c01c196f29037b5a53e18342925": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "savePlan",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "filename": "src/app/actions/plan.ts",
+      "exportedName": "savePlan"
+    },
+    "4089c502dc0e528f7fe7d9bc6bb2a7a6fcb8a7114e": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "getRecordAll",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "filename": "src/app/actions/plan.ts",
+      "exportedName": "getRecordAll"
+    },
+    "40a4c33b7f6f748d4fda756a911218b684ab7b030c": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "saveRecord",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "filename": "src/app/actions/plan.ts",
+      "exportedName": "saveRecord"
+    },
+    "003bc4ebf9a162cbf4f29bb51ab59da9233ad7104d": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "63843",
@@ -2084,7 +2159,7 @@
       "filename": "src/app/actions/ask.ts",
       "exportedName": "getQuestionAll"
     },
-    "40dced5211a6d088b75e43e289ecc30e84bc10b8d6": {
+    "40c84eddbdc42eb4a2e6b70ac47ee94f6b706a7002": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "63843",
@@ -2099,7 +2174,7 @@
       "filename": "src/app/actions/ask.ts",
       "exportedName": "removeQuestion"
     },
-    "40f4b49b85caebe6c7a1385d615844ebc83b115119": {
+    "409f4634c5bd34f12165e18824db1dca7233f687ed": {
       "workers": {
         "app/speak/ask/page": {
           "moduleId": "63843",
@@ -2114,7 +2189,7 @@
       "filename": "src/app/actions/ask.ts",
       "exportedName": "saveQuestion"
     },
-    "60e8ead8cf8fdf8e86ac8bff588d940f1725e6b1c9": {
+    "603ee8452c8c468c17e7534dd8d1ad5e5c5ae7a44f": {
       "workers": {
         "app/speak/ask/[uuid]/page": {
           "moduleId": "78543",
@@ -2150,7 +2225,7 @@
       "filename": "src/app/actions/audio.ts",
       "exportedName": "removeAudio"
     },
-    "70d98f9fc24952b55f2fba7f749c0d26dd5ac15d58": {
+    "70ab49f3725a5ff1dd3c29f31ed279d672714c3c35": {
       "workers": {
         "app/speak/ask/[uuid]/page": {
           "moduleId": "78543",
@@ -2186,142 +2261,7 @@
       "filename": "src/app/actions/audio.ts",
       "exportedName": "saveAudio"
     },
-    "40e5e6545f2c25c3538c4f3a6b1da676dd21a2fc33": {
-      "workers": {
-        "app/plan/page": {
-          "moduleId": "68300",
-          "async": false,
-          "exportedName": "getPlanAll",
-          "filename": "src/app/actions/plan.ts"
-        }
-      },
-      "layer": {
-        "app/plan/page": "action-browser"
-      },
-      "filename": "src/app/actions/plan.ts",
-      "exportedName": "getPlanAll"
-    },
-    "4000a0584acb4b0f8f5b4d1da8b28a8a57d2221524": {
-      "workers": {
-        "app/plan/page": {
-          "moduleId": "68300",
-          "async": false,
-          "exportedName": "removePlan",
-          "filename": "src/app/actions/plan.ts"
-        }
-      },
-      "layer": {
-        "app/plan/page": "action-browser"
-      },
-      "filename": "src/app/actions/plan.ts",
-      "exportedName": "removePlan"
-    },
-    "40acd5799ef6466a3bcd53f1e6081566e7cfec57d6": {
-      "workers": {
-        "app/plan/page": {
-          "moduleId": "68300",
-          "async": false,
-          "exportedName": "savePlan",
-          "filename": "src/app/actions/plan.ts"
-        }
-      },
-      "layer": {
-        "app/plan/page": "action-browser"
-      },
-      "filename": "src/app/actions/plan.ts",
-      "exportedName": "savePlan"
-    },
-    "402c37d32f41e19fc57693506852dd0e329eb60182": {
-      "workers": {
-        "app/plan/page": {
-          "moduleId": "68300",
-          "async": false,
-          "exportedName": "getRecordAll",
-          "filename": "src/app/actions/plan.ts"
-        }
-      },
-      "layer": {
-        "app/plan/page": "action-browser"
-      },
-      "filename": "src/app/actions/plan.ts",
-      "exportedName": "getRecordAll"
-    },
-    "40257ec4809adb5898ce57cde4b96cd34826df7634": {
-      "workers": {
-        "app/plan/page": {
-          "moduleId": "68300",
-          "async": false,
-          "exportedName": "saveRecord",
-          "filename": "src/app/actions/plan.ts"
-        }
-      },
-      "layer": {
-        "app/plan/page": "action-browser"
-      },
-      "filename": "src/app/actions/plan.ts",
-      "exportedName": "saveRecord"
-    },
-    "40f58924dda3112d5c45e50dd71023302564c70728": {
-      "workers": {
-        "app/speak/ask/[uuid]/page": {
-          "moduleId": "78543",
-          "async": false,
-          "exportedName": "getAnswerAll",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/[uuid]/page": "action-browser"
-      },
-      "filename": "src/app/actions/ask.ts",
-      "exportedName": "getAnswerAll"
-    },
-    "404116cad266f307090d10e70abd55dd76ce3b56bb": {
-      "workers": {
-        "app/speak/ask/[uuid]/page": {
-          "moduleId": "78543",
-          "async": false,
-          "exportedName": "getQuestion",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/[uuid]/page": "action-browser"
-      },
-      "filename": "src/app/actions/ask.ts",
-      "exportedName": "getQuestion"
-    },
-    "404822ded9619f5fa571824831bccecd6a60bb8b4f": {
-      "workers": {
-        "app/speak/ask/[uuid]/page": {
-          "moduleId": "78543",
-          "async": false,
-          "exportedName": "removeAnswer",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/[uuid]/page": "action-browser"
-      },
-      "filename": "src/app/actions/ask.ts",
-      "exportedName": "removeAnswer"
-    },
-    "408095eb5c6d30b79dfa13b77e3ce06d5ef8686c86": {
-      "workers": {
-        "app/speak/ask/[uuid]/page": {
-          "moduleId": "78543",
-          "async": false,
-          "exportedName": "saveAnswer",
-          "filename": "src/app/actions/ask.ts"
-        }
-      },
-      "layer": {
-        "app/speak/ask/[uuid]/page": "action-browser"
-      },
-      "filename": "src/app/actions/ask.ts",
-      "exportedName": "saveAnswer"
-    },
-    "00e3a545a05fed63c677f7dc6529bfce5503a72ae4": {
+    "007f316f55c7ceb7968c8ea7a4fe68a014e365b194": {
       "workers": {
         "app/speak/practice/page": {
           "moduleId": "9436",
@@ -2336,7 +2276,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "getTextAll"
     },
-    "40b4774155802c51a244493e373ac593df2297ed2a": {
+    "40fe8b40ba8b47d25d6a76868ac57a83712e2dbfe9": {
       "workers": {
         "app/speak/practice/page": {
           "moduleId": "9436",
@@ -2351,7 +2291,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "removeText"
     },
-    "40ea277438a29691ddc06c02402865fc21ac18e532": {
+    "403e64f3192034121d672ed7dab872e3a7fc7e92b1": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
           "moduleId": "28525",
@@ -2373,7 +2313,67 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "saveText"
     },
-    "402bff693e785bc9af910f7ddba2ed9cd85e5a640c": {
+    "4057c6660edc04d0dc560807df952f4bb7009dd37f": {
+      "workers": {
+        "app/speak/ask/[uuid]/page": {
+          "moduleId": "78543",
+          "async": false,
+          "exportedName": "getAnswerAll",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/[uuid]/page": "action-browser"
+      },
+      "filename": "src/app/actions/ask.ts",
+      "exportedName": "getAnswerAll"
+    },
+    "40ab934209253b2788615c67eab089b9f61e168378": {
+      "workers": {
+        "app/speak/ask/[uuid]/page": {
+          "moduleId": "78543",
+          "async": false,
+          "exportedName": "getQuestion",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/[uuid]/page": "action-browser"
+      },
+      "filename": "src/app/actions/ask.ts",
+      "exportedName": "getQuestion"
+    },
+    "405fbd7d82d32127dae9ce06c97b560211bd05fb82": {
+      "workers": {
+        "app/speak/ask/[uuid]/page": {
+          "moduleId": "78543",
+          "async": false,
+          "exportedName": "removeAnswer",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/[uuid]/page": "action-browser"
+      },
+      "filename": "src/app/actions/ask.ts",
+      "exportedName": "removeAnswer"
+    },
+    "406dafeed39fdcc6b63e0849d603c9597ebe98d983": {
+      "workers": {
+        "app/speak/ask/[uuid]/page": {
+          "moduleId": "78543",
+          "async": false,
+          "exportedName": "saveAnswer",
+          "filename": "src/app/actions/ask.ts"
+        }
+      },
+      "layer": {
+        "app/speak/ask/[uuid]/page": "action-browser"
+      },
+      "filename": "src/app/actions/ask.ts",
+      "exportedName": "saveAnswer"
+    },
+    "401b6cf23bdb845ecefa6c8e1d7e750cb53066314a": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
           "moduleId": "28525",
@@ -2388,7 +2388,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "getAudioDBAll"
     },
-    "4019bce1bf8fa13d43295a9161c80a843ea88642aa": {
+    "4026084e9075ea898ec9e499afa65d14693ba86951": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
           "moduleId": "28525",
@@ -2403,7 +2403,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "getText"
     },
-    "40c1aa951d63e794e62f2ceec9c9a93723dd7bff21": {
+    "404d85b8e84063be0f6229fe3f2a21a2c7b0f5dcce": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
           "moduleId": "28525",
@@ -2418,7 +2418,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "removeAudioDB"
     },
-    "40654003e9c7ae128d75b962fb751374da5287e8e8": {
+    "40483070fc08e8e20eff457c8cf4a1474261004b98": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
           "moduleId": "28525",
@@ -2433,7 +2433,7 @@
       "filename": "src/app/actions/practice.ts",
       "exportedName": "saveAudioDB"
     },
-    "400054750f95ccb2a444708a5de38c3b8573bed28a": {
+    "400d90918d09f996451956e41c1c1c7c605b5b0b66": {
       "workers": {
         "app/speak/read/page": {
           "moduleId": "82167",
@@ -2448,7 +2448,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "getSentenceAll"
     },
-    "40672387c6e1373326de1a4affbfee411b94d7902c": {
+    "409f969baf67c4011ea97d9dc5880c08724da8b3f9": {
       "workers": {
         "app/speak/read/page": {
           "moduleId": "82167",
@@ -2463,7 +2463,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "removeSentence"
     },
-    "40bf9d2d831aeb04f00c6c57b2fb60202ae9055ed8": {
+    "405d667c4c8001d6d864025025196a1894ca813c8b": {
       "workers": {
         "app/speak/read/page": {
           "moduleId": "82167",
@@ -2478,7 +2478,7 @@
       "filename": "src/app/actions/reading.ts",
       "exportedName": "saveSentence"
     },
-    "60a46808ad5b7b6f627bd3c1f1272a2b878f905ebd": {
+    "608db6c92c5c3f658b822a74cd4d5ebee013728bfa": {
       "workers": {
         "app/speak/torsten_voice/page": {
           "moduleId": "20699",
@@ -2493,7 +2493,7 @@
       "filename": "src/app/actions/torsten.ts",
       "exportedName": "getTorstenVoice"
     },
-    "00270c68415efeba4e81b88b5a872d45ee6f6fbfdb": {
+    "0089fd3e2844e23398caf2604a84a1e9abd66036b0": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": "57030",
@@ -2515,7 +2515,7 @@
       "filename": "src/app/actions/voice_access.ts",
       "exportedName": "getActionAll"
     },
-    "0089632d1ee67421f465a2edfae907fdac9c22492b": {
+    "00626ad20d3001857aaf934a7ff13c9bdd6eaf6ef2": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": "57030",
@@ -2537,7 +2537,7 @@
       "filename": "src/app/actions/voice_access.ts",
       "exportedName": "getCommandAll"
     },
-    "4088a47eaf0852c74edadc20739ddfd8c9f21abbfa": {
+    "40a9b07b4afbfd6281f82f50c78e542a889b5b6152": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": "57030",
@@ -2552,7 +2552,7 @@
       "filename": "src/app/actions/voice_access.ts",
       "exportedName": "getCommandByAction"
     },
-    "406aca1325dd6cf31691735677ad035fa2a6df43df": {
+    "401a96c836176f224719ce786475ced3de14c07921": {
       "workers": {
         "app/word/sentence/page": {
           "moduleId": "457",
@@ -2567,7 +2567,7 @@
       "filename": "src/app/actions/word.ts",
       "exportedName": "getExample"
     },
-    "7c738d3cf67a14de7eedaa648eb07a1c995c25ae85": {
+    "7cd26d8842589195de2f4da80ac3da7d8c79f30c50": {
       "workers": {
         "app/word/top/page": {
           "moduleId": "93409",
@@ -2582,7 +2582,7 @@
       "filename": "src/app/actions/word.ts",
       "exportedName": "getTopword"
     },
-    "7c5ba6499b941485032e03873b6f283a9e5e10859b": {
+    "7c2e8c1a5fc388c0739fe074f2c9828799e48381d7": {
       "workers": {
         "app/word/top/page": {
           "moduleId": "93409",
@@ -2597,7 +2597,7 @@
       "filename": "src/app/actions/word.ts",
       "exportedName": "searchTopword"
     },
-    "603470809d8970e4ba2530fa75cc433898ee00a40f": {
+    "607262515bdab1ef98448b4b582bf1583ca3cfdb03": {
       "workers": {
         "app/word/top/page": {
           "moduleId": "93409",
@@ -2614,5 +2614,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "a6eDwT8hXZB4GaqLa5B5w7T9TJpjiehJaaG3gmRPEDY="
+  "encryptionKey": "1eFiuqi+L6RTMGhRn2YUOdjrbnf8ebMp/M+4zzwfZMk="
 }
