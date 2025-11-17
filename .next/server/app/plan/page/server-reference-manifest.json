@@ -1,6 +1,6 @@
 {
   "node": {
-    "00c2e172093be2a8b1a88c3da615e21695a2744a73": {
+    "003ac5aaed8796ee2d3e7adf81f1c2cf9aff8a2e72": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -15,7 +15,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40b079689baceebe26938f2b36b865b7c3bb53b094": {
+    "409406d60e37242f4e4ee7e01ba960148d06c11d90": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "40068deaebe16edd6b49820fdcb4cf72e9d1624d4e": {
+    "407c37a72be52cf8922f9f1c4b8df54717100c535d": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "6024e3332c2204e57ccaae835bf41dca3b78640a45": {
+    "60baf79992007e46e4ba1f6fdd67910e817ab20771": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -60,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "008c0497ae3bd071b8044bf35f03e8f90751633366": {
+    "000cc7baf5313458186cf4cf21911779ec4a490005": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -75,7 +75,7 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "4008e9dc3c6e0c77818f48af4df6731163e67764d1": {
+    "405d8feec85116c988b796a095d3aa68a866bf14d3": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -90,7 +90,7 @@
       "exportedName": "getPlanAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "403f643a0203432b5d43d76d76b4784119e9fc74e6": {
+    "40035665869f208c77c183f1e24e5d4c33cc6a83d5": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -105,7 +105,7 @@
       "exportedName": "removePlan",
       "filename": "src/app/actions/plan.ts"
     },
-    "40331bfe5e9aeed2e1887cfa9f713a5c3a14ec1307": {
+    "4003835c2bd52769f977b5682c4fb727b49f0daa14": {
       "workers": {
         "app/plan/page": {
           "moduleId": "68300",
@@ -118,6 +118,36 @@
         "app/plan/page": "action-browser"
       },
       "exportedName": "savePlan",
+      "filename": "src/app/actions/plan.ts"
+    },
+    "40b21e22fef33035386ed8a8e6d27ce7ffa5abe749": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "getRecordAll",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "exportedName": "getRecordAll",
+      "filename": "src/app/actions/plan.ts"
+    },
+    "4051909e2c53e18edd0db547eaa450a24f587bd6a8": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": "68300",
+          "async": false,
+          "exportedName": "saveRecord",
+          "filename": "src/app/actions/plan.ts"
+        }
+      },
+      "layer": {
+        "app/plan/page": "action-browser"
+      },
+      "exportedName": "saveRecord",
       "filename": "src/app/actions/plan.ts"
     }
   },
