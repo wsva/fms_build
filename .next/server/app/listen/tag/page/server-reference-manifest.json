@@ -1,0 +1,125 @@
+{
+  "node": {
+    "00c2e172093be2a8b1a88c3da615e21695a2744a73": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "initCmdMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "initCmdMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "40b079689baceebe26938f2b36b865b7c3bb53b094": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40068deaebe16edd6b49820fdcb4cf72e9d1624d4e": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6024e3332c2204e57ccaae835bf41dca3b78640a45": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "008c0497ae3bd071b8044bf35f03e8f90751633366": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "initCmdHelpMap",
+          "filename": "src/app/actions/voice_access.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "initCmdHelpMap",
+      "filename": "src/app/actions/voice_access.ts"
+    },
+    "404097d6dcb1d8fb50a80511da6b721ab73231b61d": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "getTagAll",
+          "filename": "src/app/actions/listen.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "getTagAll",
+      "filename": "src/app/actions/listen.ts"
+    },
+    "4085f2fa35b193ecaaeed28d3bb17174a39ab4a7dc": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "removeTag",
+          "filename": "src/app/actions/listen.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "removeTag",
+      "filename": "src/app/actions/listen.ts"
+    },
+    "4029aa3bd2d5e030076920b5667a1dad5a0917f387": {
+      "workers": {
+        "app/listen/tag/page": {
+          "moduleId": "2305",
+          "async": false,
+          "exportedName": "saveTag",
+          "filename": "src/app/actions/listen.ts"
+        }
+      },
+      "layer": {
+        "app/listen/tag/page": "action-browser"
+      },
+      "exportedName": "saveTag",
+      "filename": "src/app/actions/listen.ts"
+    }
+  },
+  "edge": {}
+}

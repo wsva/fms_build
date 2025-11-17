@@ -36,6 +36,14 @@
       "namedRegex": "^/api/data/(?<nxtPfilename>.+?)(?:/)?$"
     },
     {
+      "page": "/api/listen/subtitle/[uuid]",
+      "regex": "^/api/listen/subtitle/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/listen/subtitle/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/blog/[uuid]",
       "regex": "^/blog/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -50,6 +58,14 @@
         "nxtPuuid": "nxtPuuid"
       },
       "namedRegex": "^/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/listen/media/[uuid]",
+      "regex": "^/listen/media/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/listen/media/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
       "page": "/speak/ask/[uuid]",
@@ -140,6 +156,18 @@
       "regex": "^/listen/dictation(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/listen/dictation(?:/)?$"
+    },
+    {
+      "page": "/listen/media",
+      "regex": "^/listen/media(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/listen/media(?:/)?$"
+    },
+    {
+      "page": "/listen/tag",
+      "regex": "^/listen/tag(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/listen/tag(?:/)?$"
     },
     {
       "page": "/plan",
