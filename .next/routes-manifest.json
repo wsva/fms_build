@@ -60,14 +60,6 @@
       "namedRegex": "^/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/listen/media/[uuid]",
-      "regex": "^/listen/media/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/listen/media/(?<nxtPuuid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/speak/ask/[uuid]",
       "regex": "^/speak/ask/([^/]+?)(?:/)?$",
       "routeKeys": {
