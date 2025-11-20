@@ -5,6 +5,6 @@ R.c("server/chunks/[root-of-the-server]__46d5de13._.js")
 R.c("server/chunks/node_modules_next_dist_8f33648e._.js")
 R.c("server/chunks/node_modules_next_dist_esm_server_lib_patch-fetch_a55d7fe2.js")
 R.c("server/chunks/node_modules_next_75d3a88e._.js")
-R.m(15934)
-R.m(73932)
-module.exports=R.m(73932).exports
+R.m(415934)
+R.m(273932)
+module.exports=R.m(273932).exports
