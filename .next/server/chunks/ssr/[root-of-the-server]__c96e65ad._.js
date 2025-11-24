@@ -67,6 +67,6 @@ ${a.html().join("\n")}
 <h${h+1} id="sec-${i.toString()}">
   <span class="section-number-${h+1}">${i.toString()}</span>
   ${g}
-</h${h+1}>`)}else d+=a+"\n"}return""!==d&&c.push(ao.parse(d)),c=c.map(a=>a.replace(/<thead\b[^>]*>[\s\S]*?<\/thead>/gi,a=>{let b=a.match(/<th\b[^>]*>[\s\S]*?<\/th>/gi);if(!b||0===b.length)return"";let c=a=>a.replace(/&nbsp;/gi," ");for(let d of b)if(""!==c(d.replace(/<[^>]+>/g,"")).trim())return a;return""})),{toc:b.html(),body:c.join("\n")}}(f);i(a.toc),k(a.body)},[f]),(0,b.jsxs)("div",{className:"md-container text-xl bg-sand-300 rounded-md p-2",children:[(0,b.jsx)("aside",{className:"md-toc",dangerouslySetInnerHTML:{__html:d.default.sanitize(h)}}),(0,b.jsx)("article",{className:"md-body",dangerouslySetInnerHTML:{__html:d.default.sanitize(j)}})]})}}];
+</h${h+1}>`)}else d+=a+"\n"}return""!==d&&c.push(ao.parse(d)),c=c.map(a=>a.replace(/<thead\b[^>]*>[\s\S]*?<\/thead>/gi,a=>{let b=a.match(/<th\b[^>]*>[\s\S]*?<\/th>/gi);if(!b||0===b.length)return"";let c=a=>a.replace(/&nbsp;/gi," ");for(let d of b)if(""!==c(d.replace(/<[^>]+>/g,"")).trim())return a;return""})),{toc:b.html(),body:c.join("\n")}}(f);i(a.toc),k(a.body)},[f]),(0,b.jsxs)("div",{className:"md-container text-xl bg-sand-300 rounded-md p-2",children:[(0,b.jsx)("aside",{className:"md-toc",dangerouslySetInnerHTML:{__html:d.default.sanitize(h)}}),(0,b.jsx)("article",{className:"md-body",dangerouslySetInnerHTML:{__html:d.default.sanitize(j)}})]})}ao.use({pedantic:!1,breaks:!0,gfm:!0})}];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__c96e65ad._.js.map
