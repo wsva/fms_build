@@ -8,6 +8,7 @@
       "source": "/:path+/",
       "destination": "/:path+",
       "internal": true,
+      "priority": true,
       "statusCode": 308,
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
     }
@@ -20,12 +21,12 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/api/auth/[...nextauth]",
+      "page": "/api/auth/[...all]",
       "regex": "^/api/auth/(.+?)(?:/)?$",
       "routeKeys": {
-        "nxtPnextauth": "nxtPnextauth"
+        "nxtPall": "nxtPall"
       },
-      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+      "namedRegex": "^/api/auth/(?<nxtPall>.+?)(?:/)?$"
     },
     {
       "page": "/api/data/[...filename]",
@@ -82,6 +83,12 @@
       "regex": "^/(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
     },
     {
       "page": "/_not-found",
@@ -233,7 +240,9 @@
     "prefetchSuffix": ".prefetch.rsc",
     "prefetchSegmentHeader": "next-router-segment-prefetch",
     "prefetchSegmentSuffix": ".segment.rsc",
-    "prefetchSegmentDirSuffix": ".segments"
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
   },
   "rewriteHeaders": {
     "pathHeader": "x-nextjs-rewritten-path",
