@@ -1,6 +1,6 @@
 {
   "node": {
-    "00ca0a06b07190044b51c3dd31c6263a03de2f2a0c": {
+    "007ae9ea31be088c70041c663d1656ee451afe40b8": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": 57030,
@@ -10,12 +10,12 @@
         }
       },
       "layer": {
-        "app/voice_access/map/page": "rsc"
+        "app/voice_access/map/page": "action-browser"
       },
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "40a1811b4adf90da477251094d2a28a5e7f82db752": {
+    "40a7b81409fc516e1af214cf152cfa393c14178617": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": 57030,
@@ -30,7 +30,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "40dc38a8f30f3aec2348c0fb1acd546f993ae42cea": {
+    "4081edae522a99e6f648b3a5fea107182775942c1f": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": 57030,
@@ -45,7 +45,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60509af8ba843a0c88ffd79362b0a2426254227533": {
+    "6015ec9d6a0794a74cd11935756ced17624f3a6b46": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": 57030,
@@ -60,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "001ef3e5feb7c5c7eeef79a166d9b973e6a44ba532": {
+    "002b1efc64df726b3c6e27c12858723156910bdb3c": {
       "workers": {
         "app/voice_access/map/page": {
           "moduleId": 57030,
@@ -70,54 +70,9 @@
         }
       },
       "layer": {
-        "app/voice_access/map/page": "rsc"
+        "app/voice_access/map/page": "action-browser"
       },
       "exportedName": "initCmdHelpMap",
-      "filename": "src/app/actions/voice_access.ts"
-    },
-    "006bd11c7c76b65a318a7d18cb36eecb61c0b57eb1": {
-      "workers": {
-        "app/voice_access/map/page": {
-          "moduleId": 57030,
-          "async": true,
-          "exportedName": "getCommandAll",
-          "filename": "src/app/actions/voice_access.ts"
-        }
-      },
-      "layer": {
-        "app/voice_access/map/page": "rsc"
-      },
-      "exportedName": "getCommandAll",
-      "filename": "src/app/actions/voice_access.ts"
-    },
-    "00e64882e72414e8584e925be0de4467ea60313b55": {
-      "workers": {
-        "app/voice_access/map/page": {
-          "moduleId": 57030,
-          "async": true,
-          "exportedName": "getActionAll",
-          "filename": "src/app/actions/voice_access.ts"
-        }
-      },
-      "layer": {
-        "app/voice_access/map/page": "rsc"
-      },
-      "exportedName": "getActionAll",
-      "filename": "src/app/actions/voice_access.ts"
-    },
-    "40886d93bc26838fa3d523d90eb78e05fbfd5c06be": {
-      "workers": {
-        "app/voice_access/map/page": {
-          "moduleId": 57030,
-          "async": true,
-          "exportedName": "getCommandByAction",
-          "filename": "src/app/actions/voice_access.ts"
-        }
-      },
-      "layer": {
-        "app/voice_access/map/page": "rsc"
-      },
-      "exportedName": "getCommandByAction",
       "filename": "src/app/actions/voice_access.ts"
     }
   },
