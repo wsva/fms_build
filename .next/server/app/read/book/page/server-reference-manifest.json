@@ -1,6 +1,6 @@
 {
   "node": {
-    "00d4bb6fb0c13eb28588805bd06f3658c16cecd041": {
+    "004369ceb292b9adcb88a68131d37f41d5752f2767": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -12,7 +12,7 @@
       "exportedName": "initCmdMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "403ccb39de43517040775953a9f3777e89114bcb6c": {
+    "40f512870df80d354b338ddc3b9cff27d3f0edd2cc": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -24,7 +24,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "40818a38b61e919c46a867c010d0df17c0e8bee60d": {
+    "4029832cb1bffc6069a82844c85f2e3689e0bdd735": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -36,7 +36,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60b490115d1438177031e2fe73d3a6395779a05513": {
+    "60d8f882202284fbc7871311c61492723b832444ae": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -48,7 +48,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "00182e643e9bbcae82198c05a83257a3a2049c9dd3": {
+    "0084601d441d17f360865ee646b039e0dcbc66d6f5": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -60,7 +60,7 @@
       "exportedName": "initCmdHelpMap",
       "filename": "src/app/actions/voice_access.ts"
     },
-    "407b2c491335fa70d5ad96bef007bf2808cff3ce8e": {
+    "40f9e8c5aaa331e209061488603d47812d0bc9f14b": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -72,7 +72,7 @@
       "exportedName": "getBookMetaAll",
       "filename": "src/app/actions/book.ts"
     },
-    "407cc9930cf53796ba61113d8b7ca7fc36f608ef9f": {
+    "407ebd91e658cf675451f53f40c7822cda21bb29a2": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -84,7 +84,7 @@
       "exportedName": "saveBookMeta",
       "filename": "src/app/actions/book.ts"
     },
-    "405a0df9531624146ea8c4d61dfc3422597a1f7a0a": {
+    "4037efd9b9e37283d0b4e0310e2b33ce7dec1804a6": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
@@ -96,7 +96,43 @@
       "exportedName": "removeBookMeta",
       "filename": "src/app/actions/book.ts"
     },
-    "4022b0172f3d125e17deafbf7d586fcce92981fdda": {
+    "40b94e898f0368a25e0d50a26389818c5bf50891f5": {
+      "workers": {
+        "app/read/book/page": {
+          "moduleId": 93249,
+          "async": true,
+          "exportedName": "getBookChapterAll",
+          "filename": "src/app/actions/book.ts"
+        }
+      },
+      "exportedName": "getBookChapterAll",
+      "filename": "src/app/actions/book.ts"
+    },
+    "402b07847b0a5b55b91e96a2ac98812963774efa2e": {
+      "workers": {
+        "app/read/book/page": {
+          "moduleId": 93249,
+          "async": true,
+          "exportedName": "saveBookChapter",
+          "filename": "src/app/actions/book.ts"
+        }
+      },
+      "exportedName": "saveBookChapter",
+      "filename": "src/app/actions/book.ts"
+    },
+    "408325f9ca5a00ae92be8ca1ea4f78776f0370c4e7": {
+      "workers": {
+        "app/read/book/page": {
+          "moduleId": 93249,
+          "async": true,
+          "exportedName": "removeBookChapter",
+          "filename": "src/app/actions/book.ts"
+        }
+      },
+      "exportedName": "removeBookChapter",
+      "filename": "src/app/actions/book.ts"
+    },
+    "402485242e8db9cbc5a76e897f6cae4a55a2cb2847": {
       "workers": {
         "app/read/book/page": {
           "moduleId": 93249,
