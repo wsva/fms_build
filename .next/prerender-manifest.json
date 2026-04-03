@@ -16,7 +16,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/_global-error",
       "dataRoute": "/_global-error.rsc",
-      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -42,7 +41,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/_not-found",
       "dataRoute": "/_not-found.rsc",
-      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -72,7 +70,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/favicon.ico",
       "dataRoute": null,
-      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -97,32 +94,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/listen/dictation",
       "dataRoute": "/listen/dictation.rsc",
-      "prefetchDataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/speak/torsten_voice": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/speak/torsten_voice",
-      "dataRoute": "/speak/torsten_voice.rsc",
-      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -147,32 +118,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/unauthorized",
       "dataRoute": "/unauthorized.rsc",
-      "prefetchDataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/voice_access/map": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/voice_access/map",
-      "dataRoute": "/voice_access/map.rsc",
-      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -197,7 +142,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/voice_access",
       "dataRoute": "/voice_access.rsc",
-      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/voice_access/map": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/voice_access/map",
+      "dataRoute": "/voice_access/map.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -211,8 +179,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7aa5645f45e2e6e8052f078fb038e710",
-    "previewModeSigningKey": "a2c5dfeed0b22a8f6e717e2c964da46b0c038be48656a6f323b97afa20c576e9",
-    "previewModeEncryptionKey": "70e2c2aab1052ca7256e0d4f929fc3ee7322081b1903e9b87b8c821d6c30b3ac"
+    "previewModeId": "a7fc16ca15b0b98a8bac260a0a5a26a7",
+    "previewModeSigningKey": "bc1afe9172e5b89c289d180f756b51bed640d1270c44fe209a319f72df16d707",
+    "previewModeEncryptionKey": "f6bf1e4d9ee4e6487638316cd09c16b1193951ed6d4f5b0e6de4e0131f068d58"
   }
 }
