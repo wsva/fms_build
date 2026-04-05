@@ -174,61 +174,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/voice_access": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/voice_access",
-      "dataRoute": "/voice_access.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/voice_access/map": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/voice_access/map",
-      "dataRoute": "/voice_access/map.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "56160a8218d17204b6b8d8b1a77589cf",
-    "previewModeSigningKey": "f1a980a5e572da0f362b883051d3b3260d96010d6e867efe75606aa08d004915",
-    "previewModeEncryptionKey": "59e9495557cbef9cd56c3e7d36d1f36ed5e66ebeb4b5c0ebc4f83b3e15d4fb9e"
+    "previewModeId": "436e5a82ff2fe56d11a792520c0cb1bb",
+    "previewModeSigningKey": "d7c362b9a86cd9b99c15b66853c2311e60c87101ab401c1b223130ceb4c83272",
+    "previewModeEncryptionKey": "405ff1aa083ec52fa7febafbe584809c061d24a811d2e67c49f23c81696c37c3"
   }
 }

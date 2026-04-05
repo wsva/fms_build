@@ -1,69 +1,9 @@
 {
   "node": {
-    "00fc9b4e7ec4119212185b63081456bfaafe87d6e6": {
+    "003a7f1f31eac70b4e9bec1787e854e3144f3e0955": {
       "workers": {
         "app/speak/ask/page": {
-          "moduleId": 963843,
-          "async": true,
-          "exportedName": "initCmdMap",
-          "filename": "src/app/actions/voice_access.ts"
-        }
-      },
-      "exportedName": "initCmdMap",
-      "filename": "src/app/actions/voice_access.ts"
-    },
-    "4032f7bf3c5326bf4065e14e40ebe770b8da3955bb": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": 963843,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_local_redis.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_local_redis.ts"
-    },
-    "40369b774e9f5ebd829afe4edf8e377a8b360ecf51": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": 963843,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "60bb356fe813c91d0d4e0452945b8f5735cf242c53": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": 963843,
-          "async": true,
-          "exportedName": "callTTS",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callTTS",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "00733785c9522dd42c2ad9a1db291a13af43e59a02": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": 963843,
-          "async": true,
-          "exportedName": "initCmdHelpMap",
-          "filename": "src/app/actions/voice_access.ts"
-        }
-      },
-      "exportedName": "initCmdHelpMap",
-      "filename": "src/app/actions/voice_access.ts"
-    },
-    "00a88a14b3a2d391701659635d7275aa65517f9a72": {
-      "workers": {
-        "app/speak/ask/page": {
-          "moduleId": 963843,
+          "moduleId": 596562,
           "async": true,
           "exportedName": "getQuestionAll",
           "filename": "src/app/actions/ask.ts"
@@ -72,10 +12,10 @@
       "exportedName": "getQuestionAll",
       "filename": "src/app/actions/ask.ts"
     },
-    "40c4b16c7fc81da63b938358140e7296aed44a5bc2": {
+    "40548ff0c07cbb2a9dc382f05754875ef2324ccfed": {
       "workers": {
         "app/speak/ask/page": {
-          "moduleId": 963843,
+          "moduleId": 596562,
           "async": true,
           "exportedName": "removeQuestion",
           "filename": "src/app/actions/ask.ts"
@@ -84,10 +24,10 @@
       "exportedName": "removeQuestion",
       "filename": "src/app/actions/ask.ts"
     },
-    "406ab5ce2795269a9585aff35b54cee4720317d56d": {
+    "40b2dc3d29f2017dce1e410fd5f32ff65cd59fc488": {
       "workers": {
         "app/speak/ask/page": {
-          "moduleId": 963843,
+          "moduleId": 596562,
           "async": true,
           "exportedName": "saveQuestion",
           "filename": "src/app/actions/ask.ts"
@@ -96,10 +36,46 @@
       "exportedName": "saveQuestion",
       "filename": "src/app/actions/ask.ts"
     },
-    "606c9e709597aa782a45665612531b7d89648c14ab": {
+    "407855814fcccfa0e31d802393973d06c8e21b49ed": {
       "workers": {
         "app/speak/ask/page": {
-          "moduleId": 963843,
+          "moduleId": 596562,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "403f5ed40c4a61d6e8ea8adef739ac3c56b41a3646": {
+      "workers": {
+        "app/speak/ask/page": {
+          "moduleId": 596562,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6063d953742fd79707a3c2da844f82b50ff97a21a4": {
+      "workers": {
+        "app/speak/ask/page": {
+          "moduleId": 596562,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "60aeeed0ba62849ddd1073cf1c2ecd94c65aae07c8": {
+      "workers": {
+        "app/speak/ask/page": {
+          "moduleId": 596562,
           "async": true,
           "exportedName": "removeAudio",
           "filename": "src/app/actions/audio.ts"
@@ -108,10 +84,10 @@
       "exportedName": "removeAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "70d5bbbaafd5570ce30e9801264d07f4189a2f47e6": {
+    "7060b6c67bc5e21a12ea96054b94f3bc4a5421227d": {
       "workers": {
         "app/speak/ask/page": {
-          "moduleId": 963843,
+          "moduleId": 596562,
           "async": true,
           "exportedName": "saveAudio",
           "filename": "src/app/actions/audio.ts"
