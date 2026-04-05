@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/blog/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0dad40t._.js")
-R.c("server/chunks/ssr/node_modules_0sy8gnb._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0qrvxez._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_0jk5ehi._.js")
 R.c("server/chunks/ssr/node_modules_@better-auth_core_dist_0sniafy._.js")
 R.c("server/chunks/ssr/node_modules_better-auth_dist_dialect-BHuPIP4Z_mjs_0ol0ktn._.js")
 R.c("server/chunks/ssr/node_modules_kysely_dist_esm_0xfla4o._.js")

@@ -55,6 +55,14 @@
       "namedRegex": "^/api/book/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/api/book/[uuid]/markdown",
+      "regex": "^/api/book/([^/]+?)/markdown(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/book/(?<nxtPuuid>[^/]+?)/markdown(?:/)?$"
+    },
+    {
       "page": "/api/data/[...filename]",
       "regex": "^/api/data/(.+?)(?:/)?$",
       "routeKeys": {
@@ -121,6 +129,12 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/apikey",
+      "regex": "^/api/apikey(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/apikey(?:/)?$"
     },
     {
       "page": "/api/book",
@@ -219,22 +233,22 @@
       "namedRegex": "^/plan(?:/)?$"
     },
     {
-      "page": "/read",
-      "regex": "^/read(?:/)?$",
+      "page": "/settings",
+      "regex": "^/settings(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/read(?:/)?$"
+      "namedRegex": "^/settings(?:/)?$"
     },
     {
-      "page": "/read/book",
-      "regex": "^/read/book(?:/)?$",
+      "page": "/settings/api",
+      "regex": "^/settings/api(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/read/book(?:/)?$"
+      "namedRegex": "^/settings/api(?:/)?$"
     },
     {
-      "page": "/read/text",
-      "regex": "^/read/text(?:/)?$",
+      "page": "/settings/api-key",
+      "regex": "^/settings/api\\-key(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/read/text(?:/)?$"
+      "namedRegex": "^/settings/api\\-key(?:/)?$"
     },
     {
       "page": "/speak/ask",
@@ -247,6 +261,24 @@
       "regex": "^/speak/practice(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/speak/practice(?:/)?$"
+    },
+    {
+      "page": "/speak/read",
+      "regex": "^/speak/read(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/speak/read(?:/)?$"
+    },
+    {
+      "page": "/speak/read/book",
+      "regex": "^/speak/read/book(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/speak/read/book(?:/)?$"
+    },
+    {
+      "page": "/speak/read/text",
+      "regex": "^/speak/read/text(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/speak/read/text(?:/)?$"
     },
     {
       "page": "/unauthorized",
