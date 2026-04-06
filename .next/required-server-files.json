@@ -224,6 +224,9 @@
       "turbopackFileSystemCacheForBuild": false,
       "turbopackInferModuleSideEffects": true,
       "turbopackPluginRuntimeStrategy": "childProcesses",
+      "serverActions": {
+        "bodySizeLimit": "50mb"
+      },
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",
