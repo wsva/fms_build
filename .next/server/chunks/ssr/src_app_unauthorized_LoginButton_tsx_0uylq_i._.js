@@ -1,0 +1,3 @@
+module.exports=[865428,a=>{"use strict";var b=a.i(187924),c=a.i(50944),d=a.i(332496),e=a.i(529139);a.s(["default",0,function(){let a=(0,c.useSearchParams)().get("redirect_url")??"/";return(0,b.jsx)(d.Button,{variant:"bordered",onPress:()=>e.authClient.signIn.social({provider:"wsva_oauth2",callbackURL:a}),children:"Login"})}])}];
+
+//# sourceMappingURL=src_app_unauthorized_LoginButton_tsx_0uylq_i._.js.map
