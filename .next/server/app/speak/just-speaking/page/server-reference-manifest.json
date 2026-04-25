@@ -1,0 +1,101 @@
+{
+  "node": {
+    "409a8e92e2b929ea2f23e830ec1bbfb06848fb35c1": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "40ab4d511d51528e4984c452759a3a0f3b775c906a": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "60993c1da68372def2b295cf58eecc5f912c0797d4": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "70833aa4e04f74368e469ec62380af7ca272810e85": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "saveAudio",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "exportedName": "saveAudio",
+      "filename": "src/app/actions/audio.ts"
+    },
+    "6056316ed66dda3b080dd7ebb4b0a568f19d8ff240": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "removeAudio",
+          "filename": "src/app/actions/audio.ts"
+        }
+      },
+      "exportedName": "removeAudio",
+      "filename": "src/app/actions/audio.ts"
+    },
+    "40202e2988a67abe4dfc0706c092b1876dd406c554": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "getJustSpeakingAll",
+          "filename": "src/app/actions/just_speaking.ts"
+        }
+      },
+      "exportedName": "getJustSpeakingAll",
+      "filename": "src/app/actions/just_speaking.ts"
+    },
+    "4098d1989707e8b98440e59c2c59152fd94ca421bf": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "saveJustSpeaking",
+          "filename": "src/app/actions/just_speaking.ts"
+        }
+      },
+      "exportedName": "saveJustSpeaking",
+      "filename": "src/app/actions/just_speaking.ts"
+    },
+    "40b4f614103a75c31b747ab4adbaaf6bdbed63112c": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 147146,
+          "async": true,
+          "exportedName": "removeJustSpeaking",
+          "filename": "src/app/actions/just_speaking.ts"
+        }
+      },
+      "exportedName": "removeJustSpeaking",
+      "filename": "src/app/actions/just_speaking.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,6 +1,6 @@
 {
   "node": {
-    "4056676a3091ff25173adcab1cc9a979586d831e05": {
+    "4073db3af53a42020cd52341af84a0270797d1e570": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 130974,
@@ -12,19 +12,7 @@
       "exportedName": "saveBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "4098368a809ab80a7fd91464040654c334a6897876": {
-      "workers": {
-        "app/blog/[uuid]/page": {
-          "moduleId": 130974,
-          "async": true,
-          "exportedName": "getBlogAll",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "exportedName": "getBlogAll",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "40ae98d93a590cf2953706f0997ed55f3ee0bcfd4d": {
+    "402fbd0a48cd4687e3579b63198a951b50b8084e78": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 130974,
@@ -36,7 +24,19 @@
       "exportedName": "getBlogAllOfOthers",
       "filename": "src/app/actions/blog.ts"
     },
-    "40b3cd14dc682c366aca97e9379aab869cbb8753c0": {
+    "403fec64f7142a5b124fc2724b8cc923c43b5863a4": {
+      "workers": {
+        "app/blog/[uuid]/page": {
+          "moduleId": 130974,
+          "async": true,
+          "exportedName": "getBlog",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "exportedName": "getBlog",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "4076a3662dc77202b5306700ee809cf9da82aa56de": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 130974,
@@ -48,16 +48,16 @@
       "exportedName": "getBlogAllOfAnother",
       "filename": "src/app/actions/blog.ts"
     },
-    "40c98f43e700d674532ecca76fee1a196ba59426d7": {
+    "409fb1966b6bd0a097288caade836f607f1b73bf34": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 130974,
           "async": true,
-          "exportedName": "getBlog",
+          "exportedName": "getBlogAll",
           "filename": "src/app/actions/blog.ts"
         }
       },
-      "exportedName": "getBlog",
+      "exportedName": "getBlogAll",
       "filename": "src/app/actions/blog.ts"
     }
   },
