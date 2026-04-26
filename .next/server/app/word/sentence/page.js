@@ -1,9 +1,8 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/word/sentence/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0qzppth._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_0jk5ehi._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_12zj9~j.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0zyboqw._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_0t9q526._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0-yfqei._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0ayhm3b.js")
+R.c("server/chunks/ssr/[root-of-the-server]__02oxkkp._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_0l.0_h~._.js")
 R.c("server/chunks/ssr/src_0qrg0jb._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_0inhx6q._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0ghu-f7.js")
@@ -12,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-e
 R.c("server/chunks/ssr/[root-of-the-server]__0cgfdab._.js")
 R.c("server/chunks/ssr/_0bvl6qx._.js")
 R.c("server/chunks/ssr/_0wve-ll._.js")
-R.m(194871)
-module.exports=R.m(194871).exports
+R.m(220953)
+module.exports=R.m(220953).exports

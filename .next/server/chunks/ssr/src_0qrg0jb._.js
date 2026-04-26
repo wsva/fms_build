@@ -7,6 +7,6 @@ module.exports=[485852,a=>{"use strict";a.s(["default",()=>b]);let b=(0,a.i(2118
   var r=document.documentElement;
   Object.keys(t.scale).forEach(function(n){r.style.setProperty('--color-sand-'+n,t.scale[n])});
   if(t.dark)r.classList.add('dark');
-}catch(e){}})()`;async function g({children:a}){return(0,b.jsxs)("html",{lang:"en",suppressHydrationWarning:!0,children:[(0,b.jsx)("head",{children:(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:f}})}),(0,b.jsx)("body",{className:"min-h-svh font-roboto bg-sand-200 pb-20",children:(0,b.jsxs)(c.default,{children:[(0,b.jsx)(d.default,{}),(0,b.jsx)("main",{className:"container mx-auto",children:a})]})})]})}a.s(["default",0,g,"metadata",0,{title:"FmS",description:"Fremdsprachen machen Spaß!"}],827572)},650645,a=>{a.n(a.i(827572))}];
+}catch(e){}})()`;async function g({children:a}){return(0,b.jsxs)("html",{lang:"en",suppressHydrationWarning:!0,children:[(0,b.jsx)("head",{children:(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:f}})}),(0,b.jsx)("body",{className:"min-h-svh font-roboto bg-sand-200 pb-20",children:(0,b.jsxs)(c.default,{children:[(0,b.jsx)(d.default,{}),(0,b.jsx)("main",{className:"container mx-auto",children:a})]})})]})}a.s(["default",0,g,"metadata",0,{title:"FmS",description:"Fremdsprachen machen Spaß!",icons:{icon:"/favicon.svg"}}],827572)},650645,a=>{a.n(a.i(827572))}];
 
 //# sourceMappingURL=src_0qrg0jb._.js.map
