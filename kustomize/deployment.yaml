@@ -8,7 +8,7 @@ metadata:
   name: fms
   namespace: wsva
   annotations:
-    build: "20260428_063315"
+    build: "20260428_065259"
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
       labels:
         app: fms
       annotations:
-        build: "20260428_063315"
+        build: "20260428_065259"
     spec:
       securityContext:
         runAsUser: 1000
