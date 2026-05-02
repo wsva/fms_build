@@ -191,12 +191,6 @@
       "namedRegex": "^/card/my(?:/)?$"
     },
     {
-      "page": "/card/tag",
-      "regex": "^/card/tag(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/tag(?:/)?$"
-    },
-    {
       "page": "/card/test",
       "regex": "^/card/test(?:/)?$",
       "routeKeys": {},
@@ -213,12 +207,6 @@
       "regex": "^/listen/media(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/listen/media(?:/)?$"
-    },
-    {
-      "page": "/listen/tag",
-      "regex": "^/listen/tag(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/listen/tag(?:/)?$"
     },
     {
       "page": "/manifest.webmanifest",
@@ -249,6 +237,12 @@
       "regex": "^/settings/api\\-key(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/settings/api\\-key(?:/)?$"
+    },
+    {
+      "page": "/settings/tags",
+      "regex": "^/settings/tags(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/tags(?:/)?$"
     },
     {
       "page": "/speak/ask",
