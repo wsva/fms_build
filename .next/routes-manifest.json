@@ -71,6 +71,14 @@
       "namedRegex": "^/api/data/(?<nxtPfilename>.+?)(?:/)?$"
     },
     {
+      "page": "/api/listen/media/[uuid]/tag",
+      "regex": "^/api/listen/media/([^/]+?)/tag(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/listen/media/(?<nxtPuuid>[^/]+?)/tag(?:/)?$"
+    },
+    {
       "page": "/api/listen/subtitle/[uuid]",
       "regex": "^/api/listen/subtitle/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -159,6 +167,18 @@
       "regex": "^/api/card(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/card(?:/)?$"
+    },
+    {
+      "page": "/api/listen/media",
+      "regex": "^/api/listen/media(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/listen/media(?:/)?$"
+    },
+    {
+      "page": "/api/listen/subtitle",
+      "regex": "^/api/listen/subtitle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/listen/subtitle(?:/)?$"
     },
     {
       "page": "/blog",
