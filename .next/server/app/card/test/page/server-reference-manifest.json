@@ -1,9 +1,57 @@
 {
   "node": {
-    "60dd10bf7fcf65ab5ccd2b422d36a5f24c895ea638": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": 951435,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": 951435,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": 951435,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "609302ae0f2df01280afade3548e34fd243cafeed9": {
+      "workers": {
+        "app/card/test/page": {
+          "moduleId": 951435,
           "async": true,
           "exportedName": "getCardTest",
           "filename": "src/app/actions/card.ts"
@@ -12,10 +60,10 @@
       "exportedName": "getCardTest",
       "filename": "src/app/actions/card.ts"
     },
-    "40928be1de38b36347dc10aa0cf0f43890d80baa65": {
+    "40d1746cb7a581a2f3e1adc4856c1ed00db25d8951": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
           "async": true,
           "exportedName": "getCardTestByUUID",
           "filename": "src/app/actions/card.ts"
@@ -24,10 +72,10 @@
       "exportedName": "getCardTestByUUID",
       "filename": "src/app/actions/card.ts"
     },
-    "40ae1880da41311c61bde2606ab6a760e116cbc537": {
+    "40a8e05b71f03ce7cc54b9a122297d19fdb0ccacf7": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
           "async": true,
           "exportedName": "getTag",
           "filename": "src/app/actions/card.ts"
@@ -36,10 +84,10 @@
       "exportedName": "getTag",
       "filename": "src/app/actions/card.ts"
     },
-    "4022c37fc1f3d90d7074570ec160917ff9d80e1303": {
+    "404e68740d309673614fc1161347fb658425d4fb31": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
           "async": true,
           "exportedName": "saveCardReview",
           "filename": "src/app/actions/card.ts"
@@ -48,10 +96,10 @@
       "exportedName": "saveCardReview",
       "filename": "src/app/actions/card.ts"
     },
-    "405f61e6e240cfbf8d58483fddfd6015621b45f202": {
+    "4083d06734b84bfbece130fd55d377cf42e4cc5334": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
           "async": true,
           "exportedName": "searchExample",
           "filename": "src/app/actions/word.ts"
@@ -60,10 +108,10 @@
       "exportedName": "searchExample",
       "filename": "src/app/actions/word.ts"
     },
-    "4006fafd0970ded8724f1a0247ce6709c9cdb220a3": {
+    "4022bf56047fdbacce9e799e67d116402a7d7a3f0c": {
       "workers": {
         "app/card/test/page": {
-          "moduleId": 64332,
+          "moduleId": 951435,
           "async": true,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"

@@ -1,9 +1,57 @@
 {
   "node": {
-    "408af3710f597935b8ed4cc871625db2775fb99d71": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/settings/tags/page": {
-          "moduleId": 929195,
+          "moduleId": 346006,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
+      "workers": {
+        "app/settings/tags/page": {
+          "moduleId": 346006,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/settings/tags/page": {
+          "moduleId": 346006,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/settings/tags/page": {
+          "moduleId": 346006,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "40d0afadb55673b96b340448d7aa34a18d1b22b4f3": {
+      "workers": {
+        "app/settings/tags/page": {
+          "moduleId": 346006,
           "async": true,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/settings.ts"
@@ -12,10 +60,10 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/settings.ts"
     },
-    "40687008f914a29030e196b1ff3cf879bd2eca255c": {
+    "40a6fb39b8ec2d0fe8ad4b1487d53ad7b1e091a926": {
       "workers": {
         "app/settings/tags/page": {
-          "moduleId": 929195,
+          "moduleId": 346006,
           "async": true,
           "exportedName": "removeTag",
           "filename": "src/app/actions/settings.ts"
@@ -24,10 +72,10 @@
       "exportedName": "removeTag",
       "filename": "src/app/actions/settings.ts"
     },
-    "408cf4fc50ddfadab183ce8ba1ef51884a794aa9ce": {
+    "400ff3cde8053e4b379ee7a69a7b23f458dd42d7bf": {
       "workers": {
         "app/settings/tags/page": {
-          "moduleId": 929195,
+          "moduleId": 346006,
           "async": true,
           "exportedName": "saveTag",
           "filename": "src/app/actions/settings.ts"

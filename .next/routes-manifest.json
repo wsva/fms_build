@@ -169,6 +169,12 @@
       "namedRegex": "^/api/card(?:/)?$"
     },
     {
+      "page": "/api/card/improve",
+      "regex": "^/api/card/improve(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/card/improve(?:/)?$"
+    },
+    {
       "page": "/api/listen/media",
       "regex": "^/api/listen/media(?:/)?$",
       "routeKeys": {},
@@ -197,6 +203,12 @@
       "regex": "^/blog/all_of_others(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/blog/all_of_others(?:/)?$"
+    },
+    {
+      "page": "/card/improve",
+      "regex": "^/card/improve(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/card/improve(?:/)?$"
     },
     {
       "page": "/card/manage",
@@ -257,6 +269,18 @@
       "regex": "^/settings/api\\-key(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/settings/api\\-key(?:/)?$"
+    },
+    {
+      "page": "/settings/general",
+      "regex": "^/settings/general(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/general(?:/)?$"
+    },
+    {
+      "page": "/settings/stt",
+      "regex": "^/settings/stt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/stt(?:/)?$"
     },
     {
       "page": "/settings/tags",

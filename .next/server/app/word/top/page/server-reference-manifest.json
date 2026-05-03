@@ -1,9 +1,57 @@
 {
   "node": {
-    "7c78057e3ce1ae921ec4cb95ec60356b9ced9475d0": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": 830557,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": 830557,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": 830557,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "7cbaa02b4a54f50a32ae71a8c4ba8651315aa8137f": {
+      "workers": {
+        "app/word/top/page": {
+          "moduleId": 830557,
           "async": true,
           "exportedName": "getTopword",
           "filename": "src/app/actions/word.ts"
@@ -12,10 +60,10 @@
       "exportedName": "getTopword",
       "filename": "src/app/actions/word.ts"
     },
-    "7cba257131b2bac81b9e9cf2a3847f79c5fd89118a": {
+    "7c499dd11d96597913e891a991d032c929233b5ece": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "searchTopword",
           "filename": "src/app/actions/word.ts"
@@ -24,10 +72,10 @@
       "exportedName": "searchTopword",
       "filename": "src/app/actions/word.ts"
     },
-    "60238df0774aebaeb038d887039a405ab52a02fd55": {
+    "60e48206a203481f4218ea2f438077a970dc527769": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "trashWord",
           "filename": "src/app/actions/word.ts"
@@ -36,10 +84,10 @@
       "exportedName": "trashWord",
       "filename": "src/app/actions/word.ts"
     },
-    "401932d7c8618ec229523ae34c64c3baa27e39a08d": {
+    "40e19e6d83e607d26eb104f5457a88c3c1f64fa1d0": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -48,10 +96,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "40adcdb79b7e5a6c7b487cd4fed63912e2602821a2": {
+    "40564f05ee8074ac8027531e5729133364b4d025b4": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +108,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "4006fafd0970ded8724f1a0247ce6709c9cdb220a3": {
+    "4022bf56047fdbacce9e799e67d116402a7d7a3f0c": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "getTagAll",
           "filename": "src/app/actions/card.ts"
@@ -72,10 +120,10 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/card.ts"
     },
-    "408cf4fc50ddfadab183ce8ba1ef51884a794aa9ce": {
+    "400ff3cde8053e4b379ee7a69a7b23f458dd42d7bf": {
       "workers": {
         "app/word/top/page": {
-          "moduleId": 525376,
+          "moduleId": 830557,
           "async": true,
           "exportedName": "saveTag",
           "filename": "src/app/actions/settings.ts"

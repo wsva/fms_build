@@ -1,9 +1,9 @@
 {
   "node": {
-    "40b874846b3e6ce54e867600bd21e9ca63d35777ad": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_local_redis.ts"
@@ -12,10 +12,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "40b5c59e33f802e3f5a15225144c2c1f8f8fb9f769": {
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -24,10 +24,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "602a73f8eb597334b3a9a142bec4cd67e1e2ddd9a5": {
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "callTTS",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -36,10 +36,22 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "70333b5337e84c8a74e35e752cf255599d53cc8fb1": {
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "7085042f3a910cdccf887e9de2d6b434bfc99b956b": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 773692,
           "async": true,
           "exportedName": "saveAudio",
           "filename": "src/app/actions/audio.ts"
@@ -48,10 +60,10 @@
       "exportedName": "saveAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "60061190a976d639f5d96380bb83f569dc15cbfeb4": {
+    "60c36bed64fe9417721f21cb94493e2936ef5719a8": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "removeAudio",
           "filename": "src/app/actions/audio.ts"
@@ -60,10 +72,10 @@
       "exportedName": "removeAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "4012724a6675bb3f76409f0a44535a987dc04e166e": {
+    "401b160bebb15018fe942f3db679a42d90dbce46cb": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "getJustSpeakingAll",
           "filename": "src/app/actions/just_speaking.ts"
@@ -72,10 +84,10 @@
       "exportedName": "getJustSpeakingAll",
       "filename": "src/app/actions/just_speaking.ts"
     },
-    "405e8dd859bb96ae92a4791bfd5c0b4fc16ea9cbf8": {
+    "407e8290e344b7c35e3225db553d69dff416dad28e": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "saveJustSpeaking",
           "filename": "src/app/actions/just_speaking.ts"
@@ -84,10 +96,10 @@
       "exportedName": "saveJustSpeaking",
       "filename": "src/app/actions/just_speaking.ts"
     },
-    "400b8fa925ad792e261b8df533077ae190a97c9413": {
+    "40a3456c4728ef03866fe69ce8713cd3f529a9d6ed": {
       "workers": {
         "app/speak/just-speaking/page": {
-          "moduleId": 147146,
+          "moduleId": 773692,
           "async": true,
           "exportedName": "removeJustSpeaking",
           "filename": "src/app/actions/just_speaking.ts"

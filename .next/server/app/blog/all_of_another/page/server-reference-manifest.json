@@ -1,21 +1,57 @@
 {
   "node": {
-    "401feae76b12204b667db8a569d8c8ed6698c5dcff": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/blog/all_of_another/page": {
-          "moduleId": 350618,
+          "moduleId": 590422,
           "async": true,
-          "exportedName": "saveBlog",
-          "filename": "src/app/actions/blog.ts"
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
         }
       },
-      "exportedName": "saveBlog",
-      "filename": "src/app/actions/blog.ts"
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "409c66e9632937ad5c0481e9714417d2978e90d0f5": {
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
       "workers": {
         "app/blog/all_of_another/page": {
-          "moduleId": 350618,
+          "moduleId": 590422,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/blog/all_of_another/page": {
+          "moduleId": 590422,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/blog/all_of_another/page": {
+          "moduleId": 590422,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "4060776cd515db3c3dde7bf4f5b8eb891703248008": {
+      "workers": {
+        "app/blog/all_of_another/page": {
+          "moduleId": 590422,
           "async": true,
           "exportedName": "getBlog",
           "filename": "src/app/actions/blog.ts"
@@ -24,10 +60,10 @@
       "exportedName": "getBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "40c673d4bb254905cc44c7feff13506fe5b5325657": {
+    "406165259cd81452620554d04d3d158ccd26b252c9": {
       "workers": {
         "app/blog/all_of_another/page": {
-          "moduleId": 350618,
+          "moduleId": 590422,
           "async": true,
           "exportedName": "getBlogAllOfAnother",
           "filename": "src/app/actions/blog.ts"
@@ -36,10 +72,22 @@
       "exportedName": "getBlogAllOfAnother",
       "filename": "src/app/actions/blog.ts"
     },
-    "40e62ae2225a461960a88f71b302d3d219438f04e5": {
+    "40886614443d1786fc5c75d5e0f5f32e29e4f58862": {
       "workers": {
         "app/blog/all_of_another/page": {
-          "moduleId": 350618,
+          "moduleId": 590422,
+          "async": true,
+          "exportedName": "getBlogAll",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "exportedName": "getBlogAll",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40bb53049f4408c8e972eb32b94999d74d2f64dfe1": {
+      "workers": {
+        "app/blog/all_of_another/page": {
+          "moduleId": 590422,
           "async": true,
           "exportedName": "getBlogAllOfOthers",
           "filename": "src/app/actions/blog.ts"
@@ -48,16 +96,16 @@
       "exportedName": "getBlogAllOfOthers",
       "filename": "src/app/actions/blog.ts"
     },
-    "40f51aaed2bed85bdfa81b2a2b6b9b1957af9ed97b": {
+    "40bff9ca73324bff7a4d36984bbb997de665c4f33d": {
       "workers": {
         "app/blog/all_of_another/page": {
-          "moduleId": 350618,
+          "moduleId": 590422,
           "async": true,
-          "exportedName": "getBlogAll",
+          "exportedName": "saveBlog",
           "filename": "src/app/actions/blog.ts"
         }
       },
-      "exportedName": "getBlogAll",
+      "exportedName": "saveBlog",
       "filename": "src/app/actions/blog.ts"
     }
   },

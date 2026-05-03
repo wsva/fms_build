@@ -1,9 +1,57 @@
 {
   "node": {
-    "40c35e7b1e1a4cbfa60710e19d6b83842f3c382298": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/word/sentence/page": {
-          "moduleId": 986683,
+          "moduleId": 552283,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
+      "workers": {
+        "app/word/sentence/page": {
+          "moduleId": 552283,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/word/sentence/page": {
+          "moduleId": 552283,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/word/sentence/page": {
+          "moduleId": 552283,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "40ef03ec90a1cb9a9ba47fd650b8df2b33cd143c7e": {
+      "workers": {
+        "app/word/sentence/page": {
+          "moduleId": 552283,
           "async": true,
           "exportedName": "getExample",
           "filename": "src/app/actions/word.ts"
@@ -12,10 +60,10 @@
       "exportedName": "getExample",
       "filename": "src/app/actions/word.ts"
     },
-    "405f61e6e240cfbf8d58483fddfd6015621b45f202": {
+    "4083d06734b84bfbece130fd55d377cf42e4cc5334": {
       "workers": {
         "app/word/sentence/page": {
-          "moduleId": 986683,
+          "moduleId": 552283,
           "async": true,
           "exportedName": "searchExample",
           "filename": "src/app/actions/word.ts"

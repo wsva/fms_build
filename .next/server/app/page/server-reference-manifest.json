@@ -1,9 +1,57 @@
 {
   "node": {
-    "4044bc59d522c79e43ce53746e0ceb474fc4af14f0": {
+    "60b754b1455702cc231064eaa706346aafbd1786cc": {
       "workers": {
         "app/page": {
-          "moduleId": 697888,
+          "moduleId": 827886,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "6086ea47affa6cc1550fd9be810874e25ab9a5928d": {
+      "workers": {
+        "app/page": {
+          "moduleId": 827886,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6072c63ed751bae4ecab204665faf8222d1e4a19cd": {
+      "workers": {
+        "app/page": {
+          "moduleId": 827886,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "0081ca9e6e0129537e5649d4b45b3f3d7ca706adaf": {
+      "workers": {
+        "app/page": {
+          "moduleId": 827886,
+          "async": true,
+          "exportedName": "getSttSettingsForCurrentUser",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getSttSettingsForCurrentUser",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "4087a5198cd740de8883b786274ef04bd124b1a58b": {
+      "workers": {
+        "app/page": {
+          "moduleId": 827886,
           "async": true,
           "exportedName": "getPlanAll",
           "filename": "src/app/actions/plan.ts"
@@ -12,10 +60,10 @@
       "exportedName": "getPlanAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "404122f8025ff4d98e48eded978a9faa62f464fc02": {
+    "40cb712e6e42ecccc5b2d3642c22ff8b318ddd0eeb": {
       "workers": {
         "app/page": {
-          "moduleId": 697888,
+          "moduleId": 827886,
           "async": true,
           "exportedName": "savePlan",
           "filename": "src/app/actions/plan.ts"
@@ -24,10 +72,10 @@
       "exportedName": "savePlan",
       "filename": "src/app/actions/plan.ts"
     },
-    "40546fe17de8162832ecb30eca593c189b53427701": {
+    "408763c053a7eef1203ab9dbbd37664c0a307ec337": {
       "workers": {
         "app/page": {
-          "moduleId": 697888,
+          "moduleId": 827886,
           "async": true,
           "exportedName": "getRecordAll",
           "filename": "src/app/actions/plan.ts"
@@ -36,10 +84,10 @@
       "exportedName": "getRecordAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "40498aed4341e1f7ee7d56719361fe620555ab2e0f": {
+    "40c68ef5da8c86156c332cd3ebb71a669cde978603": {
       "workers": {
         "app/page": {
-          "moduleId": 697888,
+          "moduleId": 827886,
           "async": true,
           "exportedName": "saveRecord",
           "filename": "src/app/actions/plan.ts"
