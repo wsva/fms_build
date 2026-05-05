@@ -7,9 +7,9 @@ globalThis.__BUILD_MANIFEST = {
     "static/chunks/03~yq9q893hmn.js"
   ],
   "lowPriorityFiles": [
-    "static/2AIHVNujuTMteI7xpWEwo/_buildManifest.js",
-    "static/2AIHVNujuTMteI7xpWEwo/_ssgManifest.js",
-    "static/2AIHVNujuTMteI7xpWEwo/_clientMiddlewareManifest.js"
+    "static/poMP7TlTIrNyL-R_Q2Tw1/_buildManifest.js",
+    "static/poMP7TlTIrNyL-R_Q2Tw1/_ssgManifest.js",
+    "static/poMP7TlTIrNyL-R_Q2Tw1/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/0hpnrek~99o9g.js",
