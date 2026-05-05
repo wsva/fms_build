@@ -1,6 +1,6 @@
 {
   "node": {
-    "6009f6ea51ea68c9b88f0a178007245bb3d96277bc": {
+    "60f5e8dc28c91d1684131e76fc7a43f8f974378f8e": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -12,7 +12,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "6052ffc45eb135aa908fc3e8ee4a828cd5e2ac6c06": {
+    "6057411aa865a21dfb11a7ed627e30c83a8961a2ab": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -24,7 +24,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60f8b773d3bee3e98f403993b52e9556efdd8bf398": {
+    "6062d5c599fd3634d52429b8d20b3ad35aaf0f0c0f": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -36,7 +36,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "402e4359f413058e54f2ecbbbe390b39780ee321f2": {
+    "408dcca49393b01f0043ce7a9c6588af79f47c02b5": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -48,7 +48,19 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "4039d6aaf2054740dfff38eac8796fb72bbac016ec": {
+    "70c68dd8f9f0a738298bc654f35b86cd2052aa5996": {
+      "workers": {
+        "app/listen/media/page": {
+          "moduleId": 440485,
+          "async": true,
+          "exportedName": "getDictation",
+          "filename": "src/app/actions/listen.ts"
+        }
+      },
+      "exportedName": "getDictation",
+      "filename": "src/app/actions/listen.ts"
+    },
+    "403825d801ba4ab6e02f1ec2629e65d2fd2d772a14": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -60,7 +72,7 @@
       "exportedName": "getMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "408c62635d0076014a8b4922d2e9fd4616f7b075a3": {
+    "406fc37c567b9247a917109ccf3288d8d78a8303fb": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -72,7 +84,7 @@
       "exportedName": "getMediaByInvalidSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "60b03fc84dcda4ec5ce09d6f35521773f1b01db2ea": {
+    "600ece2d0b477bfaa1305deb404535923e6ab8c01d": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -84,7 +96,7 @@
       "exportedName": "getMediaByTag",
       "filename": "src/app/actions/listen.ts"
     },
-    "40b3b72eaedb473a74aa4c14ac69e4459e0f49215e": {
+    "40e90e82c71ce30375cd85fdbd4f5b81719111fea7": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -96,7 +108,7 @@
       "exportedName": "getNoteAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "400722f0af7217b390ace140ef28e323c6e0d01cfc": {
+    "400597299146d9bf2443f5204ddaee7c958f435af5": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -108,7 +120,7 @@
       "exportedName": "getSubtitleAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "40a4d8f0e2ca4cb2fb4a3d3fd17a08fab94afb6de7": {
+    "406b914b0151b9ffc2c291dc0381e80fdec7cf164c": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -120,7 +132,7 @@
       "exportedName": "getTagAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "401623beb5d5ce2afeba1a62295f38a78f4e2c1d3a": {
+    "40707e7d8b90f20fd0435d225151d67e9fc51d38f4": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -132,7 +144,7 @@
       "exportedName": "getTranscriptAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "40fcc7433e883b7b1dc9c1ab18b4e9586e7e82d05b": {
+    "4064a3364b62bfc18f118cf0f4b6c1893521257aed": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -144,7 +156,19 @@
       "exportedName": "removeMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "40cc6bd5bb2129ad7eb95649a00fc2f90fe36ae1c0": {
+    "7c9d46f3ae1122b9ffe4fbe578381e572fc1e011b2": {
+      "workers": {
+        "app/listen/media/page": {
+          "moduleId": 440485,
+          "async": true,
+          "exportedName": "saveDictation",
+          "filename": "src/app/actions/listen.ts"
+        }
+      },
+      "exportedName": "saveDictation",
+      "filename": "src/app/actions/listen.ts"
+    },
+    "40cb8a0140cbcce8a4c7dc0c853477eb66281bc41b": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -156,7 +180,7 @@
       "exportedName": "saveMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "40478ca59d86755115fbd00a657c8835d2bd3600d9": {
+    "40e8166da402e827cba38aaf71323db008d4c01fe1": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -168,7 +192,7 @@
       "exportedName": "saveMediaTag",
       "filename": "src/app/actions/listen.ts"
     },
-    "4046339fb812234d3f95623fffd5b0d0eca99f6b47": {
+    "40b54fa5c52ee665424d702728bccf7ef78cde2a6a": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -180,7 +204,7 @@
       "exportedName": "removeSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "406178bb7233f1e7e19221c5e6eebe1300f773f7a5": {
+    "4091be0dc35be71e075e4540789e277d85bbe3f5ed": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -192,7 +216,7 @@
       "exportedName": "saveSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "4035925988101fc3f184bd7c8db8293216a916180c": {
+    "40d4a4d0f258582e50c2e546e5dbdf3f784344c333": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -204,7 +228,7 @@
       "exportedName": "removeNote",
       "filename": "src/app/actions/listen.ts"
     },
-    "402e2aa9db29661a6c68086418da1902b806de8542": {
+    "4041eee131fa4257ee9d1eae4926c6b0dd3fa21125": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -216,7 +240,7 @@
       "exportedName": "saveNote",
       "filename": "src/app/actions/listen.ts"
     },
-    "40ad93db336ae69cb33856113961f1ab8aff570c0d": {
+    "40c782f71ec08b2bdcdc374f7637f9323f3549b66b": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
@@ -228,7 +252,7 @@
       "exportedName": "removeTranscript",
       "filename": "src/app/actions/listen.ts"
     },
-    "403ec52771f9b3e0ac8882b5d7fa430f3021fb154d": {
+    "40dd06450d44f790d8b899fb093ec64e08fd3d4347": {
       "workers": {
         "app/listen/media/page": {
           "moduleId": 440485,
