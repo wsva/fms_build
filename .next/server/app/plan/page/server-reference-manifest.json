@@ -1,9 +1,9 @@
 {
   "node": {
-    "6080aff36de5e9382c6a81b92600963b55bcb1bdbd": {
+    "60c430e43462f14544b8a734e653b6fbd731cffc12": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_local_redis.ts"
@@ -12,10 +12,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "60110cec0ed9bb7119e0a64f31eab6b1eadf543e2d": {
+    "60a1c752a8d95377c5857e434b99423a83980cde25": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -24,10 +24,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "608b0060f15dc421a22ccf315530e51e11a551efad": {
+    "602e1bb8768e9fd7c5586e04ceca613bdd3214f6c1": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "callTTS",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -36,10 +36,10 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "4068fd92bfc0e3631af6c1890a70fe48a34533db29": {
+    "40d00eacd66bbe7a6e2c5237b1487e14c6fd51f85f": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "getKey",
           "filename": "src/app/actions/settings_general.ts"
@@ -48,10 +48,34 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "4078d54055f2c875cff3e74994fe93cae109a4bb19": {
+    "40df5f352e0d20593a7e4e9d90a153ded4075db068": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
+          "async": true,
+          "exportedName": "saveCard",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "exportedName": "saveCard",
+      "filename": "src/app/actions/card.ts"
+    },
+    "006a0cd262caadfa424bd31edad2f540bf6eeeac34": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": 714969,
+          "async": true,
+          "exportedName": "deleteAuthTokens",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "exportedName": "deleteAuthTokens",
+      "filename": "src/app/actions/auth.ts"
+    },
+    "40d92918b638fe0de4c751bbc929802dc104ead3f6": {
+      "workers": {
+        "app/plan/page": {
+          "moduleId": 714969,
           "async": true,
           "exportedName": "getPlanAll",
           "filename": "src/app/actions/plan.ts"
@@ -60,10 +84,10 @@
       "exportedName": "getPlanAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "40dcac58b04f4e043d418702142c215e2b33bb7f94": {
+    "407214776a84b712f28ab1f34f064a54e88b24f4d8": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "removePlan",
           "filename": "src/app/actions/plan.ts"
@@ -72,10 +96,10 @@
       "exportedName": "removePlan",
       "filename": "src/app/actions/plan.ts"
     },
-    "4050bf9146114d613cfc029f54e9d5b7e577c11a7e": {
+    "404c38cc1b74e30018f424956c49a6dc5e42cb255b": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "savePlan",
           "filename": "src/app/actions/plan.ts"
@@ -84,10 +108,10 @@
       "exportedName": "savePlan",
       "filename": "src/app/actions/plan.ts"
     },
-    "4039d8795f7ab47263c0b8833ae3447d10afa8473c": {
+    "40090a219f79bb026f0eb6020e1a59398deadbd53e": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "getRecordAll",
           "filename": "src/app/actions/plan.ts"
@@ -96,10 +120,10 @@
       "exportedName": "getRecordAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "4010c47b05cafd934b4800361c9a202104973e386a": {
+    "40bb657443778df95abfa5b4d3468e5e902c0cf631": {
       "workers": {
         "app/plan/page": {
-          "moduleId": 253547,
+          "moduleId": 714969,
           "async": true,
           "exportedName": "saveRecord",
           "filename": "src/app/actions/plan.ts"

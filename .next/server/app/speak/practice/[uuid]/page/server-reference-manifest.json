@@ -1,9 +1,9 @@
 {
   "node": {
-    "6080aff36de5e9382c6a81b92600963b55bcb1bdbd": {
+    "60c430e43462f14544b8a734e653b6fbd731cffc12": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_local_redis.ts"
@@ -12,10 +12,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "60110cec0ed9bb7119e0a64f31eab6b1eadf543e2d": {
+    "60a1c752a8d95377c5857e434b99423a83980cde25": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "callSTT",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -24,10 +24,10 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "608b0060f15dc421a22ccf315530e51e11a551efad": {
+    "602e1bb8768e9fd7c5586e04ceca613bdd3214f6c1": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "callTTS",
           "filename": "src/app/actions/ai_gemini.ts"
@@ -36,10 +36,10 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "4068fd92bfc0e3631af6c1890a70fe48a34533db29": {
+    "40d00eacd66bbe7a6e2c5237b1487e14c6fd51f85f": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "getKey",
           "filename": "src/app/actions/settings_general.ts"
@@ -48,10 +48,34 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "40ae82c82f26a977fdae580edc904c9dff89486690": {
+    "40df5f352e0d20593a7e4e9d90a153ded4075db068": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
+          "async": true,
+          "exportedName": "saveCard",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "exportedName": "saveCard",
+      "filename": "src/app/actions/card.ts"
+    },
+    "006a0cd262caadfa424bd31edad2f540bf6eeeac34": {
+      "workers": {
+        "app/speak/practice/[uuid]/page": {
+          "moduleId": 22345,
+          "async": true,
+          "exportedName": "deleteAuthTokens",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "exportedName": "deleteAuthTokens",
+      "filename": "src/app/actions/auth.ts"
+    },
+    "409c74302a8b8d43c36f56192646302c0cb00352b7": {
+      "workers": {
+        "app/speak/practice/[uuid]/page": {
+          "moduleId": 22345,
           "async": true,
           "exportedName": "getAudioDBAll",
           "filename": "src/app/actions/practice.ts"
@@ -60,10 +84,10 @@
       "exportedName": "getAudioDBAll",
       "filename": "src/app/actions/practice.ts"
     },
-    "40397b0c9c14c9d0f458ec885c1354771ec67c6be5": {
+    "404b77bd29996a5ecf529e5ab9ba6bd5edf9360a8a": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "getText",
           "filename": "src/app/actions/practice.ts"
@@ -72,10 +96,10 @@
       "exportedName": "getText",
       "filename": "src/app/actions/practice.ts"
     },
-    "4078a19ac290cf9d402e3389b0ab5f6c41d04ca4f7": {
+    "40342980adea7a881e7211ff134a981748cd6ec29a": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "removeAudioDB",
           "filename": "src/app/actions/practice.ts"
@@ -84,10 +108,10 @@
       "exportedName": "removeAudioDB",
       "filename": "src/app/actions/practice.ts"
     },
-    "40ad78bce729dc8ab91268f71e3e2dceb96b39efb9": {
+    "40c52cda2287d0e34cb7b243a162ddd7679d7ef7e3": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "saveAudioDB",
           "filename": "src/app/actions/practice.ts"
@@ -96,10 +120,10 @@
       "exportedName": "saveAudioDB",
       "filename": "src/app/actions/practice.ts"
     },
-    "40176d6dae76435ef34c58a75ff574bd8ad43f486f": {
+    "40c50df06c097d942064392a34111c6360f8d54ff4": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "saveText",
           "filename": "src/app/actions/practice.ts"
@@ -108,10 +132,10 @@
       "exportedName": "saveText",
       "filename": "src/app/actions/practice.ts"
     },
-    "6024208949be6917d1b02fb733e28fdd20ec9b8768": {
+    "603c2fc3b1a02dce26aad791b7d4c77b414a4ce07e": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "removeAudio",
           "filename": "src/app/actions/audio.ts"
@@ -120,10 +144,10 @@
       "exportedName": "removeAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "70054a8d5b771860b496c2b47e97b5717e2a2f6ee9": {
+    "7012943116d25f96028fcf47ee06061e895608636b": {
       "workers": {
         "app/speak/practice/[uuid]/page": {
-          "moduleId": 970871,
+          "moduleId": 22345,
           "async": true,
           "exportedName": "saveAudio",
           "filename": "src/app/actions/audio.ts"

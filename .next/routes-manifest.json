@@ -229,6 +229,12 @@
       "namedRegex": "^/card/my(?:/)?$"
     },
     {
+      "page": "/card/table",
+      "regex": "^/card/table(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/card/table(?:/)?$"
+    },
+    {
       "page": "/card/test",
       "regex": "^/card/test(?:/)?$",
       "routeKeys": {},
@@ -269,12 +275,6 @@
       "regex": "^/settings/api(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/settings/api(?:/)?$"
-    },
-    {
-      "page": "/settings/api-key",
-      "regex": "^/settings/api\\-key(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/settings/api\\-key(?:/)?$"
     },
     {
       "page": "/settings/general",
@@ -329,6 +329,12 @@
       "regex": "^/unauthorized(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/unauthorized(?:/)?$"
+    },
+    {
+      "page": "/word/pdf_reader",
+      "regex": "^/word/pdf_reader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/word/pdf_reader(?:/)?$"
     },
     {
       "page": "/word/sentence",
