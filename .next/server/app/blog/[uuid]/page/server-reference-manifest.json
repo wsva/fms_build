@@ -1,6 +1,6 @@
 {
   "node": {
-    "403f30e4cbce5d93a71328101aaae775bc1f7df658": {
+    "4007be56553847b7de61561264901ed881142e9461": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -12,7 +12,7 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "60fdb889224d1e4b7bc254c02ba02d73952f76e549": {
+    "60ec075d3b2c27f1fc92c06cd6cdc846fbaa4492eb": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -24,7 +24,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "60bde5427dce93fdf02f55a50078795d79a4c4de0e": {
+    "60fade1c31a65c5152be24dd7d11a7ad94804648e7": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -36,7 +36,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "600446a9e54d20a0b0dc7701215d1dceecb875f92e": {
+    "605444005b44fd6a37e798f89e7920287b0b80b0c5": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -48,7 +48,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "404d22d087797173a944b4e898ca14f0732f2cffaf": {
+    "40bb49d5fcc3666926451ada44603c0c7ba4133ec5": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -60,7 +60,7 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "40d86e254309ab5bef1dba1d1fbb69b95cd6c02626": {
+    "40420736c474ef83cbe03fdcfee4085af71d820193": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -72,7 +72,7 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "00cfab72c7075e4d5389503f968a3201eee14bf631": {
+    "004f62d9fa4f15d90c5cad574b64d603fb0cbf4718": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -84,7 +84,7 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "402d53b17c7cafcfbc6e65bfd7c0201bdcbc458a07": {
+    "4047b764529e925eeafbbe508a8b3c91f52f0037f1": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -96,19 +96,19 @@
       "exportedName": "saveBlog",
       "filename": "src/app/actions/blog.ts"
     },
-    "40634b0437952be0bfd0f14bbb677fcf575649641c": {
+    "402f99a37fa924c061f4e33a83d2ce7eb79beed2b5": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
           "async": true,
-          "exportedName": "getBlogAllOfAnother",
+          "exportedName": "getBlogAllOfOthers",
           "filename": "src/app/actions/blog.ts"
         }
       },
-      "exportedName": "getBlogAllOfAnother",
+      "exportedName": "getBlogAllOfOthers",
       "filename": "src/app/actions/blog.ts"
     },
-    "406ff40631d99f20a5905a26f42c1564a0333d9f0f": {
+    "404c9ed642d7161e3e2e2660387fa6c829b4967df4": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -120,7 +120,19 @@
       "exportedName": "getBlogAll",
       "filename": "src/app/actions/blog.ts"
     },
-    "40708fd65d5cddf4923bb49ab8a0d7c9494a2edd9f": {
+    "4083347c3d5770b57180782c8dd1d645a2b647ad42": {
+      "workers": {
+        "app/blog/[uuid]/page": {
+          "moduleId": 364488,
+          "async": true,
+          "exportedName": "getBlogAllOfAnother",
+          "filename": "src/app/actions/blog.ts"
+        }
+      },
+      "exportedName": "getBlogAllOfAnother",
+      "filename": "src/app/actions/blog.ts"
+    },
+    "40baadbbbf483a70fa1f32026cce86e0d6a8ec461f": {
       "workers": {
         "app/blog/[uuid]/page": {
           "moduleId": 364488,
@@ -130,18 +142,6 @@
         }
       },
       "exportedName": "getBlog",
-      "filename": "src/app/actions/blog.ts"
-    },
-    "40fe62ef00c2393060a352e09213afe31d578eaa00": {
-      "workers": {
-        "app/blog/[uuid]/page": {
-          "moduleId": 364488,
-          "async": true,
-          "exportedName": "getBlogAllOfOthers",
-          "filename": "src/app/actions/blog.ts"
-        }
-      },
-      "exportedName": "getBlogAllOfOthers",
       "filename": "src/app/actions/blog.ts"
     }
   },
