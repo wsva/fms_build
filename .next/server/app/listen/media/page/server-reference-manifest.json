@@ -1,45 +1,9 @@
 {
   "node": {
-    "6037231485b2e68c27382ff87bf8f74d77ec4c1d77": {
+    "403f30e4cbce5d93a71328101aaae775bc1f7df658": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_local_redis.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_local_redis.ts"
-    },
-    "607491e2e2202667e464f080a4ffeb7cf24b04575c": {
-      "workers": {
-        "app/listen/media/page": {
-          "moduleId": 223983,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "60f97af38d87b9db17c63f136641222ce994993a66": {
-      "workers": {
-        "app/listen/media/page": {
-          "moduleId": 223983,
-          "async": true,
-          "exportedName": "callTTS",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callTTS",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "402968e14fff0e2b36cdd8ae69a917aabdf9495734": {
-      "workers": {
-        "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getKey",
           "filename": "src/app/actions/settings_general.ts"
@@ -48,10 +12,46 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "403237113873f722d8cfcc494f0b9297bbd48859ec": {
+    "60fdb889224d1e4b7bc254c02ba02d73952f76e549": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "60bde5427dce93fdf02f55a50078795d79a4c4de0e": {
+      "workers": {
+        "app/listen/media/page": {
+          "moduleId": 571595,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "600446a9e54d20a0b0dc7701215d1dceecb875f92e": {
+      "workers": {
+        "app/listen/media/page": {
+          "moduleId": 571595,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "404d22d087797173a944b4e898ca14f0732f2cffaf": {
+      "workers": {
+        "app/listen/media/page": {
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +60,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "401f14d4f60fb1703d3283d633423bcf248d08fe04": {
+    "40d86e254309ab5bef1dba1d1fbb69b95cd6c02626": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -72,10 +72,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "0020e3fc33f661085d8d184628b617fa6d62a97fe1": {
+    "00cfab72c7075e4d5389503f968a3201eee14bf631": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "deleteAuthTokens",
           "filename": "src/app/actions/auth.ts"
@@ -84,10 +84,10 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "7035e1a4f631a8d4764d6ed41fc1d60a26804a9085": {
+    "701898e0f3579c2625eda4b2d20892b6c3ab49e1e2": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getDictation",
           "filename": "src/app/actions/listen.ts"
@@ -96,10 +96,10 @@
       "exportedName": "getDictation",
       "filename": "src/app/actions/listen.ts"
     },
-    "40a956e5c09adbaf1877b9a3ae5050bcb89717f017": {
+    "406d4c886b61379a2e53fc987677573ce26bc7f8b2": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getMedia",
           "filename": "src/app/actions/listen.ts"
@@ -108,10 +108,10 @@
       "exportedName": "getMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "40cd28521d41d9459d1cc27006d449744c26cf0c2f": {
+    "40fd1c9229a6a3ef24370ea64d6592d07e4ac4a3eb": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getMediaByInvalidSubtitle",
           "filename": "src/app/actions/listen.ts"
@@ -120,10 +120,10 @@
       "exportedName": "getMediaByInvalidSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "40e7c1b7ad24d065c79e42f346be54fff1a02ff770": {
+    "40e40415e581d1d55379d0068acd08c90db47a2bb4": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getMediaByTag",
           "filename": "src/app/actions/listen.ts"
@@ -132,10 +132,10 @@
       "exportedName": "getMediaByTag",
       "filename": "src/app/actions/listen.ts"
     },
-    "4095bb320bf46caee998b541336050339a8c7b84d3": {
+    "40f0aab3b19ea38a248f0a61e4fd1e4f0e94d0d564": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getNoteAll",
           "filename": "src/app/actions/listen.ts"
@@ -144,10 +144,10 @@
       "exportedName": "getNoteAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "40b5a29b2707b0f2b0411d1ae9807a62bcffc0c0b4": {
+    "40d767497fbb604cd6dc9956ecef54b032e5ff867c": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getSubtitleAll",
           "filename": "src/app/actions/listen.ts"
@@ -156,10 +156,10 @@
       "exportedName": "getSubtitleAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "40d6c4088ba1ebd40c9569b958a34784f66202cdb4": {
+    "40512577e8bc1b9a813de647805cf6ec8073e45b09": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getTranscriptAll",
           "filename": "src/app/actions/listen.ts"
@@ -168,10 +168,10 @@
       "exportedName": "getTranscriptAll",
       "filename": "src/app/actions/listen.ts"
     },
-    "40141539a6fc309b86cb1758e8b0d9d41d20f33a8e": {
+    "409302cf96fda4d10d9a5904774e0d9c9da96251be": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "removeMedia",
           "filename": "src/app/actions/listen.ts"
@@ -180,10 +180,10 @@
       "exportedName": "removeMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "7c088c3e23dbb6c17265b92891085d867f102058a7": {
+    "7c728ca654d91e8fe31204589d2250ec1218efa1e5": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveDictation",
           "filename": "src/app/actions/listen.ts"
@@ -192,10 +192,10 @@
       "exportedName": "saveDictation",
       "filename": "src/app/actions/listen.ts"
     },
-    "402b9d3b1739f1af4c57acdd56cac4789950a05c7f": {
+    "40398161216ee91af217cb1791d4b65e2221e5ebe8": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveMedia",
           "filename": "src/app/actions/listen.ts"
@@ -204,10 +204,10 @@
       "exportedName": "saveMedia",
       "filename": "src/app/actions/listen.ts"
     },
-    "4008bc566682a7bbb1605504470672593d2ce28e8f": {
+    "40d0f0efdc54a7e1be1d19c31e46a46170361c4282": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveMediaTag",
           "filename": "src/app/actions/listen.ts"
@@ -216,10 +216,10 @@
       "exportedName": "saveMediaTag",
       "filename": "src/app/actions/listen.ts"
     },
-    "407657df95b2d3d3c2e8c516b5b62433ff9238b4d7": {
+    "40eff714348328cf1cdf304c2f214ea69cce1634e5": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveSubtitle",
           "filename": "src/app/actions/listen.ts"
@@ -228,10 +228,10 @@
       "exportedName": "saveSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "60bdc9e59348e80d267f5942f0804aa23b417d0248": {
+    "6068f6ce137733a2aac0b401d1ca3288b64e2cbee3": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "getTagAllUsed",
           "filename": "src/app/actions/dataset.ts"
@@ -240,10 +240,10 @@
       "exportedName": "getTagAllUsed",
       "filename": "src/app/actions/dataset.ts"
     },
-    "406c278086affddbfc97b3a9b66b0a9d8d922fab7e": {
+    "40fbc29122063d889cb4be85e3546042d498a1536a": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "removeSubtitle",
           "filename": "src/app/actions/listen.ts"
@@ -252,10 +252,10 @@
       "exportedName": "removeSubtitle",
       "filename": "src/app/actions/listen.ts"
     },
-    "40e43969359875388d5637ca3bb06ca7dc322a10f9": {
+    "407c5439cc20f4454f48bc6ff66ee2c4879ba06d9e": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "removeNote",
           "filename": "src/app/actions/listen.ts"
@@ -264,10 +264,10 @@
       "exportedName": "removeNote",
       "filename": "src/app/actions/listen.ts"
     },
-    "40c364bb6825e1a1356c50d65364a7bde8b1331652": {
+    "40573a64ce888e59e5f4b95bf93f71ff2b4b8dc9df": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveNote",
           "filename": "src/app/actions/listen.ts"
@@ -276,10 +276,10 @@
       "exportedName": "saveNote",
       "filename": "src/app/actions/listen.ts"
     },
-    "4033a1400338495d049570e28e989947221f1b7193": {
+    "409c9817a99436573fedac0dca22e124395055c0b0": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "removeTranscript",
           "filename": "src/app/actions/listen.ts"
@@ -288,10 +288,10 @@
       "exportedName": "removeTranscript",
       "filename": "src/app/actions/listen.ts"
     },
-    "404d992013eeeb6ff3162c373f4c52042ff7b8cdb6": {
+    "40e854ce7933758742e76975b123f90b7f8c5ba93b": {
       "workers": {
         "app/listen/media/page": {
-          "moduleId": 223983,
+          "moduleId": 571595,
           "async": true,
           "exportedName": "saveTranscript",
           "filename": "src/app/actions/listen.ts"

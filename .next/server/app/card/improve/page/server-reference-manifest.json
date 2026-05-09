@@ -1,45 +1,9 @@
 {
   "node": {
-    "6037231485b2e68c27382ff87bf8f74d77ec4c1d77": {
+    "403f30e4cbce5d93a71328101aaae775bc1f7df658": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_local_redis.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_local_redis.ts"
-    },
-    "607491e2e2202667e464f080a4ffeb7cf24b04575c": {
-      "workers": {
-        "app/card/improve/page": {
-          "moduleId": 993972,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "60f97af38d87b9db17c63f136641222ce994993a66": {
-      "workers": {
-        "app/card/improve/page": {
-          "moduleId": 993972,
-          "async": true,
-          "exportedName": "callTTS",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callTTS",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "402968e14fff0e2b36cdd8ae69a917aabdf9495734": {
-      "workers": {
-        "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "getKey",
           "filename": "src/app/actions/settings_general.ts"
@@ -48,10 +12,46 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "403237113873f722d8cfcc494f0b9297bbd48859ec": {
+    "60fdb889224d1e4b7bc254c02ba02d73952f76e549": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "60bde5427dce93fdf02f55a50078795d79a4c4de0e": {
+      "workers": {
+        "app/card/improve/page": {
+          "moduleId": 725660,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "600446a9e54d20a0b0dc7701215d1dceecb875f92e": {
+      "workers": {
+        "app/card/improve/page": {
+          "moduleId": 725660,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "404d22d087797173a944b4e898ca14f0732f2cffaf": {
+      "workers": {
+        "app/card/improve/page": {
+          "moduleId": 725660,
           "async": true,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +60,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "401f14d4f60fb1703d3283d633423bcf248d08fe04": {
+    "40d86e254309ab5bef1dba1d1fbb69b95cd6c02626": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -72,10 +72,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "0020e3fc33f661085d8d184628b617fa6d62a97fe1": {
+    "00cfab72c7075e4d5389503f968a3201eee14bf631": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "deleteAuthTokens",
           "filename": "src/app/actions/auth.ts"
@@ -84,10 +84,10 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "7846823402c93e9ccc4d4e99dab193748aab6b4a58": {
+    "7873942ff416aa5fa89d66f0015128aa0b0c3a597b": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "getCardImproveAll",
           "filename": "src/app/actions/card_improve.ts"
@@ -96,10 +96,10 @@
       "exportedName": "getCardImproveAll",
       "filename": "src/app/actions/card_improve.ts"
     },
-    "407385477152e755e5cde58cb5bacbde70fbd2eff7": {
+    "40e2100b30a4ab3a6a6e043e8f07fb36c8c38dbe56": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "getCardsNeedImprove",
           "filename": "src/app/actions/card_improve.ts"
@@ -108,10 +108,10 @@
       "exportedName": "getCardsNeedImprove",
       "filename": "src/app/actions/card_improve.ts"
     },
-    "40039662876f219d1f21076334d50d1683b06da997": {
+    "40ffb841e981105b1e8cee4a5588e5db320039d026": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "applyCardImprove",
           "filename": "src/app/actions/card_improve.ts"
@@ -120,10 +120,10 @@
       "exportedName": "applyCardImprove",
       "filename": "src/app/actions/card_improve.ts"
     },
-    "40a9be0811fa3a4559e8beaafbe24cd91ab09a9695": {
+    "40593b13cbe04db8b59d2d06ead4ab73c86800f746": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "rejectCardImprove",
           "filename": "src/app/actions/card_improve.ts"
@@ -132,10 +132,10 @@
       "exportedName": "rejectCardImprove",
       "filename": "src/app/actions/card_improve.ts"
     },
-    "40491a7e11813ee0600399736753e322b80094504c": {
+    "407abf2811b7f005766d398deb7cea1ef53de18a65": {
       "workers": {
         "app/card/improve/page": {
-          "moduleId": 993972,
+          "moduleId": 725660,
           "async": true,
           "exportedName": "getCardImproveStats",
           "filename": "src/app/actions/card_improve.ts"

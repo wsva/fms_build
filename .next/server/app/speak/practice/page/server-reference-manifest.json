@@ -1,45 +1,9 @@
 {
   "node": {
-    "6037231485b2e68c27382ff87bf8f74d77ec4c1d77": {
+    "403f30e4cbce5d93a71328101aaae775bc1f7df658": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_local_redis.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_local_redis.ts"
-    },
-    "607491e2e2202667e464f080a4ffeb7cf24b04575c": {
-      "workers": {
-        "app/speak/practice/page": {
-          "moduleId": 771018,
-          "async": true,
-          "exportedName": "callSTT",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callSTT",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "60f97af38d87b9db17c63f136641222ce994993a66": {
-      "workers": {
-        "app/speak/practice/page": {
-          "moduleId": 771018,
-          "async": true,
-          "exportedName": "callTTS",
-          "filename": "src/app/actions/ai_gemini.ts"
-        }
-      },
-      "exportedName": "callTTS",
-      "filename": "src/app/actions/ai_gemini.ts"
-    },
-    "402968e14fff0e2b36cdd8ae69a917aabdf9495734": {
-      "workers": {
-        "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "getKey",
           "filename": "src/app/actions/settings_general.ts"
@@ -48,10 +12,46 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "403237113873f722d8cfcc494f0b9297bbd48859ec": {
+    "60fdb889224d1e4b7bc254c02ba02d73952f76e549": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "60bde5427dce93fdf02f55a50078795d79a4c4de0e": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": 668084,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "600446a9e54d20a0b0dc7701215d1dceecb875f92e": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": 668084,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "404d22d087797173a944b4e898ca14f0732f2cffaf": {
+      "workers": {
+        "app/speak/practice/page": {
+          "moduleId": 668084,
           "async": true,
           "exportedName": "saveCard",
           "filename": "src/app/actions/card.ts"
@@ -60,10 +60,10 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "401f14d4f60fb1703d3283d633423bcf248d08fe04": {
+    "40d86e254309ab5bef1dba1d1fbb69b95cd6c02626": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "saveCardTag",
           "filename": "src/app/actions/card.ts"
@@ -72,10 +72,10 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "0020e3fc33f661085d8d184628b617fa6d62a97fe1": {
+    "00cfab72c7075e4d5389503f968a3201eee14bf631": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "deleteAuthTokens",
           "filename": "src/app/actions/auth.ts"
@@ -84,10 +84,10 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "00a05091ddbfe8919f73abf1631f68890ba256a788": {
+    "0096e09b5599454e1dd7e58cd234eec4a7367fc2aa": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "getTextAll",
           "filename": "src/app/actions/practice.ts"
@@ -96,10 +96,10 @@
       "exportedName": "getTextAll",
       "filename": "src/app/actions/practice.ts"
     },
-    "4093b8b653acbfac37457b8565796db142b7d48ddb": {
+    "40c2f903e21357556e63d9025acd17a12263b95d8b": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "removeText",
           "filename": "src/app/actions/practice.ts"
@@ -108,10 +108,10 @@
       "exportedName": "removeText",
       "filename": "src/app/actions/practice.ts"
     },
-    "40ef836a298a6bc0bf1bbac9a9ccee8fe3e8040ca0": {
+    "40c1ea060d42c69a253497ad5188de7d4def2e3f09": {
       "workers": {
         "app/speak/practice/page": {
-          "moduleId": 771018,
+          "moduleId": 668084,
           "async": true,
           "exportedName": "saveText",
           "filename": "src/app/actions/practice.ts"
