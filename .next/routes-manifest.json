@@ -193,6 +193,84 @@
       "namedRegex": "^/api/listen/subtitle(?:/)?$"
     },
     {
+      "page": "/api/oauth2/account/all",
+      "regex": "^/api/oauth2/account/all(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/account/all(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/account/update",
+      "regex": "^/api/oauth2/account/update(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/account/update(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/authorize",
+      "regex": "^/api/oauth2/authorize(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/authorize(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/introspect",
+      "regex": "^/api/oauth2/introspect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/introspect(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/jwks",
+      "regex": "^/api/oauth2/jwks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/jwks(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/logout",
+      "regex": "^/api/oauth2/logout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/logout(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/reset-password/confirm",
+      "regex": "^/api/oauth2/reset\\-password/confirm(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/reset\\-password/confirm(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/reset-password/request",
+      "regex": "^/api/oauth2/reset\\-password/request(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/reset\\-password/request(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/revoke",
+      "regex": "^/api/oauth2/revoke(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/revoke(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/signin",
+      "regex": "^/api/oauth2/signin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/signin(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/signup",
+      "regex": "^/api/oauth2/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/signup(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/token",
+      "regex": "^/api/oauth2/token(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/token(?:/)?$"
+    },
+    {
+      "page": "/api/oauth2/userinfo",
+      "regex": "^/api/oauth2/userinfo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/userinfo(?:/)?$"
+    },
+    {
       "page": "/blog",
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
@@ -271,6 +349,30 @@
       "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
     },
     {
+      "page": "/oauth2/dashboard",
+      "regex": "^/oauth2/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/oauth2/dashboard(?:/)?$"
+    },
+    {
+      "page": "/oauth2/login",
+      "regex": "^/oauth2/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/oauth2/login(?:/)?$"
+    },
+    {
+      "page": "/oauth2/register",
+      "regex": "^/oauth2/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/oauth2/register(?:/)?$"
+    },
+    {
+      "page": "/oauth2/reset-password",
+      "regex": "^/oauth2/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/oauth2/reset\\-password(?:/)?$"
+    },
+    {
       "page": "/plan",
       "regex": "^/plan(?:/)?$",
       "routeKeys": {},
@@ -331,16 +433,16 @@
       "namedRegex": "^/speak/read/text(?:/)?$"
     },
     {
+      "page": "/tools/pdf_reader",
+      "regex": "^/tools/pdf_reader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pdf_reader(?:/)?$"
+    },
+    {
       "page": "/unauthorized",
       "regex": "^/unauthorized(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/unauthorized(?:/)?$"
-    },
-    {
-      "page": "/word/pdf_reader",
-      "regex": "^/word/pdf_reader(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/word/pdf_reader(?:/)?$"
     },
     {
       "page": "/word/sentence",

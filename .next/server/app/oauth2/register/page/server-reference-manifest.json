@@ -1,0 +1,89 @@
+{
+  "node": {
+    "40ab45b4730c42113f2cad8ce37cb6808797fa5bdd": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "getKey",
+          "filename": "src/app/actions/settings_general.ts"
+        }
+      },
+      "exportedName": "getKey",
+      "filename": "src/app/actions/settings_general.ts"
+    },
+    "6008acc2938c4da573d79e05487029290d6d0b3d62": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_local_redis.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_local_redis.ts"
+    },
+    "603b32df2b75cc41683917d126bfc8a25bdb460820": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "callSTT",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callSTT",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "6050fd825dc244898c56f0937cfdaf05071e3a9228": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "callTTS",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "callTTS",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "40aaa0feccfd1f20aab61d88c9d195e9a4caed6e1f": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "saveCard",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "exportedName": "saveCard",
+      "filename": "src/app/actions/card.ts"
+    },
+    "40222b965636e35e34a87ee552fe59699942bf3549": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "saveCardTag",
+          "filename": "src/app/actions/card.ts"
+        }
+      },
+      "exportedName": "saveCardTag",
+      "filename": "src/app/actions/card.ts"
+    },
+    "00a0b1edfd971176e8c4d0c81296cd1861eb4dc14a": {
+      "workers": {
+        "app/oauth2/register/page": {
+          "moduleId": 827192,
+          "async": true,
+          "exportedName": "deleteAuthTokens",
+          "filename": "src/app/actions/auth.ts"
+        }
+      },
+      "exportedName": "deleteAuthTokens",
+      "filename": "src/app/actions/auth.ts"
+    }
+  },
+  "edge": {}
+}
