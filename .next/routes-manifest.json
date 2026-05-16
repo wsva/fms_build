@@ -139,10 +139,34 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/api",
+      "regex": "^/api(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api(?:/)?$"
+    },
+    {
       "page": "/api/apikey",
       "regex": "^/api/apikey(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/apikey(?:/)?$"
+    },
+    {
+      "page": "/api/ask",
+      "regex": "^/api/ask(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ask(?:/)?$"
+    },
+    {
+      "page": "/api/ask/answers",
+      "regex": "^/api/ask/answers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ask/answers(?:/)?$"
+    },
+    {
+      "page": "/api/blog",
+      "regex": "^/api/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/blog(?:/)?$"
     },
     {
       "page": "/api/book",
@@ -157,10 +181,22 @@
       "namedRegex": "^/api/book/chapter(?:/)?$"
     },
     {
+      "page": "/api/book/chapters",
+      "regex": "^/api/book/chapters(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/book/chapters(?:/)?$"
+    },
+    {
       "page": "/api/book/sentence",
       "regex": "^/api/book/sentence(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/book/sentence(?:/)?$"
+    },
+    {
+      "page": "/api/book/sentences",
+      "regex": "^/api/book/sentences(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/book/sentences(?:/)?$"
     },
     {
       "page": "/api/card",
@@ -181,16 +217,40 @@
       "namedRegex": "^/api/card/incomplete(?:/)?$"
     },
     {
+      "page": "/api/card/tags",
+      "regex": "^/api/card/tags(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/card/tags(?:/)?$"
+    },
+    {
+      "page": "/api/listen",
+      "regex": "^/api/listen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/listen(?:/)?$"
+    },
+    {
       "page": "/api/listen/media",
       "regex": "^/api/listen/media(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/listen/media(?:/)?$"
     },
     {
+      "page": "/api/listen/notes",
+      "regex": "^/api/listen/notes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/listen/notes(?:/)?$"
+    },
+    {
       "page": "/api/listen/subtitle",
       "regex": "^/api/listen/subtitle(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/listen/subtitle(?:/)?$"
+    },
+    {
+      "page": "/api/mcp",
+      "regex": "^/api/mcp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/mcp(?:/)?$"
     },
     {
       "page": "/api/oauth2/account/all",
@@ -271,6 +331,18 @@
       "namedRegex": "^/api/oauth2/userinfo(?:/)?$"
     },
     {
+      "page": "/api/plan",
+      "regex": "^/api/plan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/plan(?:/)?$"
+    },
+    {
+      "page": "/api/plan/records",
+      "regex": "^/api/plan/records(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/plan/records(?:/)?$"
+    },
+    {
       "page": "/api/services",
       "regex": "^/api/services(?:/)?$",
       "routeKeys": {},
@@ -281,6 +353,12 @@
       "regex": "^/api/services/test(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/services/test(?:/)?$"
+    },
+    {
+      "page": "/api/word",
+      "regex": "^/api/word(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/word(?:/)?$"
     },
     {
       "page": "/blog",
