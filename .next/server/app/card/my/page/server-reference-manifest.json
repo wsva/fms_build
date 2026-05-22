@@ -1,6 +1,6 @@
 {
   "node": {
-    "40d3de3f5b1a3d0440b25d70b11f0a533069c89895": {
+    "40beb4a8b9b9c61c265ff2ac3dde6987151189302f": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -12,7 +12,7 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "60da0cf442cf40c2245450d8d028ae8f684f3f8c5c": {
+    "60c4d9171b3839b1f32f152aab55ebda451b58d461": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -24,7 +24,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "60afd0838fe2dc98c32926ef26a031f3744ac6b7e0": {
+    "60a1a4f522ade813e0f06341fba555f2d5ac00b556": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -36,7 +36,19 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60eb60c364d3487a0fe6aff0f8f953e6472c957bc7": {
+    "40634eeec86ed850db5bca48cac39ae5d9aaba321a": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": 758266,
+          "async": true,
+          "exportedName": "generateInterviewAnswer",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "generateInterviewAnswer",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "603bb288d880d5715c37a3a8b392b2fc2a3fd42ff0": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -48,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "405a58780fb894133aed65e8d3648f13cbc0fd1841": {
+    "401ce7e430d84d5509b2595b7106e5f30dd03ae001": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -60,7 +72,7 @@
       "exportedName": "getCardsByQuestionHashes",
       "filename": "src/app/actions/card.ts"
     },
-    "4099978a2f355fdad5dc9c91e9eda0a8ffcfc64a19": {
+    "40f369d296d14365fe3fde26b6891bcff547755f66": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -72,7 +84,7 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "406b73d7d14fb4354ef43b88282abf102029b60ae8": {
+    "408584eba3b726920e0ca60986e7389d07c6a930b8": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -84,7 +96,7 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "0077d8c75451361f38d0dd1ab07090c28cb371a4a2": {
+    "009d776dac34e7820748d3cd74a987ea25e9f2322d": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -96,7 +108,7 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "40c7b7ad44ef84de760f454839a60617af4fca7d72": {
+    "403ee898a4ac492263412617db9e580909ed8789ea": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -108,7 +120,7 @@
       "exportedName": "getPlanAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "4096302b3a7fa54f8d8fe337b8fd2700cbca7e99c7": {
+    "405eef0d651586af28fbf4ba9ba130d8864894f386": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -120,7 +132,7 @@
       "exportedName": "saveRecord",
       "filename": "src/app/actions/plan.ts"
     },
-    "602d6440d68e26270b784ed2ece70d06e2b68936eb": {
+    "609a2025005972eff50b9a0cc0fd966730efb0c907": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -132,7 +144,7 @@
       "exportedName": "getTagAllOwned",
       "filename": "src/app/actions/dataset.ts"
     },
-    "606344f9198a7c94b360ab9d7a482b6f48d2d80c45": {
+    "601d0ed08824d4ef113866dd39303ae285ee886e56": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -144,7 +156,7 @@
       "exportedName": "getCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "60c08dc98ea351d3ca449205dd245372b7a59c0af7": {
+    "60377458ee7a387a1b83cbe35c6ce29aee2f8ec53b": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -156,7 +168,7 @@
       "exportedName": "setCardFamiliarity",
       "filename": "src/app/actions/card.ts"
     },
-    "7ec9c1a045fd40375269277b9c78f8ea41c7738277": {
+    "7eaf2c9f41149abcbc16bb791a714d391e95ab9bc5": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -168,19 +180,31 @@
       "exportedName": "getCardAll",
       "filename": "src/app/actions/card.ts"
     },
-    "4015faf8aab2618d7d4f52eb4ee67a7b911fd8ec1d": {
+    "0092f4a405189f3c24979a127a45dcc8b93e05cb1a": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
           "async": true,
-          "exportedName": "saveTag",
+          "exportedName": "getAllScopes",
           "filename": "src/app/actions/dataset.ts"
         }
       },
-      "exportedName": "saveTag",
+      "exportedName": "getAllScopes",
       "filename": "src/app/actions/dataset.ts"
     },
-    "40244652f0a588456910aa442de58259154a2b4b8c": {
+    "4057c07835dcf6abc1c539d254d80d302abee497d8": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": 758266,
+          "async": true,
+          "exportedName": "getTagScopeMap",
+          "filename": "src/app/actions/dataset.ts"
+        }
+      },
+      "exportedName": "getTagScopeMap",
+      "filename": "src/app/actions/dataset.ts"
+    },
+    "407447b21b963d521ea022b805f7aac45991e64bb8": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -192,19 +216,7 @@
       "exportedName": "removeTag",
       "filename": "src/app/actions/dataset.ts"
     },
-    "4063de40aff28f68370e0e66327e3591751775d13e": {
-      "workers": {
-        "app/card/my/page": {
-          "moduleId": 758266,
-          "async": true,
-          "exportedName": "getSharedTags",
-          "filename": "src/app/actions/dataset.ts"
-        }
-      },
-      "exportedName": "getSharedTags",
-      "filename": "src/app/actions/dataset.ts"
-    },
-    "40ec5aaa100e7e7d32c0493981ddac713095095420": {
+    "40856cff69116fe9c60a4fd0e091b88c13949948cc": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -216,19 +228,31 @@
       "exportedName": "getTag",
       "filename": "src/app/actions/dataset.ts"
     },
-    "603e2408095e45c3fe8537da4303c60c02e2f9058a": {
+    "40b06582c190b78c716b3962e09961ca8f2dffb37f": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
           "async": true,
-          "exportedName": "getTagAllSubscribed",
+          "exportedName": "saveTag",
           "filename": "src/app/actions/dataset.ts"
         }
       },
-      "exportedName": "getTagAllSubscribed",
+      "exportedName": "saveTag",
       "filename": "src/app/actions/dataset.ts"
     },
-    "6089d579046d52828d94f0c3d63a35d5fd5a0d17fe": {
+    "40e2ff3e441ff830d0502b4e5efc47568ae7810d82": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": 758266,
+          "async": true,
+          "exportedName": "getSharedTags",
+          "filename": "src/app/actions/dataset.ts"
+        }
+      },
+      "exportedName": "getSharedTags",
+      "filename": "src/app/actions/dataset.ts"
+    },
+    "600a76cb71818ba251694168a94b720b1da590734f": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -240,19 +264,19 @@
       "exportedName": "subscribeTag",
       "filename": "src/app/actions/dataset.ts"
     },
-    "60d51fb3d69a2631803b0914307e0a40a92795781a": {
+    "605c4455cd41b6bf3cc597e6764083a908175a83ca": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
           "async": true,
-          "exportedName": "getTagAllUsed",
+          "exportedName": "setTagScopes",
           "filename": "src/app/actions/dataset.ts"
         }
       },
-      "exportedName": "getTagAllUsed",
+      "exportedName": "setTagScopes",
       "filename": "src/app/actions/dataset.ts"
     },
-    "60dd1294d9a04714591cf755f3819b7e0736710f39": {
+    "6081fe7f385acc2ffac5f69447f071a848602950d5": {
       "workers": {
         "app/card/my/page": {
           "moduleId": 758266,
@@ -262,6 +286,30 @@
         }
       },
       "exportedName": "unsubscribeTag",
+      "filename": "src/app/actions/dataset.ts"
+    },
+    "609eb98c3e1c91f44009b962a79bc7195ea608c856": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": 758266,
+          "async": true,
+          "exportedName": "getTagAllSubscribed",
+          "filename": "src/app/actions/dataset.ts"
+        }
+      },
+      "exportedName": "getTagAllSubscribed",
+      "filename": "src/app/actions/dataset.ts"
+    },
+    "60abea1bad7ba0ca2d5cca1e210b64ca5ae77a685b": {
+      "workers": {
+        "app/card/my/page": {
+          "moduleId": 758266,
+          "async": true,
+          "exportedName": "getTagAllUsed",
+          "filename": "src/app/actions/dataset.ts"
+        }
+      },
+      "exportedName": "getTagAllUsed",
       "filename": "src/app/actions/dataset.ts"
     }
   },

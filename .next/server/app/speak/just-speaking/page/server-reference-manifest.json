@@ -1,6 +1,6 @@
 {
   "node": {
-    "40d3de3f5b1a3d0440b25d70b11f0a533069c89895": {
+    "40beb4a8b9b9c61c265ff2ac3dde6987151189302f": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -12,7 +12,7 @@
       "exportedName": "getKey",
       "filename": "src/app/actions/settings_general.ts"
     },
-    "60da0cf442cf40c2245450d8d028ae8f684f3f8c5c": {
+    "60c4d9171b3839b1f32f152aab55ebda451b58d461": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -24,7 +24,7 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_local_redis.ts"
     },
-    "60afd0838fe2dc98c32926ef26a031f3744ac6b7e0": {
+    "60a1a4f522ade813e0f06341fba555f2d5ac00b556": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -36,7 +36,19 @@
       "exportedName": "callSTT",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "60eb60c364d3487a0fe6aff0f8f953e6472c957bc7": {
+    "40634eeec86ed850db5bca48cac39ae5d9aaba321a": {
+      "workers": {
+        "app/speak/just-speaking/page": {
+          "moduleId": 251919,
+          "async": true,
+          "exportedName": "generateInterviewAnswer",
+          "filename": "src/app/actions/ai_gemini.ts"
+        }
+      },
+      "exportedName": "generateInterviewAnswer",
+      "filename": "src/app/actions/ai_gemini.ts"
+    },
+    "603bb288d880d5715c37a3a8b392b2fc2a3fd42ff0": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -48,7 +60,7 @@
       "exportedName": "callTTS",
       "filename": "src/app/actions/ai_gemini.ts"
     },
-    "405a58780fb894133aed65e8d3648f13cbc0fd1841": {
+    "401ce7e430d84d5509b2595b7106e5f30dd03ae001": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -60,7 +72,7 @@
       "exportedName": "getCardsByQuestionHashes",
       "filename": "src/app/actions/card.ts"
     },
-    "4099978a2f355fdad5dc9c91e9eda0a8ffcfc64a19": {
+    "40f369d296d14365fe3fde26b6891bcff547755f66": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -72,7 +84,7 @@
       "exportedName": "saveCard",
       "filename": "src/app/actions/card.ts"
     },
-    "406b73d7d14fb4354ef43b88282abf102029b60ae8": {
+    "408584eba3b726920e0ca60986e7389d07c6a930b8": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -84,7 +96,7 @@
       "exportedName": "saveCardTag",
       "filename": "src/app/actions/card.ts"
     },
-    "0077d8c75451361f38d0dd1ab07090c28cb371a4a2": {
+    "009d776dac34e7820748d3cd74a987ea25e9f2322d": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -96,7 +108,7 @@
       "exportedName": "deleteAuthTokens",
       "filename": "src/app/actions/auth.ts"
     },
-    "40c7b7ad44ef84de760f454839a60617af4fca7d72": {
+    "403ee898a4ac492263412617db9e580909ed8789ea": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -108,7 +120,7 @@
       "exportedName": "getPlanAll",
       "filename": "src/app/actions/plan.ts"
     },
-    "4096302b3a7fa54f8d8fe337b8fd2700cbca7e99c7": {
+    "405eef0d651586af28fbf4ba9ba130d8864894f386": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -120,7 +132,7 @@
       "exportedName": "saveRecord",
       "filename": "src/app/actions/plan.ts"
     },
-    "70902ee698d9a12db5cd308d16f1fad523443e83a3": {
+    "708b5016e87668795dcd29afb9235413cab4521733": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -132,7 +144,7 @@
       "exportedName": "saveAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "60b9d39284be9eb543a3ee9591ed19c8edd355479a": {
+    "60056c92b2006d4065cd0729dd2040103c43214e6b": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -144,7 +156,7 @@
       "exportedName": "removeAudio",
       "filename": "src/app/actions/audio.ts"
     },
-    "40f71a668d6eacc4a6a879f1a0d7fe76da8908812e": {
+    "4093f86f4db8eb1a3f81728ebada19c58ea94dc34a": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -156,7 +168,7 @@
       "exportedName": "getJustSpeakingAll",
       "filename": "src/app/actions/just_speaking.ts"
     },
-    "40db15e0d32a1194ddc04bcc69af4e2e9f49da46e6": {
+    "40caf6ae78eba52a922c9d8b1c5d945ab3b5ac9e71": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
@@ -168,7 +180,7 @@
       "exportedName": "saveJustSpeaking",
       "filename": "src/app/actions/just_speaking.ts"
     },
-    "409e61eb863377834d67e3e55817368d0e794d7159": {
+    "4052e86e9255d2f89a172fdbe18300d975fbb9db18": {
       "workers": {
         "app/speak/just-speaking/page": {
           "moduleId": 251919,
