@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/card/tags/route.js")
 R.c("server/chunks/node_modules_jose_dist_webapi_0v_slxk._.js")
 R.c("server/chunks/node_modules_@better-auth_core_dist_10uipcy._.js")
-R.c("server/chunks/[root-of-the-server]__0zfhf~2._.js")
+R.c("server/chunks/[root-of-the-server]__0zftdat._.js")
 R.c("server/chunks/_0gkmc0m._.js")
 R.c("server/chunks/_058h_g7._.js")
 R.c("server/chunks/node_modules_next_11synfn._.js")

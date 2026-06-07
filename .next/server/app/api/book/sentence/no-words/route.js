@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/book/sentence/no-words/route.js")
-R.c("server/chunks/[root-of-the-server]__0fi898l._.js")
+R.c("server/chunks/[root-of-the-server]__03zf2yw._.js")
 R.c("server/chunks/node_modules_@better-auth_core_dist_10uipcy._.js")
 R.c("server/chunks/[root-of-the-server]__0~_4c5u._.js")
 R.c("server/chunks/node_modules_next_dist_0npcise._.js")
