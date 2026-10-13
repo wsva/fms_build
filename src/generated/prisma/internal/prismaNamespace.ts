@@ -405,6 +405,7 @@ export const ModelName = {
   app_dictation: 'app_dictation',
   app_xp_ledger: 'app_xp_ledger',
   app_card_review_event: 'app_card_review_event',
+  app_read_attempt_event: 'app_read_attempt_event',
   app_inbox_seq: 'app_inbox_seq',
   app_inbox: 'app_inbox',
   dict_de: 'dict_de',
@@ -454,7 +455,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
+    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_read_attempt_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -2009,6 +2010,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         count: {
           args: Prisma.app_card_review_eventCountArgs<ExtArgs>
           result: runtime.Types.Utils.Optional<Prisma.App_card_review_eventCountAggregateOutputType> | number
+        }
+      }
+    }
+    app_read_attempt_event: {
+      payload: Prisma.$app_read_attempt_eventPayload<ExtArgs>
+      fields: Prisma.app_read_attempt_eventFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.app_read_attempt_eventFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.app_read_attempt_eventFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        findFirst: {
+          args: Prisma.app_read_attempt_eventFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.app_read_attempt_eventFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        findMany: {
+          args: Prisma.app_read_attempt_eventFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>[]
+        }
+        create: {
+          args: Prisma.app_read_attempt_eventCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        createMany: {
+          args: Prisma.app_read_attempt_eventCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.app_read_attempt_eventCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>[]
+        }
+        delete: {
+          args: Prisma.app_read_attempt_eventDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        update: {
+          args: Prisma.app_read_attempt_eventUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        deleteMany: {
+          args: Prisma.app_read_attempt_eventDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.app_read_attempt_eventUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.app_read_attempt_eventUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>[]
+        }
+        upsert: {
+          args: Prisma.app_read_attempt_eventUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_read_attempt_eventPayload>
+        }
+        aggregate: {
+          args: Prisma.App_read_attempt_eventAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateApp_read_attempt_event>
+        }
+        groupBy: {
+          args: Prisma.app_read_attempt_eventGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_read_attempt_eventGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.app_read_attempt_eventCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_read_attempt_eventCountAggregateOutputType> | number
         }
       }
     }
@@ -4850,6 +4925,23 @@ export const App_card_review_eventScalarFieldEnum = {
 export type App_card_review_eventScalarFieldEnum = (typeof App_card_review_eventScalarFieldEnum)[keyof typeof App_card_review_eventScalarFieldEnum]
 
 
+export const App_read_attempt_eventScalarFieldEnum = {
+  id: 'id',
+  cluster_id: 'cluster_id',
+  uuid: 'uuid',
+  user_id: 'user_id',
+  dataset_uuid: 'dataset_uuid',
+  text_uuid: 'text_uuid',
+  audio_path: 'audio_path',
+  recognized: 'recognized',
+  score: 'score',
+  created_at: 'created_at',
+  inserted_at: 'inserted_at'
+} as const
+
+export type App_read_attempt_eventScalarFieldEnum = (typeof App_read_attempt_eventScalarFieldEnum)[keyof typeof App_read_attempt_eventScalarFieldEnum]
+
+
 export const App_inbox_seqScalarFieldEnum = {
   cluster_id: 'cluster_id',
   scope: 'scope',
@@ -5408,13 +5500,6 @@ export type ListBigIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaMod
 
 
 /**
- * Reference to a field of type 'Boolean'
- */
-export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
-    
-
-
-/**
  * Reference to a field of type 'Float'
  */
 export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float'>
@@ -5425,6 +5510,13 @@ export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, '
  * Reference to a field of type 'Float[]'
  */
 export type ListFloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float[]'>
+    
+
+
+/**
+ * Reference to a field of type 'Boolean'
+ */
+export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
     
 
 /**
@@ -5543,6 +5635,7 @@ export type GlobalOmitConfig = {
   app_dictation?: Prisma.app_dictationOmit
   app_xp_ledger?: Prisma.app_xp_ledgerOmit
   app_card_review_event?: Prisma.app_card_review_eventOmit
+  app_read_attempt_event?: Prisma.app_read_attempt_eventOmit
   app_inbox_seq?: Prisma.app_inbox_seqOmit
   app_inbox?: Prisma.app_inboxOmit
   dict_de?: Prisma.dict_deOmit

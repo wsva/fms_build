@@ -72,6 +72,7 @@ export const ModelName = {
   app_dictation: 'app_dictation',
   app_xp_ledger: 'app_xp_ledger',
   app_card_review_event: 'app_card_review_event',
+  app_read_attempt_event: 'app_read_attempt_event',
   app_inbox_seq: 'app_inbox_seq',
   app_inbox: 'app_inbox',
   dict_de: 'dict_de',
@@ -405,6 +406,23 @@ export const App_card_review_eventScalarFieldEnum = {
 } as const
 
 export type App_card_review_eventScalarFieldEnum = (typeof App_card_review_eventScalarFieldEnum)[keyof typeof App_card_review_eventScalarFieldEnum]
+
+
+export const App_read_attempt_eventScalarFieldEnum = {
+  id: 'id',
+  cluster_id: 'cluster_id',
+  uuid: 'uuid',
+  user_id: 'user_id',
+  dataset_uuid: 'dataset_uuid',
+  text_uuid: 'text_uuid',
+  audio_path: 'audio_path',
+  recognized: 'recognized',
+  score: 'score',
+  created_at: 'created_at',
+  inserted_at: 'inserted_at'
+} as const
+
+export type App_read_attempt_eventScalarFieldEnum = (typeof App_read_attempt_eventScalarFieldEnum)[keyof typeof App_read_attempt_eventScalarFieldEnum]
 
 
 export const App_inbox_seqScalarFieldEnum = {

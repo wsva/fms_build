@@ -169,6 +169,20 @@ export type app_xp_ledger = Prisma.app_xp_ledgerModel
  */
 export type app_card_review_event = Prisma.app_card_review_eventModel
 /**
+ * Model app_read_attempt_event
+ * Read-aloud attempt events (sync-v2.md §17.6 item 3, protocol v6): per-user practice
+ * history journaled under `@app` as kind `read_attempt_save` and projected here. One
+ * row per attempt, carrying its outcome (INV-23) — the unique key `(cluster_id, uuid)`
+ * makes a replayed event an INSERT-once no-op, mirroring the app's
+ * `INSERT OR IGNORE INTO read_attempt_event` keyed by its uuid PK.
+ * 
+ * `audio_path` is device-local (the row syncs, the WAV does not). `created_at` is the
+ * WIRE stamp from `attempt_payload` (the attempt's own time, canonical fixed-width UTC
+ * per INV-6) — NOT the ingest time, which is `inserted_at`; the column keeps the wire
+ * name so the payload/state mapping stays 1:1 with the app's `read_attempt_event`.
+ */
+export type app_read_attempt_event = Prisma.app_read_attempt_eventModel
+/**
  * Model app_inbox_seq
  * Inbox proposal-ordering counter, per (cluster, scope). Mirrors the `app_sync_seq`
  * shape but is a SEPARATE number space: `proposal_seq` orders the proposal queue, it
