@@ -405,6 +405,8 @@ export const ModelName = {
   app_dictation: 'app_dictation',
   app_xp_ledger: 'app_xp_ledger',
   app_card_review_event: 'app_card_review_event',
+  app_inbox_seq: 'app_inbox_seq',
+  app_inbox: 'app_inbox',
   dict_de: 'dict_de',
   dict_de_level: 'dict_de_level',
   dict_en: 'dict_en',
@@ -452,7 +454,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
+    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -2007,6 +2009,154 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         count: {
           args: Prisma.app_card_review_eventCountArgs<ExtArgs>
           result: runtime.Types.Utils.Optional<Prisma.App_card_review_eventCountAggregateOutputType> | number
+        }
+      }
+    }
+    app_inbox_seq: {
+      payload: Prisma.$app_inbox_seqPayload<ExtArgs>
+      fields: Prisma.app_inbox_seqFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.app_inbox_seqFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.app_inbox_seqFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        findFirst: {
+          args: Prisma.app_inbox_seqFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.app_inbox_seqFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        findMany: {
+          args: Prisma.app_inbox_seqFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>[]
+        }
+        create: {
+          args: Prisma.app_inbox_seqCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        createMany: {
+          args: Prisma.app_inbox_seqCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.app_inbox_seqCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>[]
+        }
+        delete: {
+          args: Prisma.app_inbox_seqDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        update: {
+          args: Prisma.app_inbox_seqUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        deleteMany: {
+          args: Prisma.app_inbox_seqDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.app_inbox_seqUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.app_inbox_seqUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>[]
+        }
+        upsert: {
+          args: Prisma.app_inbox_seqUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inbox_seqPayload>
+        }
+        aggregate: {
+          args: Prisma.App_inbox_seqAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateApp_inbox_seq>
+        }
+        groupBy: {
+          args: Prisma.app_inbox_seqGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_inbox_seqGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.app_inbox_seqCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_inbox_seqCountAggregateOutputType> | number
+        }
+      }
+    }
+    app_inbox: {
+      payload: Prisma.$app_inboxPayload<ExtArgs>
+      fields: Prisma.app_inboxFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.app_inboxFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.app_inboxFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        findFirst: {
+          args: Prisma.app_inboxFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.app_inboxFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        findMany: {
+          args: Prisma.app_inboxFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>[]
+        }
+        create: {
+          args: Prisma.app_inboxCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        createMany: {
+          args: Prisma.app_inboxCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.app_inboxCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>[]
+        }
+        delete: {
+          args: Prisma.app_inboxDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        update: {
+          args: Prisma.app_inboxUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        deleteMany: {
+          args: Prisma.app_inboxDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.app_inboxUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.app_inboxUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>[]
+        }
+        upsert: {
+          args: Prisma.app_inboxUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$app_inboxPayload>
+        }
+        aggregate: {
+          args: Prisma.App_inboxAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateApp_inbox>
+        }
+        groupBy: {
+          args: Prisma.app_inboxGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_inboxGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.app_inboxCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.App_inboxCountAggregateOutputType> | number
         }
       }
     }
@@ -4700,6 +4850,36 @@ export const App_card_review_eventScalarFieldEnum = {
 export type App_card_review_eventScalarFieldEnum = (typeof App_card_review_eventScalarFieldEnum)[keyof typeof App_card_review_eventScalarFieldEnum]
 
 
+export const App_inbox_seqScalarFieldEnum = {
+  cluster_id: 'cluster_id',
+  scope: 'scope',
+  next_seq: 'next_seq'
+} as const
+
+export type App_inbox_seqScalarFieldEnum = (typeof App_inbox_seqScalarFieldEnum)[keyof typeof App_inbox_seqScalarFieldEnum]
+
+
+export const App_inboxScalarFieldEnum = {
+  cluster_id: 'cluster_id',
+  scope: 'scope',
+  proposal_seq: 'proposal_seq',
+  change_id: 'change_id',
+  object_id: 'object_id',
+  kind: 'kind',
+  op: 'op',
+  edit_time: 'edit_time',
+  author: 'author',
+  payload: 'payload',
+  status: 'status',
+  winner_seq: 'winner_seq',
+  winner_payload: 'winner_payload',
+  acked_at: 'acked_at',
+  created_at: 'created_at'
+} as const
+
+export type App_inboxScalarFieldEnum = (typeof App_inboxScalarFieldEnum)[keyof typeof App_inboxScalarFieldEnum]
+
+
 export const Dict_deScalarFieldEnum = {
   uuid: 'uuid',
   url: 'url'
@@ -5363,6 +5543,8 @@ export type GlobalOmitConfig = {
   app_dictation?: Prisma.app_dictationOmit
   app_xp_ledger?: Prisma.app_xp_ledgerOmit
   app_card_review_event?: Prisma.app_card_review_eventOmit
+  app_inbox_seq?: Prisma.app_inbox_seqOmit
+  app_inbox?: Prisma.app_inboxOmit
   dict_de?: Prisma.dict_deOmit
   dict_de_level?: Prisma.dict_de_levelOmit
   dict_en?: Prisma.dict_enOmit

@@ -469,6 +469,18 @@
       "namedRegex": "^/api/v1/file(?:/)?$"
     },
     {
+      "page": "/api/v1/inbox",
+      "regex": "^/api/v1/inbox(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/inbox(?:/)?$"
+    },
+    {
+      "page": "/api/v1/inbox/ack",
+      "regex": "^/api/v1/inbox/ack(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/inbox/ack(?:/)?$"
+    },
+    {
       "page": "/api/v1/publish",
       "regex": "^/api/v1/publish(?:/)?$",
       "routeKeys": {},

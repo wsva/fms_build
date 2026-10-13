@@ -145,6 +145,36 @@ export type app_xp_ledger = Prisma.app_xp_ledgerModel
  */
 export type app_card_review_event = Prisma.app_card_review_eventModel
 /**
+ * Model app_inbox_seq
+ * Inbox proposal-ordering counter, per (cluster, scope). Mirrors the `app_sync_seq`
+ * shape but is a SEPARATE number space: `proposal_seq` orders the proposal queue, it
+ * is NEVER a journal seq (sync-v2.md INV-1 — only the authority mints journal seq, and
+ * the website is not the dataset-scope authority). The desktop hub mints the real
+ * journal seq when it drains a proposal through its command path (§8.3 step 2).
+ */
+export type app_inbox_seq = Prisma.app_inbox_seqModel
+/**
+ * Model app_inbox
+ * Inbox proposal queue (sync-v2.md §6.3, §8.3, §14 step 5). The website HOSTS
+ * proposals from editors without the journal (the website UI; optionally an offline
+ * follower); the desktop authority drains them, applies via its command path (INV-18,
+ * minting the real journal seq THERE), and acks accepted[]/rejected[{winner_seq,
+ * winner_payload}] (INV-4).
+ * 
+ * This is a QUEUE with a lifecycle (pending -> accepted | rejected), NOT an
+ * append-only journal, so INV-2 does not apply here — updating `status` on ack is the
+ * queue's purpose. The journal (`app_sync_log`) is never written by this table's
+ * routes (INV-1, INV-17).
+ * 
+ * `proposal_seq` is an inbox-ordering counter per (cluster, scope) from
+ * `app_inbox_seq`, NOT a journal position. `change_id` is the INV-3 dedup key (a
+ * re-propose is a no-op). `winner_seq`/`winner_payload` are the INV-4 rollback
+ * material: on a rejected ack they hold the authoritative row so the website UI can
+ * roll its optimistic `live/` write back; on an accepted ack `winner_seq` records the
+ * journal seq the authority minted (for traceability only — never minted here).
+ */
+export type app_inbox = Prisma.app_inboxModel
+/**
  * Model dict_de
  * 
  */
