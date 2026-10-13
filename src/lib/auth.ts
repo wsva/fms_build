@@ -1,0 +1,55 @@
+import { betterAuth } from "better-auth";
+import { genericOAuth } from "better-auth/plugins";
+
+export const auth = betterAuth({
+    secret: process.env.BETTER_AUTH_SECRET,
+    trustedOrigins: [process.env.BETTER_AUTH_URL as string],
+    plugins: [
+        genericOAuth({
+            config: [
+                {
+                    providerId: "wsva_oauth2",
+                    clientId: process.env.OAUTH2_CLIENT_ID as string,
+                    authorizationUrl: process.env.OAUTH2_AUTHORIZATION,
+                    tokenUrl: process.env.OAUTH2_TOKEN,
+                    pkce: true,
+                    scopes: ["profile", "media"],
+                    getUserInfo: async (token) => {
+                        const userinfoUrl = process.env.OAUTH2_USERINFO;
+                        if (!userinfoUrl) {
+                            throw new Error("OAUTH2_USERINFO environment variable is not set");
+                        }
+                        const response = await fetch(userinfoUrl, {
+                            headers: {
+                                Authorization: `Bearer ${token.accessToken}`,
+                            },
+                        });
+                        if (!response.ok) {
+                            throw new Error(`OAuth2 userinfo request failed: ${response.status} ${response.statusText}`);
+                        }
+                        const profile = await response.json();
+                        if (!profile.email) {
+                            throw new Error("OAuth2 userinfo response missing required field: email");
+                        }
+                        return {
+                            id: profile.email,
+                            name: profile.name,
+                            email: profile.email,
+                            emailVerified: profile.verified_email,
+                        };
+                    },
+                },
+            ],
+        }),
+    ],
+    session: {
+        cookieCache: {
+            enabled: true,
+            maxAge: 60 * 60 * 24 * 7, // Cache duration in seconds (7 days)
+            strategy: "jwt",
+        },
+        expiresIn: 60 * 60 * 24 * 7, // 7 days
+        updateAge: 60 * 60 * 24, // 1 day (every 1 day the session expiration is updated)
+        freshAge: 0, // Disable freshness check
+    },
+});

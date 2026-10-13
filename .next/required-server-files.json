@@ -311,6 +311,9 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "reactCompiler": true,
+    "serverExternalPackages": [
+      "better-sqlite3"
+    ],
     "turbopack": {
       "root": "/home/runner/work/fms/fms"
     },

@@ -1,0 +1,82 @@
+'use server';
+
+import { ActionResult } from '@/lib/types';
+import { GoogleGenAI, createUserContent, createPartFromUri } from '@google/genai';
+import fs from 'fs';
+import path from 'path';
+import { saveWaveFile } from './ai_utils';
+import { getKey } from './settings_general';
+
+async function getAI(): Promise<GoogleGenAI> {
+    const apiKey = await getKey('GEMINI_API_KEY');
+    return new GoogleGenAI({ apiKey: apiKey ?? undefined });
+}
+
+export async function callSTT(audioBlob: Blob, model?: string): Promise<ActionResult<string>> {
+    try {
+        const ai = await getAI();
+        const myfile = await ai.files.upload({
+            file: audioBlob,
+            config: { mimeType: "audio/wav" },
+        })
+        const result = await ai.models.generateContent({
+            model: model || "gemini-2.0-flash-001",
+            contents: createUserContent([
+                createPartFromUri(myfile.uri!, myfile.mimeType!),
+                "Generate a transcript of the speech.",
+            ]),
+        });
+        return { status: "success", data: result.text as string }
+    } catch (e) {
+        console.error('exception: ', e);
+        return { status: "error", error: "exception" }
+    }
+}
+
+export async function generateInterviewAnswer(question: string): Promise<ActionResult<string>> {
+    try {
+        const ai = await getAI();
+        const result = await ai.models.generateContent({
+            model: "gemini-2.0-flash-001",
+            contents: createUserContent([
+                `You are an experienced interview coach. Write a strong, structured example answer for the following interview question. Use the STAR method (Situation, Task, Action, Result) where appropriate. Be clear and concise.\n\nQuestion: ${question}`,
+            ]),
+        });
+        return { status: "success", data: result.text as string }
+    } catch (e) {
+        console.error('exception: ', e);
+        return { status: "error", error: "exception" }
+    }
+}
+
+export async function callTTS(uuid: string, text: string): Promise<ActionResult<string>> {
+    try {
+        const ai = await getAI();
+        const response = await ai.models.generateContent({
+            model: "gemini-2.5-flash-preview-tts",
+            contents: [{ parts: [{ text }] }],
+            config: {
+                responseModalities: ['AUDIO'],
+                speechConfig: {
+                    voiceConfig: {
+                        prebuiltVoiceConfig: { voiceName: 'Kore' },
+                    },
+                },
+            },
+        });
+
+        const data = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+        if (!data) {
+            return { status: "error", error: "no data in response" }
+        }
+
+        const filePath = path.join('/fms_data', "tts", `${uuid}.wav`);
+        fs.mkdirSync(path.dirname(filePath), { recursive: true });
+        await saveWaveFile(filePath, Buffer.from(data, 'base64'));
+        return { status: "success", data: `/api/data/tts/${uuid}.wav` }
+    } catch (e) {
+        console.error('exception: ', e);
+        return { status: "error", error: "exception" }
+    }
+}
+

@@ -87,6 +87,46 @@
       "namedRegex": "^/api/listen/subtitle/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/api/v1/datasets/[uuid]/changes",
+      "regex": "^/api/v1/datasets/([^/]+?)/changes(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/changes(?:/)?$"
+    },
+    {
+      "page": "/api/v1/datasets/[uuid]/manifest",
+      "regex": "^/api/v1/datasets/([^/]+?)/manifest(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/manifest(?:/)?$"
+    },
+    {
+      "page": "/api/v1/datasets/[uuid]/snapshot",
+      "regex": "^/api/v1/datasets/([^/]+?)/snapshot(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/snapshot(?:/)?$"
+    },
+    {
+      "page": "/api/v1/registry/[uuid]/manifest",
+      "regex": "^/api/v1/registry/([^/]+?)/manifest(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/registry/(?<nxtPuuid>[^/]+?)/manifest(?:/)?$"
+    },
+    {
+      "page": "/api/v1/registry/[uuid]/snapshot",
+      "regex": "^/api/v1/registry/([^/]+?)/snapshot(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/registry/(?<nxtPuuid>[^/]+?)/snapshot(?:/)?$"
+    },
+    {
       "page": "/blog/[uuid]",
       "regex": "^/blog/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -101,6 +141,14 @@
         "nxtPuuid": "nxtPuuid"
       },
       "namedRegex": "^/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dataset/market/[uuid]",
+      "regex": "^/dataset/market/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/dataset/market/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
       "page": "/speak/ask/[uuid]",
@@ -229,10 +277,28 @@
       "namedRegex": "^/api/card/incomplete(?:/)?$"
     },
     {
+      "page": "/api/card/sync/pull",
+      "regex": "^/api/card/sync/pull(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/card/sync/pull(?:/)?$"
+    },
+    {
+      "page": "/api/card/sync/push",
+      "regex": "^/api/card/sync/push(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/card/sync/push(?:/)?$"
+    },
+    {
       "page": "/api/card/tags",
       "regex": "^/api/card/tags(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/card/tags(?:/)?$"
+    },
+    {
+      "page": "/api/dataset/upload",
+      "regex": "^/api/dataset/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/dataset/upload(?:/)?$"
     },
     {
       "page": "/api/listen",
@@ -367,6 +433,60 @@
       "namedRegex": "^/api/services/test(?:/)?$"
     },
     {
+      "page": "/api/v1/app/changes",
+      "regex": "^/api/v1/app/changes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/app/changes(?:/)?$"
+    },
+    {
+      "page": "/api/v1/app/state",
+      "regex": "^/api/v1/app/state(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/app/state(?:/)?$"
+    },
+    {
+      "page": "/api/v1/changes",
+      "regex": "^/api/v1/changes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/changes(?:/)?$"
+    },
+    {
+      "page": "/api/v1/cluster",
+      "regex": "^/api/v1/cluster(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/cluster(?:/)?$"
+    },
+    {
+      "page": "/api/v1/datasets",
+      "regex": "^/api/v1/datasets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/datasets(?:/)?$"
+    },
+    {
+      "page": "/api/v1/file",
+      "regex": "^/api/v1/file(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/file(?:/)?$"
+    },
+    {
+      "page": "/api/v1/publish",
+      "regex": "^/api/v1/publish(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/publish(?:/)?$"
+    },
+    {
+      "page": "/api/v1/status",
+      "regex": "^/api/v1/status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/status(?:/)?$"
+    },
+    {
+      "page": "/api/v1/sync/changes",
+      "regex": "^/api/v1/sync/changes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/sync/changes(?:/)?$"
+    },
+    {
       "page": "/api/word",
       "regex": "^/api/word(?:/)?$",
       "routeKeys": {},
@@ -421,6 +541,12 @@
       "namedRegex": "^/card/test(?:/)?$"
     },
     {
+      "page": "/dataset/manage",
+      "regex": "^/dataset/manage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dataset/manage(?:/)?$"
+    },
+    {
       "page": "/dataset/market",
       "regex": "^/dataset/market(?:/)?$",
       "routeKeys": {},
@@ -433,10 +559,22 @@
       "namedRegex": "^/dataset/tag(?:/)?$"
     },
     {
+      "page": "/dataset/upload",
+      "regex": "^/dataset/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dataset/upload(?:/)?$"
+    },
+    {
       "page": "/listen/dictation",
       "regex": "^/listen/dictation(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/listen/dictation(?:/)?$"
+    },
+    {
+      "page": "/listen/dictation-upload",
+      "regex": "^/listen/dictation\\-upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/listen/dictation\\-upload(?:/)?$"
     },
     {
       "page": "/listen/media",
@@ -539,6 +677,12 @@
       "regex": "^/speak/read/text(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/speak/read/text(?:/)?$"
+    },
+    {
+      "page": "/speak/read-local",
+      "regex": "^/speak/read\\-local(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/speak/read\\-local(?:/)?$"
     },
     {
       "page": "/tools/pdf_reader",

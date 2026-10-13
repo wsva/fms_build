@@ -1,0 +1,84 @@
+type MenuItem = {
+    key: string;
+    name: string;
+    description: string;
+    href: string;
+}
+
+type MenuGroup = {
+    name: string;
+    items: MenuItem[];
+}
+
+export const menuList: MenuGroup[] = [
+    {
+        name: "Word",
+        items: [
+            { key: "word_top", name: "Top Words", description: "top words", href: "/word/top" },
+            { key: "word_sentence", name: "Sentence", description: "search sentences", href: "/word/sentence" },
+        ],
+    },
+    {
+        name: "Listen & Speak",
+        items: [
+            { key: "seperator_listen", name: "Listen", description: "", href: "" },
+            { key: "listen_media", name: "Media", description: "my media", href: "/listen/media" },
+            { key: "listen_dictation", name: "Dictation", description: "dictation practice from datasets", href: "/listen/dictation" },
+            { key: "listen_dictation_upload", name: "Dictation (Upload)", description: "dictation from uploaded files", href: "/listen/dictation-upload" },
+
+            { key: "seperator_speak", name: "Speak", description: "", href: "" },
+            { key: "speak_just_speaking", name: "Just Speaking", description: "record and upload audio", href: "/speak/just-speaking" },
+            { key: "speak_practice", name: "Practice", description: "practice", href: "/speak/practice" },
+            { key: "speak_ask", name: "Asking", description: "preparations for interviews", href: "/speak/ask" },
+
+            { key: "seperator_read", name: "Read", description: "", href: "" },
+            { key: "read_book_main", name: "Reading", description: "read a book from datasets", href: "/speak/read" },
+            { key: "read_book_local", name: "Reading (Local)", description: "read your own Prisma books", href: "/speak/read-local" },
+            { key: "read_book_manage", name: "Manage Books", description: "manage books and chapters", href: "/speak/read/book" },
+            { key: "read_book_text", name: "View Book Text", description: "show content in pure text", href: "/speak/read/text" },
+        ],
+    },
+    {
+        name: "Card",
+        items: [
+            { key: "card_add", name: "Add Card", description: "add new card", href: "/card/add?edit=y" },
+            { key: "card_my", name: "My Cards", description: "my cards", href: "/card/my" },
+            { key: "card_manage", name: "Manage Cards", description: "manage cards", href: "/card/manage" },
+            { key: "card_test", name: "Card Test", description: "learn cards", href: "/card/test" },
+            { key: "card_improve", name: "Improve Cards", description: "review AI-suggested improvements", href: "/card/improve" },
+            { key: "card_table", name: "Card Table", description: "all cards in a table view", href: "/card/table" },
+        ],
+    },
+    {
+        name: "Blog",
+        items: [
+            { key: "blog_index", name: "Blog", description: "all blogs", href: "/blog" },
+            { key: "blog_add", name: "Add Blog", description: "add new blog", href: "/blog/add" },
+            { key: "blog_all_of_others", name: "View Blogs By Others", description: "blogs by others", href: "/blog/all_of_others" },
+        ],
+    },
+    {
+        name: "Dataset",
+        items: [
+            { key: "dataset_tag", name: "Tags", description: "manage tags for all features", href: "/dataset/tag" },
+            { key: "dataset_market", name: "Market", description: "datasets shared by others", href: "/dataset/market" },
+            { key: "dataset_upload", name: "Upload", description: "upload a dataset directory", href: "/dataset/upload" },
+            { key: "dataset_manage", name: "My Datasets", description: "visibility, tags and deletion", href: "/dataset/manage" },
+        ],
+    },
+    {
+        name: "Tools",
+        items: [
+            { key: "plan_main", name: "Plan", description: "make plans", href: "/plan" },
+            { key: "tools_pdf_reader", name: "PDF Reader", description: "PDF reader", href: "/tools/pdf_reader" },
+            { key: "tools_shared_services", name: "Shared Services", description: "shared data or STT services", href: "/tools/services" },
+        ],
+    },
+    {
+        name: "Settings",
+        items: [
+            { key: "settings_general", name: "General", description: "General settings", href: "/settings/general" },
+            { key: "settings_api", name: "API", description: "view APIs", href: "/settings/api" },
+        ],
+    },
+];

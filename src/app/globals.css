@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-sand-50:  #FFFAF2;
+  --color-sand-100: #FEF3E5;
+  --color-sand-200: #FBEDDA;
+  --color-sand-300: #ECD2B0;
+  --color-sand-400: #DBB98A;
+  --color-sand-500: #C7A067;
+  --color-sand-600: #A8804C;
+  --color-sand-700: #86633B;
+  --color-sand-800: #63492B;
+  --color-sand-900: #3E2E1B;
+}
+
+body {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+@keyframes motto-rise {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+.motto-rise {
+  animation: motto-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
