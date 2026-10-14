@@ -102,6 +102,17 @@ export type dataset_tag_link = Prisma.dataset_tag_linkModel
  */
 export type app_sync_seq = Prisma.app_sync_seqModel
 /**
+ * Model dataset_sync_seq
+ * Per-scope dataset seq minter (sync-v2.md phase 7b). The dataset-scope analogue of
+ * app_sync_seq: it mints a monotonic seq per (cluster_id, dataset uuid) journal, but
+ * SELF-SEEDS above any hub-mirrored rows already in app_sync_log for that scope
+ * (see nextDatasetSeq), so a mirror→authority handover CONTINUES the sequence
+ * instead of restarting at 1 and colliding with the mirrored number space (§9 flow
+ * 8). The @app minter above is untouched — the live cloud-authority path has zero
+ * regression risk from this per-scope counter.
+ */
+export type dataset_sync_seq = Prisma.dataset_sync_seqModel
+/**
  * Model app_sync_log
  * Append-only change journal. Holds TWO seq number spaces under one cluster_id,
  * disambiguated by `scope` (sync-v2.md §3-fact-2 / §6.1):

@@ -66,6 +66,7 @@ export const ModelName = {
   dataset_file_hash: 'dataset_file_hash',
   dataset_tag_link: 'dataset_tag_link',
   app_sync_seq: 'app_sync_seq',
+  dataset_sync_seq: 'dataset_sync_seq',
   app_sync_log: 'app_sync_log',
   app_applied_change: 'app_applied_change',
   app_sync_prune_mark: 'app_sync_prune_mark',
@@ -270,6 +271,8 @@ export const DatasetScalarFieldEnum = {
   current_version: 'current_version',
   media_count: 'media_count',
   card_count: 'card_count',
+  journal_role: 'journal_role',
+  journal_epoch: 'journal_epoch',
   deleted: 'deleted',
   created_at: 'created_at',
   updated_at: 'updated_at'
@@ -324,6 +327,15 @@ export const App_sync_seqScalarFieldEnum = {
 } as const
 
 export type App_sync_seqScalarFieldEnum = (typeof App_sync_seqScalarFieldEnum)[keyof typeof App_sync_seqScalarFieldEnum]
+
+
+export const Dataset_sync_seqScalarFieldEnum = {
+  cluster_id: 'cluster_id',
+  scope: 'scope',
+  next_seq: 'next_seq'
+} as const
+
+export type Dataset_sync_seqScalarFieldEnum = (typeof Dataset_sync_seqScalarFieldEnum)[keyof typeof Dataset_sync_seqScalarFieldEnum]
 
 
 export const App_sync_logScalarFieldEnum = {

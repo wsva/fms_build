@@ -399,6 +399,7 @@ export const ModelName = {
   dataset_file_hash: 'dataset_file_hash',
   dataset_tag_link: 'dataset_tag_link',
   app_sync_seq: 'app_sync_seq',
+  dataset_sync_seq: 'dataset_sync_seq',
   app_sync_log: 'app_sync_log',
   app_applied_change: 'app_applied_change',
   app_sync_prune_mark: 'app_sync_prune_mark',
@@ -455,7 +456,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_read_attempt_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
+    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "dataset_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_read_attempt_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -1566,6 +1567,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         count: {
           args: Prisma.app_sync_seqCountArgs<ExtArgs>
           result: runtime.Types.Utils.Optional<Prisma.App_sync_seqCountAggregateOutputType> | number
+        }
+      }
+    }
+    dataset_sync_seq: {
+      payload: Prisma.$dataset_sync_seqPayload<ExtArgs>
+      fields: Prisma.dataset_sync_seqFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.dataset_sync_seqFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.dataset_sync_seqFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        findFirst: {
+          args: Prisma.dataset_sync_seqFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.dataset_sync_seqFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        findMany: {
+          args: Prisma.dataset_sync_seqFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>[]
+        }
+        create: {
+          args: Prisma.dataset_sync_seqCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        createMany: {
+          args: Prisma.dataset_sync_seqCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.dataset_sync_seqCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>[]
+        }
+        delete: {
+          args: Prisma.dataset_sync_seqDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        update: {
+          args: Prisma.dataset_sync_seqUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        deleteMany: {
+          args: Prisma.dataset_sync_seqDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.dataset_sync_seqUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.dataset_sync_seqUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>[]
+        }
+        upsert: {
+          args: Prisma.dataset_sync_seqUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_sync_seqPayload>
+        }
+        aggregate: {
+          args: Prisma.Dataset_sync_seqAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateDataset_sync_seq>
+        }
+        groupBy: {
+          args: Prisma.dataset_sync_seqGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_sync_seqGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.dataset_sync_seqCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_sync_seqCountAggregateOutputType> | number
         }
       }
     }
@@ -4787,6 +4862,8 @@ export const DatasetScalarFieldEnum = {
   current_version: 'current_version',
   media_count: 'media_count',
   card_count: 'card_count',
+  journal_role: 'journal_role',
+  journal_epoch: 'journal_epoch',
   deleted: 'deleted',
   created_at: 'created_at',
   updated_at: 'updated_at'
@@ -4841,6 +4918,15 @@ export const App_sync_seqScalarFieldEnum = {
 } as const
 
 export type App_sync_seqScalarFieldEnum = (typeof App_sync_seqScalarFieldEnum)[keyof typeof App_sync_seqScalarFieldEnum]
+
+
+export const Dataset_sync_seqScalarFieldEnum = {
+  cluster_id: 'cluster_id',
+  scope: 'scope',
+  next_seq: 'next_seq'
+} as const
+
+export type Dataset_sync_seqScalarFieldEnum = (typeof Dataset_sync_seqScalarFieldEnum)[keyof typeof Dataset_sync_seqScalarFieldEnum]
 
 
 export const App_sync_logScalarFieldEnum = {
@@ -5629,6 +5715,7 @@ export type GlobalOmitConfig = {
   dataset_file_hash?: Prisma.dataset_file_hashOmit
   dataset_tag_link?: Prisma.dataset_tag_linkOmit
   app_sync_seq?: Prisma.app_sync_seqOmit
+  dataset_sync_seq?: Prisma.dataset_sync_seqOmit
   app_sync_log?: Prisma.app_sync_logOmit
   app_applied_change?: Prisma.app_applied_changeOmit
   app_sync_prune_mark?: Prisma.app_sync_prune_markOmit

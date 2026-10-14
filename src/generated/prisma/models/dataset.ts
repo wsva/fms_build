@@ -37,6 +37,7 @@ export type DatasetAvgAggregateOutputType = {
   current_version: number | null
   media_count: number | null
   card_count: number | null
+  journal_epoch: number | null
 }
 
 export type DatasetSumAggregateOutputType = {
@@ -48,6 +49,7 @@ export type DatasetSumAggregateOutputType = {
   current_version: number | null
   media_count: number | null
   card_count: number | null
+  journal_epoch: number | null
 }
 
 export type DatasetMinAggregateOutputType = {
@@ -73,6 +75,8 @@ export type DatasetMinAggregateOutputType = {
   current_version: number | null
   media_count: number | null
   card_count: number | null
+  journal_role: string | null
+  journal_epoch: number | null
   deleted: string | null
   created_at: Date | null
   updated_at: Date | null
@@ -101,6 +105,8 @@ export type DatasetMaxAggregateOutputType = {
   current_version: number | null
   media_count: number | null
   card_count: number | null
+  journal_role: string | null
+  journal_epoch: number | null
   deleted: string | null
   created_at: Date | null
   updated_at: Date | null
@@ -130,6 +136,8 @@ export type DatasetCountAggregateOutputType = {
   current_version: number
   media_count: number
   card_count: number
+  journal_role: number
+  journal_epoch: number
   deleted: number
   created_at: number
   updated_at: number
@@ -146,6 +154,7 @@ export type DatasetAvgAggregateInputType = {
   current_version?: true
   media_count?: true
   card_count?: true
+  journal_epoch?: true
 }
 
 export type DatasetSumAggregateInputType = {
@@ -157,6 +166,7 @@ export type DatasetSumAggregateInputType = {
   current_version?: true
   media_count?: true
   card_count?: true
+  journal_epoch?: true
 }
 
 export type DatasetMinAggregateInputType = {
@@ -182,6 +192,8 @@ export type DatasetMinAggregateInputType = {
   current_version?: true
   media_count?: true
   card_count?: true
+  journal_role?: true
+  journal_epoch?: true
   deleted?: true
   created_at?: true
   updated_at?: true
@@ -210,6 +222,8 @@ export type DatasetMaxAggregateInputType = {
   current_version?: true
   media_count?: true
   card_count?: true
+  journal_role?: true
+  journal_epoch?: true
   deleted?: true
   created_at?: true
   updated_at?: true
@@ -239,6 +253,8 @@ export type DatasetCountAggregateInputType = {
   current_version?: true
   media_count?: true
   card_count?: true
+  journal_role?: true
+  journal_epoch?: true
   deleted?: true
   created_at?: true
   updated_at?: true
@@ -355,6 +371,8 @@ export type DatasetGroupByOutputType = {
   current_version: number | null
   media_count: number
   card_count: number
+  journal_role: string
+  journal_epoch: number
   deleted: string
   created_at: Date
   updated_at: Date
@@ -407,6 +425,8 @@ export type datasetWhereInput = {
   current_version?: Prisma.IntNullableFilter<"dataset"> | number | null
   media_count?: Prisma.IntFilter<"dataset"> | number
   card_count?: Prisma.IntFilter<"dataset"> | number
+  journal_role?: Prisma.StringFilter<"dataset"> | string
+  journal_epoch?: Prisma.IntFilter<"dataset"> | number
   deleted?: Prisma.StringFilter<"dataset"> | string
   created_at?: Prisma.DateTimeFilter<"dataset"> | Date | string
   updated_at?: Prisma.DateTimeFilter<"dataset"> | Date | string
@@ -436,6 +456,8 @@ export type datasetOrderByWithRelationInput = {
   current_version?: Prisma.SortOrderInput | Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_role?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
   deleted?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
@@ -468,6 +490,8 @@ export type datasetWhereUniqueInput = Prisma.AtLeast<{
   current_version?: Prisma.IntNullableFilter<"dataset"> | number | null
   media_count?: Prisma.IntFilter<"dataset"> | number
   card_count?: Prisma.IntFilter<"dataset"> | number
+  journal_role?: Prisma.StringFilter<"dataset"> | string
+  journal_epoch?: Prisma.IntFilter<"dataset"> | number
   deleted?: Prisma.StringFilter<"dataset"> | string
   created_at?: Prisma.DateTimeFilter<"dataset"> | Date | string
   updated_at?: Prisma.DateTimeFilter<"dataset"> | Date | string
@@ -497,6 +521,8 @@ export type datasetOrderByWithAggregationInput = {
   current_version?: Prisma.SortOrderInput | Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_role?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
   deleted?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
@@ -534,6 +560,8 @@ export type datasetScalarWhereWithAggregatesInput = {
   current_version?: Prisma.IntNullableWithAggregatesFilter<"dataset"> | number | null
   media_count?: Prisma.IntWithAggregatesFilter<"dataset"> | number
   card_count?: Prisma.IntWithAggregatesFilter<"dataset"> | number
+  journal_role?: Prisma.StringWithAggregatesFilter<"dataset"> | string
+  journal_epoch?: Prisma.IntWithAggregatesFilter<"dataset"> | number
   deleted?: Prisma.StringWithAggregatesFilter<"dataset"> | string
   created_at?: Prisma.DateTimeWithAggregatesFilter<"dataset"> | Date | string
   updated_at?: Prisma.DateTimeWithAggregatesFilter<"dataset"> | Date | string
@@ -563,6 +591,8 @@ export type datasetCreateInput = {
   current_version?: number | null
   media_count?: number
   card_count?: number
+  journal_role?: string
+  journal_epoch?: number
   deleted?: string
   created_at?: Date | string
   updated_at?: Date | string
@@ -592,6 +622,8 @@ export type datasetUncheckedCreateInput = {
   current_version?: number | null
   media_count?: number
   card_count?: number
+  journal_role?: string
+  journal_epoch?: number
   deleted?: string
   created_at?: Date | string
   updated_at?: Date | string
@@ -621,6 +653,8 @@ export type datasetUpdateInput = {
   current_version?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   media_count?: Prisma.IntFieldUpdateOperationsInput | number
   card_count?: Prisma.IntFieldUpdateOperationsInput | number
+  journal_role?: Prisma.StringFieldUpdateOperationsInput | string
+  journal_epoch?: Prisma.IntFieldUpdateOperationsInput | number
   deleted?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -650,6 +684,8 @@ export type datasetUncheckedUpdateInput = {
   current_version?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   media_count?: Prisma.IntFieldUpdateOperationsInput | number
   card_count?: Prisma.IntFieldUpdateOperationsInput | number
+  journal_role?: Prisma.StringFieldUpdateOperationsInput | string
+  journal_epoch?: Prisma.IntFieldUpdateOperationsInput | number
   deleted?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -679,6 +715,8 @@ export type datasetCreateManyInput = {
   current_version?: number | null
   media_count?: number
   card_count?: number
+  journal_role?: string
+  journal_epoch?: number
   deleted?: string
   created_at?: Date | string
   updated_at?: Date | string
@@ -708,6 +746,8 @@ export type datasetUpdateManyMutationInput = {
   current_version?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   media_count?: Prisma.IntFieldUpdateOperationsInput | number
   card_count?: Prisma.IntFieldUpdateOperationsInput | number
+  journal_role?: Prisma.StringFieldUpdateOperationsInput | string
+  journal_epoch?: Prisma.IntFieldUpdateOperationsInput | number
   deleted?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -737,6 +777,8 @@ export type datasetUncheckedUpdateManyInput = {
   current_version?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   media_count?: Prisma.IntFieldUpdateOperationsInput | number
   card_count?: Prisma.IntFieldUpdateOperationsInput | number
+  journal_role?: Prisma.StringFieldUpdateOperationsInput | string
+  journal_epoch?: Prisma.IntFieldUpdateOperationsInput | number
   deleted?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -766,6 +808,8 @@ export type datasetCountOrderByAggregateInput = {
   current_version?: Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_role?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
   deleted?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
@@ -780,6 +824,7 @@ export type datasetAvgOrderByAggregateInput = {
   current_version?: Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
 }
 
 export type datasetMaxOrderByAggregateInput = {
@@ -805,6 +850,8 @@ export type datasetMaxOrderByAggregateInput = {
   current_version?: Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_role?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
   deleted?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
@@ -833,6 +880,8 @@ export type datasetMinOrderByAggregateInput = {
   current_version?: Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_role?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
   deleted?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
@@ -847,6 +896,7 @@ export type datasetSumOrderByAggregateInput = {
   current_version?: Prisma.SortOrder
   media_count?: Prisma.SortOrder
   card_count?: Prisma.SortOrder
+  journal_epoch?: Prisma.SortOrder
 }
 
 export type NullableBigIntFieldUpdateOperationsInput = {
@@ -899,6 +949,8 @@ export type datasetSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs 
   current_version?: boolean
   media_count?: boolean
   card_count?: boolean
+  journal_role?: boolean
+  journal_epoch?: boolean
   deleted?: boolean
   created_at?: boolean
   updated_at?: boolean
@@ -928,6 +980,8 @@ export type datasetSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Exten
   current_version?: boolean
   media_count?: boolean
   card_count?: boolean
+  journal_role?: boolean
+  journal_epoch?: boolean
   deleted?: boolean
   created_at?: boolean
   updated_at?: boolean
@@ -957,6 +1011,8 @@ export type datasetSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Exten
   current_version?: boolean
   media_count?: boolean
   card_count?: boolean
+  journal_role?: boolean
+  journal_epoch?: boolean
   deleted?: boolean
   created_at?: boolean
   updated_at?: boolean
@@ -986,12 +1042,14 @@ export type datasetSelectScalar = {
   current_version?: boolean
   media_count?: boolean
   card_count?: boolean
+  journal_role?: boolean
+  journal_epoch?: boolean
   deleted?: boolean
   created_at?: boolean
   updated_at?: boolean
 }
 
-export type datasetOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"uuid" | "user_id" | "name" | "description" | "dataset_type" | "format" | "language" | "spec" | "visibility" | "extra" | "info_created_at" | "info_updated_at" | "status" | "archive_path" | "archive_sha256" | "archive_size" | "file_count" | "total_bytes" | "overall_hash" | "snapshot_seq" | "current_version" | "media_count" | "card_count" | "deleted" | "created_at" | "updated_at", ExtArgs["result"]["dataset"]>
+export type datasetOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"uuid" | "user_id" | "name" | "description" | "dataset_type" | "format" | "language" | "spec" | "visibility" | "extra" | "info_created_at" | "info_updated_at" | "status" | "archive_path" | "archive_sha256" | "archive_size" | "file_count" | "total_bytes" | "overall_hash" | "snapshot_seq" | "current_version" | "media_count" | "card_count" | "journal_role" | "journal_epoch" | "deleted" | "created_at" | "updated_at", ExtArgs["result"]["dataset"]>
 
 export type $datasetPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "dataset"
@@ -1020,6 +1078,8 @@ export type $datasetPayload<ExtArgs extends runtime.Types.Extensions.InternalArg
     current_version: number | null
     media_count: number
     card_count: number
+    journal_role: string
+    journal_epoch: number
     deleted: string
     created_at: Date
     updated_at: Date
@@ -1469,6 +1529,8 @@ export interface datasetFieldRefs {
   readonly current_version: Prisma.FieldRef<"dataset", 'Int'>
   readonly media_count: Prisma.FieldRef<"dataset", 'Int'>
   readonly card_count: Prisma.FieldRef<"dataset", 'Int'>
+  readonly journal_role: Prisma.FieldRef<"dataset", 'String'>
+  readonly journal_epoch: Prisma.FieldRef<"dataset", 'Int'>
   readonly deleted: Prisma.FieldRef<"dataset", 'String'>
   readonly created_at: Prisma.FieldRef<"dataset", 'DateTime'>
   readonly updated_at: Prisma.FieldRef<"dataset", 'DateTime'>
