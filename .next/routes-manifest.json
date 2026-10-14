@@ -151,6 +151,14 @@
       "namedRegex": "^/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/dataset/card/[uuid]",
+      "regex": "^/dataset/card/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/dataset/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/dataset/market/[uuid]",
       "regex": "^/dataset/market/([^/]+?)(?:/)?$",
       "routeKeys": {
