@@ -54,6 +54,7 @@ export type Dataset_versionMinAggregateOutputType = {
   total_bytes: bigint | null
   overall_hash: string | null
   info_updated_at: string | null
+  available: string | null
   created_at: Date | null
   updated_at: Date | null
 }
@@ -69,6 +70,7 @@ export type Dataset_versionMaxAggregateOutputType = {
   total_bytes: bigint | null
   overall_hash: string | null
   info_updated_at: string | null
+  available: string | null
   created_at: Date | null
   updated_at: Date | null
 }
@@ -84,6 +86,7 @@ export type Dataset_versionCountAggregateOutputType = {
   total_bytes: number
   overall_hash: number
   info_updated_at: number
+  available: number
   created_at: number
   updated_at: number
   _all: number
@@ -115,6 +118,7 @@ export type Dataset_versionMinAggregateInputType = {
   total_bytes?: true
   overall_hash?: true
   info_updated_at?: true
+  available?: true
   created_at?: true
   updated_at?: true
 }
@@ -130,6 +134,7 @@ export type Dataset_versionMaxAggregateInputType = {
   total_bytes?: true
   overall_hash?: true
   info_updated_at?: true
+  available?: true
   created_at?: true
   updated_at?: true
 }
@@ -145,6 +150,7 @@ export type Dataset_versionCountAggregateInputType = {
   total_bytes?: true
   overall_hash?: true
   info_updated_at?: true
+  available?: true
   created_at?: true
   updated_at?: true
   _all?: true
@@ -247,6 +253,7 @@ export type Dataset_versionGroupByOutputType = {
   total_bytes: bigint
   overall_hash: string | null
   info_updated_at: string | null
+  available: string
   created_at: Date
   updated_at: Date
   _count: Dataset_versionCountAggregateOutputType | null
@@ -285,6 +292,7 @@ export type dataset_versionWhereInput = {
   total_bytes?: Prisma.BigIntFilter<"dataset_version"> | bigint | number
   overall_hash?: Prisma.StringNullableFilter<"dataset_version"> | string | null
   info_updated_at?: Prisma.StringNullableFilter<"dataset_version"> | string | null
+  available?: Prisma.StringFilter<"dataset_version"> | string
   created_at?: Prisma.DateTimeFilter<"dataset_version"> | Date | string
   updated_at?: Prisma.DateTimeFilter<"dataset_version"> | Date | string
 }
@@ -300,6 +308,7 @@ export type dataset_versionOrderByWithRelationInput = {
   total_bytes?: Prisma.SortOrder
   overall_hash?: Prisma.SortOrderInput | Prisma.SortOrder
   info_updated_at?: Prisma.SortOrderInput | Prisma.SortOrder
+  available?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
 }
@@ -319,6 +328,7 @@ export type dataset_versionWhereUniqueInput = Prisma.AtLeast<{
   total_bytes?: Prisma.BigIntFilter<"dataset_version"> | bigint | number
   overall_hash?: Prisma.StringNullableFilter<"dataset_version"> | string | null
   info_updated_at?: Prisma.StringNullableFilter<"dataset_version"> | string | null
+  available?: Prisma.StringFilter<"dataset_version"> | string
   created_at?: Prisma.DateTimeFilter<"dataset_version"> | Date | string
   updated_at?: Prisma.DateTimeFilter<"dataset_version"> | Date | string
 }, "uuid" | "dataset_uuid_version">
@@ -334,6 +344,7 @@ export type dataset_versionOrderByWithAggregationInput = {
   total_bytes?: Prisma.SortOrder
   overall_hash?: Prisma.SortOrderInput | Prisma.SortOrder
   info_updated_at?: Prisma.SortOrderInput | Prisma.SortOrder
+  available?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
   _count?: Prisma.dataset_versionCountOrderByAggregateInput
@@ -357,6 +368,7 @@ export type dataset_versionScalarWhereWithAggregatesInput = {
   total_bytes?: Prisma.BigIntWithAggregatesFilter<"dataset_version"> | bigint | number
   overall_hash?: Prisma.StringNullableWithAggregatesFilter<"dataset_version"> | string | null
   info_updated_at?: Prisma.StringNullableWithAggregatesFilter<"dataset_version"> | string | null
+  available?: Prisma.StringWithAggregatesFilter<"dataset_version"> | string
   created_at?: Prisma.DateTimeWithAggregatesFilter<"dataset_version"> | Date | string
   updated_at?: Prisma.DateTimeWithAggregatesFilter<"dataset_version"> | Date | string
 }
@@ -372,6 +384,7 @@ export type dataset_versionCreateInput = {
   total_bytes?: bigint | number
   overall_hash?: string | null
   info_updated_at?: string | null
+  available?: string
   created_at?: Date | string
   updated_at?: Date | string
 }
@@ -387,6 +400,7 @@ export type dataset_versionUncheckedCreateInput = {
   total_bytes?: bigint | number
   overall_hash?: string | null
   info_updated_at?: string | null
+  available?: string
   created_at?: Date | string
   updated_at?: Date | string
 }
@@ -402,6 +416,7 @@ export type dataset_versionUpdateInput = {
   total_bytes?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   overall_hash?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   info_updated_at?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  available?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -417,6 +432,7 @@ export type dataset_versionUncheckedUpdateInput = {
   total_bytes?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   overall_hash?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   info_updated_at?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  available?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -432,6 +448,7 @@ export type dataset_versionCreateManyInput = {
   total_bytes?: bigint | number
   overall_hash?: string | null
   info_updated_at?: string | null
+  available?: string
   created_at?: Date | string
   updated_at?: Date | string
 }
@@ -447,6 +464,7 @@ export type dataset_versionUpdateManyMutationInput = {
   total_bytes?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   overall_hash?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   info_updated_at?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  available?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -462,6 +480,7 @@ export type dataset_versionUncheckedUpdateManyInput = {
   total_bytes?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   overall_hash?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   info_updated_at?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  available?: Prisma.StringFieldUpdateOperationsInput | string
   created_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updated_at?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -482,6 +501,7 @@ export type dataset_versionCountOrderByAggregateInput = {
   total_bytes?: Prisma.SortOrder
   overall_hash?: Prisma.SortOrder
   info_updated_at?: Prisma.SortOrder
+  available?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
 }
@@ -504,6 +524,7 @@ export type dataset_versionMaxOrderByAggregateInput = {
   total_bytes?: Prisma.SortOrder
   overall_hash?: Prisma.SortOrder
   info_updated_at?: Prisma.SortOrder
+  available?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
 }
@@ -519,6 +540,7 @@ export type dataset_versionMinOrderByAggregateInput = {
   total_bytes?: Prisma.SortOrder
   overall_hash?: Prisma.SortOrder
   info_updated_at?: Prisma.SortOrder
+  available?: Prisma.SortOrder
   created_at?: Prisma.SortOrder
   updated_at?: Prisma.SortOrder
 }
@@ -543,6 +565,7 @@ export type dataset_versionSelect<ExtArgs extends runtime.Types.Extensions.Inter
   total_bytes?: boolean
   overall_hash?: boolean
   info_updated_at?: boolean
+  available?: boolean
   created_at?: boolean
   updated_at?: boolean
 }, ExtArgs["result"]["dataset_version"]>
@@ -558,6 +581,7 @@ export type dataset_versionSelectCreateManyAndReturn<ExtArgs extends runtime.Typ
   total_bytes?: boolean
   overall_hash?: boolean
   info_updated_at?: boolean
+  available?: boolean
   created_at?: boolean
   updated_at?: boolean
 }, ExtArgs["result"]["dataset_version"]>
@@ -573,6 +597,7 @@ export type dataset_versionSelectUpdateManyAndReturn<ExtArgs extends runtime.Typ
   total_bytes?: boolean
   overall_hash?: boolean
   info_updated_at?: boolean
+  available?: boolean
   created_at?: boolean
   updated_at?: boolean
 }, ExtArgs["result"]["dataset_version"]>
@@ -588,11 +613,12 @@ export type dataset_versionSelectScalar = {
   total_bytes?: boolean
   overall_hash?: boolean
   info_updated_at?: boolean
+  available?: boolean
   created_at?: boolean
   updated_at?: boolean
 }
 
-export type dataset_versionOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"uuid" | "dataset_uuid" | "version" | "archive_path" | "archive_sha256" | "archive_size" | "file_count" | "total_bytes" | "overall_hash" | "info_updated_at" | "created_at" | "updated_at", ExtArgs["result"]["dataset_version"]>
+export type dataset_versionOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"uuid" | "dataset_uuid" | "version" | "archive_path" | "archive_sha256" | "archive_size" | "file_count" | "total_bytes" | "overall_hash" | "info_updated_at" | "available" | "created_at" | "updated_at", ExtArgs["result"]["dataset_version"]>
 
 export type $dataset_versionPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "dataset_version"
@@ -608,6 +634,7 @@ export type $dataset_versionPayload<ExtArgs extends runtime.Types.Extensions.Int
     total_bytes: bigint
     overall_hash: string | null
     info_updated_at: string | null
+    available: string
     created_at: Date
     updated_at: Date
   }, ExtArgs["result"]["dataset_version"]>
@@ -1043,6 +1070,7 @@ export interface dataset_versionFieldRefs {
   readonly total_bytes: Prisma.FieldRef<"dataset_version", 'BigInt'>
   readonly overall_hash: Prisma.FieldRef<"dataset_version", 'String'>
   readonly info_updated_at: Prisma.FieldRef<"dataset_version", 'String'>
+  readonly available: Prisma.FieldRef<"dataset_version", 'String'>
   readonly created_at: Prisma.FieldRef<"dataset_version", 'DateTime'>
   readonly updated_at: Prisma.FieldRef<"dataset_version", 'DateTime'>
 }

@@ -292,6 +292,7 @@ export const Dataset_versionScalarFieldEnum = {
   total_bytes: 'total_bytes',
   overall_hash: 'overall_hash',
   info_updated_at: 'info_updated_at',
+  available: 'available',
   created_at: 'created_at',
   updated_at: 'updated_at'
 } as const
