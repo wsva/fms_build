@@ -397,6 +397,8 @@ export const ModelName = {
   dataset: 'dataset',
   dataset_version: 'dataset_version',
   dataset_file_hash: 'dataset_file_hash',
+  dataset_blob: 'dataset_blob',
+  dataset_blob_path: 'dataset_blob_path',
   dataset_tag_link: 'dataset_tag_link',
   app_sync_seq: 'app_sync_seq',
   dataset_sync_seq: 'dataset_sync_seq',
@@ -456,7 +458,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_tag_link" | "app_sync_seq" | "dataset_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_read_attempt_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
+    modelProps: "oauth2_token" | "oauth2_user" | "settings_general" | "settings_api_key" | "plan_plan" | "plan_record" | "dataset_tag" | "dataset_subscription" | "dataset_scope" | "dataset_tag_scope" | "dataset" | "dataset_version" | "dataset_file_hash" | "dataset_blob" | "dataset_blob_path" | "dataset_tag_link" | "app_sync_seq" | "dataset_sync_seq" | "app_sync_log" | "app_applied_change" | "app_sync_prune_mark" | "app_dictation" | "app_xp_ledger" | "app_card_review_event" | "app_read_attempt_event" | "app_inbox_seq" | "app_inbox" | "dict_de" | "dict_de_level" | "dict_en" | "topword_de" | "topword_de_example" | "word_trash" | "word_mapping" | "blog" | "listen_media" | "listen_media_tag" | "listen_note" | "listen_subtitle" | "listen_subtitle_cue" | "listen_subtitle_reference" | "listen_transcript" | "listen_dictation" | "practice_text" | "practice_audio" | "ask_question" | "ask_answer" | "ask_question_tag" | "just_speaking" | "book_meta" | "book_chapter" | "book_sentence" | "book_sentence_word" | "read_chapter_progress" | "qsa_card" | "qsa_card_review" | "qsa_card_tag" | "qsa_card_improve" | "shared_service"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -1419,6 +1421,154 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         count: {
           args: Prisma.dataset_file_hashCountArgs<ExtArgs>
           result: runtime.Types.Utils.Optional<Prisma.Dataset_file_hashCountAggregateOutputType> | number
+        }
+      }
+    }
+    dataset_blob: {
+      payload: Prisma.$dataset_blobPayload<ExtArgs>
+      fields: Prisma.dataset_blobFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.dataset_blobFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.dataset_blobFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        findFirst: {
+          args: Prisma.dataset_blobFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.dataset_blobFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        findMany: {
+          args: Prisma.dataset_blobFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>[]
+        }
+        create: {
+          args: Prisma.dataset_blobCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        createMany: {
+          args: Prisma.dataset_blobCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.dataset_blobCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>[]
+        }
+        delete: {
+          args: Prisma.dataset_blobDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        update: {
+          args: Prisma.dataset_blobUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        deleteMany: {
+          args: Prisma.dataset_blobDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.dataset_blobUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.dataset_blobUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>[]
+        }
+        upsert: {
+          args: Prisma.dataset_blobUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blobPayload>
+        }
+        aggregate: {
+          args: Prisma.Dataset_blobAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateDataset_blob>
+        }
+        groupBy: {
+          args: Prisma.dataset_blobGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_blobGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.dataset_blobCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_blobCountAggregateOutputType> | number
+        }
+      }
+    }
+    dataset_blob_path: {
+      payload: Prisma.$dataset_blob_pathPayload<ExtArgs>
+      fields: Prisma.dataset_blob_pathFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.dataset_blob_pathFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.dataset_blob_pathFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        findFirst: {
+          args: Prisma.dataset_blob_pathFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.dataset_blob_pathFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        findMany: {
+          args: Prisma.dataset_blob_pathFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>[]
+        }
+        create: {
+          args: Prisma.dataset_blob_pathCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        createMany: {
+          args: Prisma.dataset_blob_pathCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.dataset_blob_pathCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>[]
+        }
+        delete: {
+          args: Prisma.dataset_blob_pathDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        update: {
+          args: Prisma.dataset_blob_pathUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        deleteMany: {
+          args: Prisma.dataset_blob_pathDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.dataset_blob_pathUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.dataset_blob_pathUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>[]
+        }
+        upsert: {
+          args: Prisma.dataset_blob_pathUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dataset_blob_pathPayload>
+        }
+        aggregate: {
+          args: Prisma.Dataset_blob_pathAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateDataset_blob_path>
+        }
+        groupBy: {
+          args: Prisma.dataset_blob_pathGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_blob_pathGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.dataset_blob_pathCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Dataset_blob_pathCountAggregateOutputType> | number
         }
       }
     }
@@ -4902,6 +5052,28 @@ export const Dataset_file_hashScalarFieldEnum = {
 export type Dataset_file_hashScalarFieldEnum = (typeof Dataset_file_hashScalarFieldEnum)[keyof typeof Dataset_file_hashScalarFieldEnum]
 
 
+export const Dataset_blobScalarFieldEnum = {
+  sha256: 'sha256',
+  size: 'size',
+  refcount: 'refcount',
+  created_at: 'created_at',
+  updated_at: 'updated_at'
+} as const
+
+export type Dataset_blobScalarFieldEnum = (typeof Dataset_blobScalarFieldEnum)[keyof typeof Dataset_blobScalarFieldEnum]
+
+
+export const Dataset_blob_pathScalarFieldEnum = {
+  dataset_uuid: 'dataset_uuid',
+  path: 'path',
+  sha256: 'sha256',
+  created_at: 'created_at',
+  updated_at: 'updated_at'
+} as const
+
+export type Dataset_blob_pathScalarFieldEnum = (typeof Dataset_blob_pathScalarFieldEnum)[keyof typeof Dataset_blob_pathScalarFieldEnum]
+
+
 export const Dataset_tag_linkScalarFieldEnum = {
   uuid: 'uuid',
   dataset_uuid: 'dataset_uuid',
@@ -5714,6 +5886,8 @@ export type GlobalOmitConfig = {
   dataset?: Prisma.datasetOmit
   dataset_version?: Prisma.dataset_versionOmit
   dataset_file_hash?: Prisma.dataset_file_hashOmit
+  dataset_blob?: Prisma.dataset_blobOmit
+  dataset_blob_path?: Prisma.dataset_blob_pathOmit
   dataset_tag_link?: Prisma.dataset_tag_linkOmit
   app_sync_seq?: Prisma.app_sync_seqOmit
   dataset_sync_seq?: Prisma.dataset_sync_seqOmit

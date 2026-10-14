@@ -113,6 +113,27 @@ export type dataset_version = Prisma.dataset_versionModel
  */
 export type dataset_file_hash = Prisma.dataset_file_hashModel
 /**
+ * Model dataset_blob
+ * Content-addressed blob store ledger (sync-v2.md §7 changed-file transport).
+ * One row per DISTINCT sha256, shared across every dataset and version — the
+ * cross-dataset de-duplication §7:197 calls for. `refcount` is how many live-tree
+ * rows (dataset_blob_path, any dataset) currently name this hash: 0 means no
+ * dataset's current tree references it, so the blob is a serving-cache entry GC may
+ * reclaim after a grace window. Durability is NOT this table's job — a changed-file
+ * tree always has an immutable `versions/v<N>.tar.gz` archive holding the same bytes
+ * (INV-8), so reclaiming a refcount-0 blob never loses content. Bytes live at
+ * BLOB_ROOT/<sha[0:2]>/<sha> (see lib/sync/blobstore.ts).
+ */
+export type dataset_blob = Prisma.dataset_blobModel
+/**
+ * Model dataset_blob_path
+ * A dataset's live tree as (path → content-hash) rows. This is what a changed-file
+ * diff is computed against (POST /api/v1/datasets/{uuid}/objects) and what a blob
+ * refcount is derived from. DB files (manifest isDbFile) are never stored here —
+ * their content churns through card sync, not the blob plane.
+ */
+export type dataset_blob_path = Prisma.dataset_blob_pathModel
+/**
  * Model dataset_tag_link
  * Grouping only — links a dataset directory to legacy dataset_tag rows.
  */

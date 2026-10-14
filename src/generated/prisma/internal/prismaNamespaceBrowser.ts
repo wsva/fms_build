@@ -64,6 +64,8 @@ export const ModelName = {
   dataset: 'dataset',
   dataset_version: 'dataset_version',
   dataset_file_hash: 'dataset_file_hash',
+  dataset_blob: 'dataset_blob',
+  dataset_blob_path: 'dataset_blob_path',
   dataset_tag_link: 'dataset_tag_link',
   app_sync_seq: 'app_sync_seq',
   dataset_sync_seq: 'dataset_sync_seq',
@@ -309,6 +311,28 @@ export const Dataset_file_hashScalarFieldEnum = {
 } as const
 
 export type Dataset_file_hashScalarFieldEnum = (typeof Dataset_file_hashScalarFieldEnum)[keyof typeof Dataset_file_hashScalarFieldEnum]
+
+
+export const Dataset_blobScalarFieldEnum = {
+  sha256: 'sha256',
+  size: 'size',
+  refcount: 'refcount',
+  created_at: 'created_at',
+  updated_at: 'updated_at'
+} as const
+
+export type Dataset_blobScalarFieldEnum = (typeof Dataset_blobScalarFieldEnum)[keyof typeof Dataset_blobScalarFieldEnum]
+
+
+export const Dataset_blob_pathScalarFieldEnum = {
+  dataset_uuid: 'dataset_uuid',
+  path: 'path',
+  sha256: 'sha256',
+  created_at: 'created_at',
+  updated_at: 'updated_at'
+} as const
+
+export type Dataset_blob_pathScalarFieldEnum = (typeof Dataset_blob_pathScalarFieldEnum)[keyof typeof Dataset_blob_pathScalarFieldEnum]
 
 
 export const Dataset_tag_linkScalarFieldEnum = {

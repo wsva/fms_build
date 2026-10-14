@@ -103,6 +103,14 @@
       "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/manifest(?:/)?$"
     },
     {
+      "page": "/api/v1/datasets/[uuid]/objects",
+      "regex": "^/api/v1/datasets/([^/]+?)/objects(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/objects(?:/)?$"
+    },
+    {
       "page": "/api/v1/datasets/[uuid]/snapshot",
       "regex": "^/api/v1/datasets/([^/]+?)/snapshot(?:/)?$",
       "routeKeys": {
@@ -433,6 +441,12 @@
       "namedRegex": "^/api/services/test(?:/)?$"
     },
     {
+      "page": "/api/v1/admin/blob-gc",
+      "regex": "^/api/v1/admin/blob\\-gc(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/admin/blob\\-gc(?:/)?$"
+    },
+    {
       "page": "/api/v1/app/changes",
       "regex": "^/api/v1/app/changes(?:/)?$",
       "routeKeys": {},
@@ -443,6 +457,12 @@
       "regex": "^/api/v1/app/state(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/app/state(?:/)?$"
+    },
+    {
+      "page": "/api/v1/blob",
+      "regex": "^/api/v1/blob(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/blob(?:/)?$"
     },
     {
       "page": "/api/v1/changes",
