@@ -71,14 +71,6 @@
       "namedRegex": "^/api/data/(?<nxtPfilename>.+?)(?:/)?$"
     },
     {
-      "page": "/api/listen/media/[uuid]/tag",
-      "regex": "^/api/listen/media/([^/]+?)/tag(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/api/listen/media/(?<nxtPuuid>[^/]+?)/tag(?:/)?$"
-    },
-    {
       "page": "/api/listen/subtitle/[uuid]",
       "regex": "^/api/listen/subtitle/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -303,22 +295,10 @@
       "namedRegex": "^/api/listen(?:/)?$"
     },
     {
-      "page": "/api/listen/media",
-      "regex": "^/api/listen/media(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/listen/media(?:/)?$"
-    },
-    {
       "page": "/api/listen/notes",
       "regex": "^/api/listen/notes(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/listen/notes(?:/)?$"
-    },
-    {
-      "page": "/api/listen/subtitle",
-      "regex": "^/api/listen/subtitle(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/listen/subtitle(?:/)?$"
     },
     {
       "page": "/api/mcp",
@@ -595,12 +575,6 @@
       "regex": "^/listen/dictation(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/listen/dictation(?:/)?$"
-    },
-    {
-      "page": "/listen/media",
-      "regex": "^/listen/media(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/listen/media(?:/)?$"
     },
     {
       "page": "/manifest.webmanifest",
