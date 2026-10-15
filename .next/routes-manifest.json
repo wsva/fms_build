@@ -167,14 +167,6 @@
       "namedRegex": "^/dataset/market/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/speak/ask/[uuid]",
-      "regex": "^/speak/ask/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/speak/ask/(?<nxtPuuid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/speak/practice/[uuid]",
       "regex": "^/speak/practice/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -213,18 +205,6 @@
       "regex": "^/api/apikey(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/apikey(?:/)?$"
-    },
-    {
-      "page": "/api/ask",
-      "regex": "^/api/ask(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/ask(?:/)?$"
-    },
-    {
-      "page": "/api/ask/answers",
-      "regex": "^/api/ask/answers(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/ask/answers(?:/)?$"
     },
     {
       "page": "/api/blog",
@@ -675,18 +655,6 @@
       "regex": "^/settings/general(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/settings/general(?:/)?$"
-    },
-    {
-      "page": "/speak/ask",
-      "regex": "^/speak/ask(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/speak/ask(?:/)?$"
-    },
-    {
-      "page": "/speak/ask/practice",
-      "regex": "^/speak/ask/practice(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/speak/ask/practice(?:/)?$"
     },
     {
       "page": "/speak/practice",
