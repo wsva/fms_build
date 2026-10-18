@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/oauth2/reset-password/request/route.js")
-R.c("server/chunks/[root-of-the-server]__037k_qw._.js")
+R.c("server/chunks/[root-of-the-server]__0sx1a3-._.js")
 R.c("server/chunks/node_modules_next_dist_0npcise._.js")
 R.c("server/chunks/node_modules_jose_dist_webapi_0teog4k._.js")
 R.c("server/chunks/_058h_g7._.js")
