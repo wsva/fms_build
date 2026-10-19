@@ -1,10 +1,8 @@
 import type { ComponentType } from 'react';
 import {
     Headphones, BookOpen, Layers, BookOpenText,
-    Languages, Star, Quote,
-    SquareStack, FilePlus, Library, SlidersHorizontal, GraduationCap, TrendingUp, Table,
     Newspaper, FileText, SquarePen, Users,
-    Database, Tag, Store, Cloud,
+    Database, Store, Cloud,
     Wrench, CalendarDays, ChartColumn, FileType,
     Settings, Settings2, KeyRound,
 } from 'lucide-react';
@@ -33,9 +31,8 @@ export type MenuGroup = {
 /**
  * Top-level entries, rendered above the groups and reachable in one click.
  * Mirrors fms-app's rootTabs (Sidebar.tsx:89-96), down to the icons: the first
- * five are the ones the app uses for the same five tabs. The card pages
- * under /card/* are the old pre-dataset system, distinct from the
- * dataset-based /cards.
+ * five are the ones the app uses for the same five tabs. /cards is the only
+ * card surface — the old pre-dataset pages under /card/* were removed.
  */
 export const rootMenuItems: MenuItem[] = [
     { key: "listen_dictation", name: "Dictation", description: "dictation practice from datasets", href: "/listen/dictation", icon: Headphones },
@@ -46,26 +43,6 @@ export const rootMenuItems: MenuItem[] = [
 ];
 
 export const menuList: MenuGroup[] = [
-    {
-        name: "Word",
-        icon: Languages,
-        items: [
-            { key: "word_top", name: "Top Words", description: "top words", href: "/word/top", icon: Star },
-            { key: "word_sentence", name: "Sentence", description: "search sentences", href: "/word/sentence", icon: Quote },
-        ],
-    },
-    {
-        name: "Card",
-        icon: SquareStack,
-        items: [
-            { key: "card_add", name: "Add Card", description: "add new card", href: "/card/add?edit=y", icon: FilePlus },
-            { key: "card_my", name: "My Cards", description: "my cards", href: "/card/my", icon: Library },
-            { key: "card_manage", name: "Manage Cards", description: "manage cards", href: "/card/manage", icon: SlidersHorizontal },
-            { key: "card_test", name: "Card Test", description: "learn cards", href: "/card/test", icon: GraduationCap },
-            { key: "card_improve", name: "Improve Cards", description: "review AI-suggested improvements", href: "/card/improve", icon: TrendingUp },
-            { key: "card_table", name: "Card Table", description: "all cards in a table view", href: "/card/table", icon: Table },
-        ],
-    },
     {
         name: "Blog",
         icon: Newspaper,
@@ -79,7 +56,6 @@ export const menuList: MenuGroup[] = [
         name: "Dataset",
         icon: Database,
         items: [
-            { key: "dataset_tag", name: "Tags", description: "manage tags for all features", href: "/dataset/tag", icon: Tag },
             { key: "dataset_market", name: "Market", description: "datasets shared by others", href: "/dataset/market", icon: Store },
             { key: "dataset_manage", name: "My Datasets", description: "visibility, tags and deletion", href: "/dataset/manage", icon: Cloud },
         ],

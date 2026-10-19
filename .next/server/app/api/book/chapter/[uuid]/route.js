@@ -1,7 +1,7 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/book/chapter/[uuid]/route.js")
 R.c("server/chunks/[root-of-the-server]__06hrgk.._.js")
 R.c("server/chunks/node_modules_next_11synfn._.js")
-R.c("server/chunks/[root-of-the-server]__0dund1x._.js")
+R.c("server/chunks/[root-of-the-server]__0d_ez6w._.js")
 R.c("server/chunks/node_modules_kysely_dist_esm_0j.axwu._.js")
 R.c("server/chunks/node_modules_next_dist_0npcise._.js")
 R.c("server/chunks/node_modules_@better-auth_core_dist_10uipcy._.js")

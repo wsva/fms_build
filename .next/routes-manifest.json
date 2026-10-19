@@ -135,14 +135,6 @@
       "namedRegex": "^/blog/(?<nxtPuuid>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/card/[uuid]",
-      "regex": "^/card/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPuuid": "nxtPuuid"
-      },
-      "namedRegex": "^/card/(?<nxtPuuid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/dataset/card/[uuid]",
       "regex": "^/dataset/card/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -511,36 +503,6 @@
       "namedRegex": "^/blog/all_of_others(?:/)?$"
     },
     {
-      "page": "/card/improve",
-      "regex": "^/card/improve(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/improve(?:/)?$"
-    },
-    {
-      "page": "/card/manage",
-      "regex": "^/card/manage(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/manage(?:/)?$"
-    },
-    {
-      "page": "/card/my",
-      "regex": "^/card/my(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/my(?:/)?$"
-    },
-    {
-      "page": "/card/table",
-      "regex": "^/card/table(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/table(?:/)?$"
-    },
-    {
-      "page": "/card/test",
-      "regex": "^/card/test(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/card/test(?:/)?$"
-    },
-    {
       "page": "/cards",
       "regex": "^/cards(?:/)?$",
       "routeKeys": {},
@@ -557,12 +519,6 @@
       "regex": "^/dataset/market(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dataset/market(?:/)?$"
-    },
-    {
-      "page": "/dataset/tag",
-      "regex": "^/dataset/tag(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/dataset/tag(?:/)?$"
     },
     {
       "page": "/listen/dictation",
@@ -659,18 +615,6 @@
       "regex": "^/wiki(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/wiki(?:/)?$"
-    },
-    {
-      "page": "/word/sentence",
-      "regex": "^/word/sentence(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/word/sentence(?:/)?$"
-    },
-    {
-      "page": "/word/top",
-      "regex": "^/word/top(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/word/top(?:/)?$"
     }
   ],
   "dataRoutes": [],
