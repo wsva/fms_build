@@ -111,6 +111,22 @@
       "namedRegex": "^/api/v1/datasets/(?<nxtPuuid>[^/]+?)/snapshot(?:/)?$"
     },
     {
+      "page": "/api/v1/market/[uuid]",
+      "regex": "^/api/v1/market/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/market/(?<nxtPuuid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/v1/market/[uuid]/subscribe",
+      "regex": "^/api/v1/market/([^/]+?)/subscribe(?:/)?$",
+      "routeKeys": {
+        "nxtPuuid": "nxtPuuid"
+      },
+      "namedRegex": "^/api/v1/market/(?<nxtPuuid>[^/]+?)/subscribe(?:/)?$"
+    },
+    {
       "page": "/api/v1/registry/[uuid]/manifest",
       "regex": "^/api/v1/registry/([^/]+?)/manifest(?:/)?$",
       "routeKeys": {
@@ -453,6 +469,12 @@
       "regex": "^/api/v1/inbox/ack(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/inbox/ack(?:/)?$"
+    },
+    {
+      "page": "/api/v1/market",
+      "regex": "^/api/v1/market(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/market(?:/)?$"
     },
     {
       "page": "/api/v1/publish",
