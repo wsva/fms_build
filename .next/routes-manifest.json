@@ -351,6 +351,12 @@
       "namedRegex": "^/api/oauth2/logout(?:/)?$"
     },
     {
+      "page": "/api/oauth2/refresh",
+      "regex": "^/api/oauth2/refresh(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/oauth2/refresh(?:/)?$"
+    },
+    {
       "page": "/api/oauth2/reset-password/confirm",
       "regex": "^/api/oauth2/reset\\-password/confirm(?:/)?$",
       "routeKeys": {},
